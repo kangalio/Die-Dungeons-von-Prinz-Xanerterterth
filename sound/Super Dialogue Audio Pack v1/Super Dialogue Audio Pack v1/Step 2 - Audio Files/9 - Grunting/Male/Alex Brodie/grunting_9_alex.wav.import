@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://civtvnmfk6ip8"
+path="res://.godot/imported/grunting_9_alex.wav-4ad86a92256c58a5c8f14c42539592fd.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Alex Brodie/grunting_9_alex.wav"
+dest_files=["res://.godot/imported/grunting_9_alex.wav-4ad86a92256c58a5c8f14c42539592fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

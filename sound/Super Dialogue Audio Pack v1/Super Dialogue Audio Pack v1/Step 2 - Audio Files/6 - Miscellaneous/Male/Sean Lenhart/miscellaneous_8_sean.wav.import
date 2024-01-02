@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cobvhlbfqr0kc"
+path="res://.godot/imported/miscellaneous_8_sean.wav-36d33ceb97f670bbb58cfc3660ce63e2.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Sean Lenhart/miscellaneous_8_sean.wav"
+dest_files=["res://.godot/imported/miscellaneous_8_sean.wav-36d33ceb97f670bbb58cfc3660ce63e2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

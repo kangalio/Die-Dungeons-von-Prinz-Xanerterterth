@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctt3wx7in7xvp"
+path="res://.godot/imported/miscellaneous_2_alex.wav-f3cd3cf7dad506ce6c27dacd4ea85a9e.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Alex Brodie/miscellaneous_2_alex.wav"
+dest_files=["res://.godot/imported/miscellaneous_2_alex.wav-f3cd3cf7dad506ce6c27dacd4ea85a9e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

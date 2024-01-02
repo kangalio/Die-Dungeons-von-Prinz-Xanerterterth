@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bu6c4f2sgs36m"
+path="res://.godot/imported/grunting_9_ian.wav-a1ac056d301b75bcc75c0c0b06bc7e89.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Ian Lampert/grunting_9_ian.wav"
+dest_files=["res://.godot/imported/grunting_9_ian.wav-a1ac056d301b75bcc75c0c0b06bc7e89.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

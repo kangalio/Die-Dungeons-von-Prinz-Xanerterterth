@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2shxb8cjier8"
+path="res://.godot/imported/Misc 2.wav-2e00480c99b7d74e358b4d47e75685a0.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Misc 2.wav"
+dest_files=["res://.godot/imported/Misc 2.wav-2e00480c99b7d74e358b4d47e75685a0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

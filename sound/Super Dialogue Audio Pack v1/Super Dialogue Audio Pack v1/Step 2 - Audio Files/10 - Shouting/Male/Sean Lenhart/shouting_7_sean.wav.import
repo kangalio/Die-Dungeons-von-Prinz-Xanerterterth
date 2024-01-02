@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cu85f4sjr7t2l"
+path="res://.godot/imported/shouting_7_sean.wav-83d1451ab7c5d530b5df2c59099bc1af.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/10 - Shouting/Male/Sean Lenhart/shouting_7_sean.wav"
+dest_files=["res://.godot/imported/shouting_7_sean.wav-83d1451ab7c5d530b5df2c59099bc1af.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

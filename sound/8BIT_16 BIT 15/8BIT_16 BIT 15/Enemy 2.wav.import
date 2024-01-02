@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duh8cry7c7458"
+path="res://.godot/imported/Enemy 2.wav-6e58dc674ae2c5ef1cb2bca6cbe9d7ef.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Enemy 2.wav"
+dest_files=["res://.godot/imported/Enemy 2.wav-6e58dc674ae2c5ef1cb2bca6cbe9d7ef.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

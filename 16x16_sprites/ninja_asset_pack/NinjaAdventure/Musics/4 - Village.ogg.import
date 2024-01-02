@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://1r5rrikowhye"
+path="res://.godot/imported/4 - Village.ogg-f8211b75733bfc4d7afe578d573afebc.oggvorbisstr"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/4 - Village.ogg"
+dest_files=["res://.godot/imported/4 - Village.ogg-f8211b75733bfc4d7afe578d573afebc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

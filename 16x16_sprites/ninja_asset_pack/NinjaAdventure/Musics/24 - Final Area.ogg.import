@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dky4m0rmctwcb"
+path="res://.godot/imported/24 - Final Area.ogg-4f27f984a080f5196591b6ecc6438e9c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/24 - Final Area.ogg"
+dest_files=["res://.godot/imported/24 - Final Area.ogg-4f27f984a080f5196591b6ecc6438e9c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

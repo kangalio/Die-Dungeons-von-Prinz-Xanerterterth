@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dxbq10eo44tt4"
+path="res://.godot/imported/14 - Curse.ogg-c6fcb6b8b174012a1313b7a5023cddaa.oggvorbisstr"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/14 - Curse.ogg"
+dest_files=["res://.godot/imported/14 - Curse.ogg-c6fcb6b8b174012a1313b7a5023cddaa.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

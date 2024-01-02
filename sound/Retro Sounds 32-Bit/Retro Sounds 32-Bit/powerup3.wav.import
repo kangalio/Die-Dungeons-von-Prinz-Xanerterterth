@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1hwleks8pln"
+path="res://.godot/imported/powerup3.wav-4e6f59526ed71b4f2dac97e01cfb0b89.sample"
+
+[deps]
+
+source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Retro Sounds 32-Bit/Retro Sounds 32-Bit/powerup3.wav"
+dest_files=["res://.godot/imported/powerup3.wav-4e6f59526ed71b4f2dac97e01cfb0b89.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
