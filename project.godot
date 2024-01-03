@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 PLAYER_CHARACTER="*res://spieler/character/player.tscn"
+GameManager="*res://metadata/game_manager.gd"
 
 [input]
 
