@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dm50yxig3oonk"]
+
+[ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
+[ext_resource type="PackedScene" uid="uid://cjbgl2fm7f8ov" path="res://enemy/Enemy.tscn" id="3_fco8o"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_bh733"]
+vertices = PackedVector2Array(1230, 630, 202, 630, 202, 106, 1230, 106)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(192, 96, 192, 640, 1240, 640, 1240, 96)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+
+[node name="RoomLayout1" type="Node2D"]
+
+[node name="BaseRoom" parent="." instance=ExtResource("1_p5a13")]
+position = Vector2(138.843, 3.0284)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("2_stacu")
+format = 2
+layer_0/tile_data = PackedInt32Array(262164, 1441792, 8, 262165, 1507328, 8, 262152, 720896, 20, 327688, 720896, 21, 262153, 720896, 20, 327689, 720896, 21, 524297, 1638400, 29, 589833, 1638400, 30, 655369, 1638400, 31, 524298, 1703936, 29, 589834, 1703936, 30, 655370, 1703936, 31, 524299, 1769472, 29, 589835, 1769472, 30, 655371, 1769472, 31, 458767, 1769472, 17, 524303, 1769472, 18, 589839, 0, 19, 393232, 1835008, 16, 458768, 1835008, 17, 524304, 1835008, 18, 589840, 1835008, 19, 655376, 1835008, 20, 393233, 1900544, 16, 458769, 1900544, 17, 524305, 1900544, 18, 589841, 1900544, 19, 655377, 1900544, 20, 393234, 1966080, 16, 458770, 1966080, 17, 524306, 1966080, 18, 589842, 1966080, 19, 655378, 1966080, 20, 458771, 2031616, 17, 524307, 2031616, 18, 589843, 0, 19, 327695, 0, 19, 393231, 0, 20, 327699, 0, 19, 393235, 0, 20, 655379, 0, 20, 655375, 0, 20, 262154, 720896, 20, 327690, 720896, 21, 196626, 1441792, 8, 196627, 1507328, 8, 196621, 1835008, 8, 524311, 1835008, 8)
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="TileMap"]
+navigation_polygon = SubResource("NavigationPolygon_bh733")
+
+[node name="enemy" parent="." instance=ExtResource("3_fco8o")]
+position = Vector2(248, 328)

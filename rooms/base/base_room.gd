@@ -11,9 +11,8 @@ func _process(delta):
 
 
 func exit_room():
-	self.get_parent().get_parent().enter_new_room()
-	queue_free()
-	
+	GameManager.enter_new_room()
+	self.get_parent().queue_free()
 	
 
 func enter_room():
