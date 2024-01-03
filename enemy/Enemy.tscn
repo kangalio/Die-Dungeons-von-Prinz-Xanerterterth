@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://cjbgl2fm7f8ov"]
 
-[ext_resource type="Script" path="res://enemy.gd" id="1_m6618"]
-[ext_resource type="Texture2D" uid="uid://j348ukmpyuto" path="res://jumper.png" id="2_qexcj"]
-[ext_resource type="Texture2D" uid="uid://cuqtnussjva5v" path="res://hunter.png" id="2_tu6fd"]
+[ext_resource type="Script" path="res://enemy/enemy.gd" id="1_m6618"]
+[ext_resource type="Texture2D" uid="uid://j348ukmpyuto" path="res://enemy/jumper.png" id="2_qexcj"]
+[ext_resource type="Texture2D" uid="uid://cuqtnussjva5v" path="res://enemy/hunter.png" id="2_tu6fd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q2oar"]
 size = Vector2(13.5714, 13.5714)
@@ -84,4 +84,4 @@ shape = SubResource("RectangleShape2D_xnvxc")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="special_moving/ghost"]
 shape = SubResource("RectangleShape2D_xlmwb")
 
-[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+[node name="navigation_agent" type="NavigationAgent2D" parent="."]
