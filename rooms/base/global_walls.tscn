@@ -5,14 +5,14 @@
 [node name="GlobalWalls" type="Node2D"]
 
 [node name="SouthWall" type="StaticBody2D" parent="."]
-position = Vector2(576, 648)
+position = Vector2(576, 624)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SouthWall"]
 shape = SubResource("WorldBoundaryShape2D_720ga")
 one_way_collision = true
 
 [node name="NorthWall" type="StaticBody2D" parent="."]
-position = Vector2(576, 0)
+position = Vector2(576, 80)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NorthWall"]
 rotation = 3.14159
@@ -20,7 +20,7 @@ shape = SubResource("WorldBoundaryShape2D_720ga")
 one_way_collision = true
 
 [node name="EastWall" type="StaticBody2D" parent="."]
-position = Vector2(1152, 320)
+position = Vector2(1104, 320)
 rotation = 1.5708
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EastWall"]
@@ -29,7 +29,7 @@ shape = SubResource("WorldBoundaryShape2D_720ga")
 one_way_collision = true
 
 [node name="WestWall" type="StaticBody2D" parent="."]
-position = Vector2(0, 320)
+position = Vector2(40, 320)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WestWall"]
 rotation = 1.5708
