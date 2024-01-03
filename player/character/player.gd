@@ -8,6 +8,7 @@ var dash_cooldown : float = 2
 var dash_length : float = 1
 var facing_direction : float = -PI / 2
 var weapon_reference
+var interact_reference
 var LP = 10
 
 func take_damage(ponts):
@@ -44,6 +45,18 @@ func do_movement_input(delta):
 		dash_cooldown = 2
 		
 	move_and_slide()
+	
+	
+func interact():
+	if Input.is_key_pressed(KEY_F):
+		interact_reference.interact()
+		
+func add_upgrade(file_path):
+	var upgrade = load(file_path).instantiate()
+	if upgrade.is_weapon:
+		weapon_reference.queue_free()
+		weapon_reference = upgrade
+		self.add_child(upgrade)
 
 func _process(delta):
 	do_movement_input(delta)
