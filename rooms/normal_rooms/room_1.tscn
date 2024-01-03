@@ -1,12 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://dm50yxig3oonk"]
+[gd_scene load_steps=4 format=3 uid="uid://dm50yxig3oonk"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
-[ext_resource type="PackedScene" uid="uid://cjbgl2fm7f8ov" path="res://enemy/Enemy.tscn" id="3_fco8o"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_bh733"]
-vertices = PackedVector2Array(1230, 630, 202, 630, 202, 106, 1230, 106)
-polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+vertices = PackedVector2Array(1230, 106, 1230, 630, 1162, 442, 1162, 374, 1066, 250, 1066, 182, 1094, 374, 538, 298, 538, 182, 614, 202, 710, 230, 710, 538, 586, 374, 970, 182, 970, 134, 682, 202, 682, 134, 854, 134, 854, 202, 778, 230, 950, 202, 950, 230, 902, 230, 902, 278, 778, 278, 586, 538, 422, 374, 374, 298, 970, 538, 970, 250, 1094, 442, 202, 630, 422, 538, 202, 106, 374, 182, 614, 134)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 5, 0, 3, 6), PackedInt32Array(7, 8, 9, 10, 11, 12), PackedInt32Array(5, 13, 14, 0), PackedInt32Array(15, 16, 17, 18, 19, 10), PackedInt32Array(18, 20, 21, 22), PackedInt32Array(18, 22, 23, 24, 19), PackedInt32Array(11, 25, 12), PackedInt32Array(7, 12, 26, 27), PackedInt32Array(28, 29, 4, 6, 30), PackedInt32Array(30, 2, 1, 28), PackedInt32Array(28, 1, 31, 11), PackedInt32Array(25, 11, 31), PackedInt32Array(32, 25, 31), PackedInt32Array(26, 32, 31, 33, 27), PackedInt32Array(34, 27, 33), PackedInt32Array(33, 0, 14, 17), PackedInt32Array(33, 17, 16), PackedInt32Array(33, 16, 35), PackedInt32Array(34, 33, 35, 8), PackedInt32Array(8, 35, 9), PackedInt32Array(10, 9, 15)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(192, 96, 192, 640, 1240, 640, 1240, 96)])
 source_geometry_group_name = &"navigation_polygon_source_group"
 
@@ -15,9 +14,6 @@ source_geometry_group_name = &"navigation_polygon_source_group"
 [node name="BaseRoom" parent="." instance=ExtResource("1_p5a13")]
 position = Vector2(138.843, 3.0284)
 
-[node name="enemy" parent="." instance=ExtResource("3_fco8o")]
-position = Vector2(320, 320)
-
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 navigation_polygon = SubResource("NavigationPolygon_bh733")
 
@@ -25,3 +21,23 @@ navigation_polygon = SubResource("NavigationPolygon_bh733")
 tile_set = ExtResource("2_stacu")
 format = 2
 layer_0/tile_data = PackedInt32Array(262164, 1441792, 8, 262165, 1507328, 8, 262152, 720896, 20, 327688, 720896, 21, 262153, 720896, 20, 327689, 720896, 21, 524297, 1638400, 29, 589833, 1638400, 30, 655369, 1638400, 31, 524298, 1703936, 29, 589834, 1703936, 30, 655370, 1703936, 31, 524299, 1769472, 29, 589835, 1769472, 30, 655371, 1769472, 31, 458767, 1769472, 17, 524303, 1769472, 18, 589839, 0, 19, 393232, 1835008, 16, 458768, 1835008, 17, 524304, 1835008, 18, 589840, 1835008, 19, 655376, 1835008, 20, 393233, 1900544, 16, 458769, 1900544, 17, 524305, 1900544, 18, 589841, 1900544, 19, 655377, 1900544, 20, 393234, 1966080, 16, 458770, 1966080, 17, 524306, 1966080, 18, 589842, 1966080, 19, 655378, 1966080, 20, 458771, 2031616, 17, 524307, 2031616, 18, 589843, 0, 19, 327695, 0, 19, 393231, 0, 20, 327699, 0, 19, 393235, 0, 20, 655379, 0, 20, 655375, 0, 20, 262154, 720896, 20, 327690, 720896, 21, 196626, 1441792, 8, 196627, 1507328, 8, 196621, 1835008, 8, 524311, 1835008, 8)
+
+[node name="EnterPoint" type="Node2D" parent="."]
+position = Vector2(1112, 560)
+
+[node name="EnemySpawnPoint" type="Node2D" parent="."]
+
+[node name="Point_001" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(280, 488)
+
+[node name="Point_002" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(640, 328)
+
+[node name="Point_003" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(288, 168)
+
+[node name="Point_004" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(1152, 224)
+
+[node name="Point_005" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(648, 576)
