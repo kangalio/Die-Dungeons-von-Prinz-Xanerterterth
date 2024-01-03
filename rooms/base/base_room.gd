@@ -16,7 +16,7 @@ func exit_room():
 	
 	
 
-func enter_room(room_type):
+func enter_room():
 	#var new_room_cls = 0
 	#if room_type == "merchant":
 		#new_room_cls = load(ROOM_TRADER_NAME)
