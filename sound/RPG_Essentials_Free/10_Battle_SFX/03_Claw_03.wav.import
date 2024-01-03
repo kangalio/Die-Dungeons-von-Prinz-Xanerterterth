@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cfyce7wvuexax"
-path="res://.godot/imported/03_Claw_03.wav-fb1756a101ccd5e959ee650c7bd7ffa5.sample"
+path="res://.godot/imported/03_Claw_03.wav-b9e240a13f7cacbcd13d3002ef8fb8aa.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav"
-dest_files=["res://.godot/imported/03_Claw_03.wav-fb1756a101ccd5e959ee650c7bd7ffa5.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav"
+dest_files=["res://.godot/imported/03_Claw_03.wav-b9e240a13f7cacbcd13d3002ef8fb8aa.sample"]
 
 [params]
 

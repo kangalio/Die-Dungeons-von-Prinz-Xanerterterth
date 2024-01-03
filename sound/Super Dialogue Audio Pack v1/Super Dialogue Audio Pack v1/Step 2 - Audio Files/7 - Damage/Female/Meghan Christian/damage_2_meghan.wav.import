@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cnhh6rhm3wtsm"
-path="res://.godot/imported/damage_2_meghan.wav-d28cf8af5576b297411404c741257fda.sample"
+path="res://.godot/imported/damage_2_meghan.wav-cf4edf5b6052d098852eab6603c037cd.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Female/Meghan Christian/damage_2_meghan.wav"
-dest_files=["res://.godot/imported/damage_2_meghan.wav-d28cf8af5576b297411404c741257fda.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Female/Meghan Christian/damage_2_meghan.wav"
+dest_files=["res://.godot/imported/damage_2_meghan.wav-cf4edf5b6052d098852eab6603c037cd.sample"]
 
 [params]
 

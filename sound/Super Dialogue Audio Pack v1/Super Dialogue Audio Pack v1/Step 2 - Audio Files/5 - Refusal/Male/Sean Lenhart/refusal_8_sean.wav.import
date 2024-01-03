@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b0hwbxliy8hni"
-path="res://.godot/imported/refusal_8_sean.wav-5c62d7a92ce4308e8c21e5166b4e468d.sample"
+path="res://.godot/imported/refusal_8_sean.wav-b5dabcac71b272f5ead1abaa6fa7f25b.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Sean Lenhart/refusal_8_sean.wav"
-dest_files=["res://.godot/imported/refusal_8_sean.wav-5c62d7a92ce4308e8c21e5166b4e468d.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Sean Lenhart/refusal_8_sean.wav"
+dest_files=["res://.godot/imported/refusal_8_sean.wav-b5dabcac71b272f5ead1abaa6fa7f25b.sample"]
 
 [params]
 

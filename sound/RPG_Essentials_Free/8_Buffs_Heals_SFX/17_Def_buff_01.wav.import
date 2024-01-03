@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://yoeai2baaotv"
-path="res://.godot/imported/17_Def_buff_01.wav-2b733b29ecfc315601dfe24808a9f8c5.sample"
+path="res://.godot/imported/17_Def_buff_01.wav-a7100c77db056d0bc2ca2e3092e077c5.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav"
-dest_files=["res://.godot/imported/17_Def_buff_01.wav-2b733b29ecfc315601dfe24808a9f8c5.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav"
+dest_files=["res://.godot/imported/17_Def_buff_01.wav-a7100c77db056d0bc2ca2e3092e077c5.sample"]
 
 [params]
 

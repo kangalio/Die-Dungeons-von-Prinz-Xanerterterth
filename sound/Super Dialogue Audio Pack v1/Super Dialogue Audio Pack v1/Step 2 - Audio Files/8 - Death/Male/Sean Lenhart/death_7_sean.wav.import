@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d2dar8ajuoptd"
-path="res://.godot/imported/death_7_sean.wav-674f85d7c6bb8d5f47422b45eccd1334.sample"
+path="res://.godot/imported/death_7_sean.wav-8d08860a4fecdd4c46345cccb29489bc.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Sean Lenhart/death_7_sean.wav"
-dest_files=["res://.godot/imported/death_7_sean.wav-674f85d7c6bb8d5f47422b45eccd1334.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Sean Lenhart/death_7_sean.wav"
+dest_files=["res://.godot/imported/death_7_sean.wav-8d08860a4fecdd4c46345cccb29489bc.sample"]
 
 [params]
 

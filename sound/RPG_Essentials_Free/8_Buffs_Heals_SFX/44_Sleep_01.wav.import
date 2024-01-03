@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://byavmth4kuw50"
-path="res://.godot/imported/44_Sleep_01.wav-7653a438799cd477a4315c96fce4a17b.sample"
+path="res://.godot/imported/44_Sleep_01.wav-27bb18a7157ca24e6c99f4c7c2e9b8e2.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav"
-dest_files=["res://.godot/imported/44_Sleep_01.wav-7653a438799cd477a4315c96fce4a17b.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav"
+dest_files=["res://.godot/imported/44_Sleep_01.wav-27bb18a7157ca24e6c99f4c7c2e9b8e2.sample"]
 
 [params]
 

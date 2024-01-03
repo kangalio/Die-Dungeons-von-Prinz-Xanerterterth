@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dajwmql7ed8eq"
-path="res://.godot/imported/refusal_7_alex.wav-a539f640590ec7aec6a2c74cf7896db2.sample"
+path="res://.godot/imported/refusal_7_alex.wav-7fed99f6e34577d4a82e934fe117cd61.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Alex Brodie/refusal_7_alex.wav"
-dest_files=["res://.godot/imported/refusal_7_alex.wav-a539f640590ec7aec6a2c74cf7896db2.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Alex Brodie/refusal_7_alex.wav"
+dest_files=["res://.godot/imported/refusal_7_alex.wav-7fed99f6e34577d4a82e934fe117cd61.sample"]
 
 [params]
 

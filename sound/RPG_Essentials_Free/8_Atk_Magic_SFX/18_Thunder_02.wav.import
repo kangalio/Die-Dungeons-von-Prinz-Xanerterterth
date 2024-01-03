@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b3opx4i1keokm"
-path="res://.godot/imported/18_Thunder_02.wav-225e44c160751900067f3a3d488f4849.sample"
+path="res://.godot/imported/18_Thunder_02.wav-57c0e9622cbfa44872ddafd2d7bb0529.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav"
-dest_files=["res://.godot/imported/18_Thunder_02.wav-225e44c160751900067f3a3d488f4849.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav"
+dest_files=["res://.godot/imported/18_Thunder_02.wav-57c0e9622cbfa44872ddafd2d7bb0529.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://chtrl8udac2mr"
-path="res://.godot/imported/damage_9_ian.wav-96d238bbe7bcd16fb0b3fc20120a3718.sample"
+path="res://.godot/imported/damage_9_ian.wav-7a0f95a710b2b1094e76f6ec62a47baf.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Male/Ian Lampert/damage_9_ian.wav"
-dest_files=["res://.godot/imported/damage_9_ian.wav-96d238bbe7bcd16fb0b3fc20120a3718.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Male/Ian Lampert/damage_9_ian.wav"
+dest_files=["res://.godot/imported/damage_9_ian.wav-7a0f95a710b2b1094e76f6ec62a47baf.sample"]
 
 [params]
 

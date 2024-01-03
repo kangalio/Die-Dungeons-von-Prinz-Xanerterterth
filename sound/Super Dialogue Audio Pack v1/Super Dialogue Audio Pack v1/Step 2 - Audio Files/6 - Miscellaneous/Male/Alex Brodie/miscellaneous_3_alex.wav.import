@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dr5oklns3xj61"
-path="res://.godot/imported/miscellaneous_3_alex.wav-d37ba263f063dca83e1761b94c862539.sample"
+path="res://.godot/imported/miscellaneous_3_alex.wav-3b1b3343683f68f491b3402041ca6cdc.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Alex Brodie/miscellaneous_3_alex.wav"
-dest_files=["res://.godot/imported/miscellaneous_3_alex.wav-d37ba263f063dca83e1761b94c862539.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Alex Brodie/miscellaneous_3_alex.wav"
+dest_files=["res://.godot/imported/miscellaneous_3_alex.wav-3b1b3343683f68f491b3402041ca6cdc.sample"]
 
 [params]
 

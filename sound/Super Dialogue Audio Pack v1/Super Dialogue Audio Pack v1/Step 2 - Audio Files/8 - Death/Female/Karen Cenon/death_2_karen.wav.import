@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://gmu5r1jcwyar"
-path="res://.godot/imported/death_2_karen.wav-2f94a4afb66f636023318c382c3bfe32.sample"
+path="res://.godot/imported/death_2_karen.wav-a1190178306d36f60cd2a6b48bd85d58.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Female/Karen Cenon/death_2_karen.wav"
-dest_files=["res://.godot/imported/death_2_karen.wav-2f94a4afb66f636023318c382c3bfe32.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Female/Karen Cenon/death_2_karen.wav"
+dest_files=["res://.godot/imported/death_2_karen.wav-a1190178306d36f60cd2a6b48bd85d58.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d0s5xmff3ywmy"
-path="res://.godot/imported/grunting_1_karen.wav-5ed61af76ad7791a28985033716b564e.sample"
+path="res://.godot/imported/grunting_1_karen.wav-d62fdb422c429df02ce5cb09f7cd972a.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Female/Karen Cenon/grunting_1_karen.wav"
-dest_files=["res://.godot/imported/grunting_1_karen.wav-5ed61af76ad7791a28985033716b564e.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Female/Karen Cenon/grunting_1_karen.wav"
+dest_files=["res://.godot/imported/grunting_1_karen.wav-d62fdb422c429df02ce5cb09f7cd972a.sample"]
 
 [params]
 

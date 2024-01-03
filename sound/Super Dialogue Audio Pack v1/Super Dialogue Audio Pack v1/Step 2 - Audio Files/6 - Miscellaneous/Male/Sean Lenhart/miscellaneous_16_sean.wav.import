@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cmy6uh2ogly1t"
-path="res://.godot/imported/miscellaneous_16_sean.wav-20179457af84d389a54a8aec2532fba8.sample"
+path="res://.godot/imported/miscellaneous_16_sean.wav-f8a1ab1b3313b8fdbadba02472f76d10.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Sean Lenhart/miscellaneous_16_sean.wav"
-dest_files=["res://.godot/imported/miscellaneous_16_sean.wav-20179457af84d389a54a8aec2532fba8.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/6 - Miscellaneous/Male/Sean Lenhart/miscellaneous_16_sean.wav"
+dest_files=["res://.godot/imported/miscellaneous_16_sean.wav-f8a1ab1b3313b8fdbadba02472f76d10.sample"]
 
 [params]
 

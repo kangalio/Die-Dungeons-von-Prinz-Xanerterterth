@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bvjcliiy15xo8"
-path="res://.godot/imported/confirmation_5_sean.wav-e08779600d4614fc6c5ff4f23f8badb3.sample"
+path="res://.godot/imported/confirmation_5_sean.wav-8858cc310c107995d677fba2e4496aa7.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Male/Sean Lenhart/confirmation_5_sean.wav"
-dest_files=["res://.godot/imported/confirmation_5_sean.wav-e08779600d4614fc6c5ff4f23f8badb3.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Male/Sean Lenhart/confirmation_5_sean.wav"
+dest_files=["res://.godot/imported/confirmation_5_sean.wav-8858cc310c107995d677fba2e4496aa7.sample"]
 
 [params]
 

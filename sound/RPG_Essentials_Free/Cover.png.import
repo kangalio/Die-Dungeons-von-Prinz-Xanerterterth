@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi8kx6dkvwpbj"
-path="res://.godot/imported/Cover.png-0e6a57310bc4a66076e84f346bf57abf.ctex"
+path="res://.godot/imported/Cover.png-d543163270c72f4bd5e6ea1edaf7cb1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/Cover.png"
-dest_files=["res://.godot/imported/Cover.png-0e6a57310bc4a66076e84f346bf57abf.ctex"]
+source_file="res://sound/RPG_Essentials_Free/Cover.png"
+dest_files=["res://.godot/imported/Cover.png-d543163270c72f4bd5e6ea1edaf7cb1c.ctex"]
 
 [params]
 

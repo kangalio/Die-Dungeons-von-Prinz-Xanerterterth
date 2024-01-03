@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://3cnvtqifarpe"
-path="res://.godot/imported/farewell_10_ian.wav-fd5a7bf2960a94975a395de63c2f6bff.sample"
+path="res://.godot/imported/farewell_10_ian.wav-560a9a843a5097ed0ef9073018588139.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Ian Lampert/farewell_10_ian.wav"
-dest_files=["res://.godot/imported/farewell_10_ian.wav-fd5a7bf2960a94975a395de63c2f6bff.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Ian Lampert/farewell_10_ian.wav"
+dest_files=["res://.godot/imported/farewell_10_ian.wav-560a9a843a5097ed0ef9073018588139.sample"]
 
 [params]
 

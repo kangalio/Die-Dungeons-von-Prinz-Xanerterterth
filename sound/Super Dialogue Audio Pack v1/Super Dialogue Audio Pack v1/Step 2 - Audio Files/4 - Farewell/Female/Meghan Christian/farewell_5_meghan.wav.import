@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bf6l6oyp72hoi"
-path="res://.godot/imported/farewell_5_meghan.wav-6fe3d7f4de320411f157a42d15672ee8.sample"
+path="res://.godot/imported/farewell_5_meghan.wav-5e4d7faba8d555afd9a98a600f26a2fb.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Female/Meghan Christian/farewell_5_meghan.wav"
-dest_files=["res://.godot/imported/farewell_5_meghan.wav-6fe3d7f4de320411f157a42d15672ee8.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Female/Meghan Christian/farewell_5_meghan.wav"
+dest_files=["res://.godot/imported/farewell_5_meghan.wav-5e4d7faba8d555afd9a98a600f26a2fb.sample"]
 
 [params]
 

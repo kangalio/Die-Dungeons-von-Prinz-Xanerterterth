@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dojirw1p3gtmo"
-path="res://.godot/imported/confirmation_2_karen.wav-1335dd1590e07005496793b4fbb22da4.sample"
+path="res://.godot/imported/confirmation_2_karen.wav-d284893767d93456bfe0b8a4bb6498ef.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Female/Karen Cenon/confirmation_2_karen.wav"
-dest_files=["res://.godot/imported/confirmation_2_karen.wav-1335dd1590e07005496793b4fbb22da4.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Female/Karen Cenon/confirmation_2_karen.wav"
+dest_files=["res://.godot/imported/confirmation_2_karen.wav-d284893767d93456bfe0b8a4bb6498ef.sample"]
 
 [params]
 

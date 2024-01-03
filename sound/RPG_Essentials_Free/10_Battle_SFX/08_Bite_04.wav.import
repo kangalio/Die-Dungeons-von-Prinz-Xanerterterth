@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c7aaw2cy5km5j"
-path="res://.godot/imported/08_Bite_04.wav-4b1a3c08277b9b3bdcee5bc57420c746.sample"
+path="res://.godot/imported/08_Bite_04.wav-0be2ddd61983010642838945ff5a713e.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav"
-dest_files=["res://.godot/imported/08_Bite_04.wav-4b1a3c08277b9b3bdcee5bc57420c746.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav"
+dest_files=["res://.godot/imported/08_Bite_04.wav-0be2ddd61983010642838945ff5a713e.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://wxllpxryxrhg"
-path="res://.godot/imported/farewell_5_sean.wav-e8eeca7ff070597e7203d4cfe9b6a2ff.sample"
+path="res://.godot/imported/farewell_5_sean.wav-67e924763665f4329b8f04feb539e45a.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Sean Lenhart/farewell_5_sean.wav"
-dest_files=["res://.godot/imported/farewell_5_sean.wav-e8eeca7ff070597e7203d4cfe9b6a2ff.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Sean Lenhart/farewell_5_sean.wav"
+dest_files=["res://.godot/imported/farewell_5_sean.wav-67e924763665f4329b8f04feb539e45a.sample"]
 
 [params]
 

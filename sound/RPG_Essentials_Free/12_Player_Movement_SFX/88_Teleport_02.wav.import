@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dob143417lqac"
-path="res://.godot/imported/88_Teleport_02.wav-46dde0d3552c77ba4a9c6200a469bc3d.sample"
+path="res://.godot/imported/88_Teleport_02.wav-9c2d88387631634f9510cb6d55bb96db.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav"
-dest_files=["res://.godot/imported/88_Teleport_02.wav-46dde0d3552c77ba4a9c6200a469bc3d.sample"]
+source_file="res://sound/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav"
+dest_files=["res://.godot/imported/88_Teleport_02.wav-9c2d88387631634f9510cb6d55bb96db.sample"]
 
 [params]
 

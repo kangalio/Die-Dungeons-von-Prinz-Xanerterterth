@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bn3asefvgb26j"
-path="res://.godot/imported/070_Equip_10.wav-10eadef99abb38441ef0a72db3e817c8.sample"
+path="res://.godot/imported/070_Equip_10.wav-4282117f05e73fe718d06e238a07f21d.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav"
-dest_files=["res://.godot/imported/070_Equip_10.wav-10eadef99abb38441ef0a72db3e817c8.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav"
+dest_files=["res://.godot/imported/070_Equip_10.wav-4282117f05e73fe718d06e238a07f21d.sample"]
 
 [params]
 

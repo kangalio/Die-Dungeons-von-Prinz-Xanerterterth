@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://n7wr1q8c0r3k"
-path="res://.godot/imported/greeting_2_sean.wav-55d5af7211cf738ed543a38646c2561f.sample"
+path="res://.godot/imported/greeting_2_sean.wav-554fb54a6f088365d4754aa7b29c2f99.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/3 - Greeting/Male/Sean Lenhart/greeting_2_sean.wav"
-dest_files=["res://.godot/imported/greeting_2_sean.wav-55d5af7211cf738ed543a38646c2561f.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/3 - Greeting/Male/Sean Lenhart/greeting_2_sean.wav"
+dest_files=["res://.godot/imported/greeting_2_sean.wav-554fb54a6f088365d4754aa7b29c2f99.sample"]
 
 [params]
 
