@@ -54,6 +54,5 @@ func add_upgrade(file_path):
 
 func _process(delta):
 	do_movement_input(delta)
-	move_and_slide()
 	shoot()
 	
