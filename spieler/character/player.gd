@@ -9,7 +9,7 @@ var facing_direction : float = -PI / 2
 
 var LP = 0
 
-func take_damege(ponts):
+func take_damage(ponts):
 	LP = LP - ponts
 	
 	if LP <= 0:
