@@ -1,87 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://cjbgl2fm7f8ov"]
+[gd_scene load_steps=2 format=3 uid="uid://cjbgl2fm7f8ov"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_m6618"]
-[ext_resource type="Texture2D" uid="uid://cn8rxwrci6d3f" path="res://enemy/jumper.png" id="2_qexcj"]
-[ext_resource type="Texture2D" uid="uid://d2qbn80b1rl0b" path="res://enemy/hunter.png" id="2_tu6fd"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q2oar"]
-size = Vector2(13.5714, 13.5714)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_i3i4l"]
-size = Vector2(225, 98)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_bhju8"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xnvxc"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xlmwb"]
 
 [node name="enemy" type="CharacterBody2D"]
 script = ExtResource("1_m6618")
-
-[node name="simply_moving" type="CharacterBody2D" parent="."]
-
-[node name="minion" type="CharacterBody2D" parent="simply_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="simply_moving/minion"]
-visible = false
-position = Vector2(1.77636e-15, 7)
-scale = Vector2(7, 7)
-shape = SubResource("RectangleShape2D_q2oar")
-
-[node name="tank" type="CharacterBody2D" parent="simply_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="simply_moving/tank"]
-visible = false
-position = Vector2(1.77636e-15, 7)
-scale = Vector2(7, 7)
-shape = SubResource("RectangleShape2D_q2oar")
-
-[node name="kamikaze" type="CharacterBody2D" parent="simply_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="simply_moving/kamikaze"]
-visible = false
-position = Vector2(-0.499996, -0.499998)
-scale = Vector2(7, 7)
-shape = SubResource("RectangleShape2D_q2oar")
-
-[node name="Jumper" type="Sprite2D" parent="simply_moving/kamikaze"]
-visible = false
-texture_filter = 1
-scale = Vector2(6, 6)
-texture = ExtResource("2_qexcj")
-hframes = 4
-vframes = 2
-
-[node name="special_moving" type="CharacterBody2D" parent="."]
-
-[node name="predator" type="CharacterBody2D" parent="special_moving"]
-
-[node name="Hunter" type="Sprite2D" parent="special_moving/predator"]
-texture_filter = 1
-scale = Vector2(7, 7)
-texture = ExtResource("2_tu6fd")
-hframes = 3
-vframes = 2
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="special_moving/predator"]
-position = Vector2(-0.5, 7)
-rotation = -0.00378302
-shape = SubResource("RectangleShape2D_i3i4l")
-
-[node name="boss" type="CharacterBody2D" parent="special_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="special_moving/boss"]
-shape = SubResource("RectangleShape2D_bhju8")
-
-[node name="range_enemy" type="CharacterBody2D" parent="special_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="special_moving/range_enemy"]
-shape = SubResource("RectangleShape2D_xnvxc")
-
-[node name="ghost" type="CharacterBody2D" parent="special_moving"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="special_moving/ghost"]
-shape = SubResource("RectangleShape2D_xlmwb")
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
