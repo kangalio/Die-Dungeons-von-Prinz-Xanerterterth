@@ -26,15 +26,7 @@ func do_bullet_input():
 			or Input.is_action_just_pressed("ui_right") \
 			or Input.is_action_just_pressed("ui_up") \
 			or Input.is_action_just_pressed("ui_down"):
-		var bullet_direction = Vector2(0, 0)
-		if Input.is_action_pressed("ui_left"):
-			bullet_direction += Vector2(-1, 0)
-		if Input.is_action_pressed("ui_right"):
-			bullet_direction += Vector2(1, 0)
-		if Input.is_action_pressed("ui_up"):
-			bullet_direction += Vector2(0, -1)
-		if Input.is_action_pressed("ui_down"):
-			bullet_direction += Vector2(0, 1)
+		var bullet_direction = Vector2(Input.get_axis("ui_left", "ui_right"), Input.get_axis("ui_up", "ui_down"))
 		if bullet_direction != Vector2(0, 0):
 			var bullet = bullet_scene.instantiate()
 			bullet.position = self.position
