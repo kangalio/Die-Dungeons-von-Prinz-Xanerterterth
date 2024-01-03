@@ -1,14 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://bstljogitb13w"]
+[gd_scene load_steps=5 format=3 uid="uid://eg0r3s2oib8s"]
 
-[ext_resource type="Script" path="res://enemy/world.gd" id="1_ax81c"]
-[ext_resource type="Texture2D" uid="uid://cod8evxxlku1m" path="res://enemy/icon.svg" id="1_n13bc"]
+[ext_resource type="Texture2D" uid="uid://bwi2u22ii4ntn" path="res://enemy/icon.svg" id="1_n13bc"]
 [ext_resource type="PackedScene" uid="uid://cjbgl2fm7f8ov" path="res://enemy/Enemy.tscn" id="2_gqidv"]
+
+[sub_resource type="GDScript" id="GDScript_j24sk"]
+script/source = "extends Node2D
+
+var hunter = load(\"res://Enemy/special_moving/predator.tscn\")
+
+func _ready():
+	self.add_child(hunter.instantiate())
+
+func _process(delta):
+	pass
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p0jsv"]
 size = Vector2(129, 126)
 
 [node name="World" type="Node2D"]
-script = ExtResource("1_ax81c")
+script = SubResource("GDScript_j24sk")
 
 [node name="player" type="CharacterBody2D" parent="."]
 position = Vector2(392, 380)

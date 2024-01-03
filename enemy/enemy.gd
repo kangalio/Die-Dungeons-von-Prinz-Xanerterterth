@@ -21,7 +21,7 @@ func die ():
 	self.queue_free() 
 
 func move_towards_player ():
-	navigation_agent.set_target_location("player")
+	navigation_agent.set_target_position(PLAYER_CHARACTER.global_position)
 	print ("move towards player")
 	
 func attak (damage_to_deal):
@@ -32,6 +32,8 @@ func heal (healing):
 		health += healing
 	else:
 		print ("healing ist negativ klasse enemy funktion heal")
+func _ready():
+	move_towards_player()
 
 func _process(delta):
 	if navigation_agent.is_target_reachable() == true:
