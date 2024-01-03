@@ -17,7 +17,7 @@ func take_damage(ponts):
 		#jetzt in den äußeren Game Loop
 
 
-var bullet_scene = preload("res://spieler/character/bullet.tscn")
+var bullet_scene = preload("res://player/character/bullet.tscn")
 
 func _ready():
 	position = get_viewport_rect().get_center()
