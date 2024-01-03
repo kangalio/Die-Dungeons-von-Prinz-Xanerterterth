@@ -1,9 +1,24 @@
-[gd_scene load_steps=3 format=3 uid="uid://c6mffkse3bi2p"]
+[gd_scene load_steps=4 format=3 uid="uid://c6mffkse3bi2p"]
 
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="1_o4qds"]
-[ext_resource type="PackedScene" uid="uid://ban7fc42wlib3" path="res://rooms/base/exit_door.tscn" id="2_rtrje"]
+[ext_resource type="PackedScene" uid="uid://bk0s5fys0hw50" path="res://rooms/base/exit_door.tscn" id="2_rtrje"]
+
+[sub_resource type="GDScript" id="GDScript_47ns5"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [node name="BaseRoom" type="Node2D"]
+script = SubResource("GDScript_47ns5")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_o4qds")
