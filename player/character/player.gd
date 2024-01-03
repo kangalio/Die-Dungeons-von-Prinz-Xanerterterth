@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var weapon = preload("res://player/upgrade/upgrade.tscn")
+var weapon = preload("res://player/upgrade/weapon01.tscn")
 
 const MOVE_SPEED = 100
 const ROTATION_SPEED = 0.05
@@ -8,7 +8,6 @@ var dash_cooldown : float = 2
 var dash_length : float = 1
 var facing_direction : float = -PI / 2
 var weapon_reference
-
 var LP = 10
 
 func take_damage(ponts):
@@ -49,4 +48,5 @@ func do_movement_input(delta):
 func _process(delta):
 	do_movement_input(delta)
 	move_and_slide()
+	shoot()
 	
