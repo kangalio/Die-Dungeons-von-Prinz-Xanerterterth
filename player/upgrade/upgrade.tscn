@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2tklywmbb0my"]
+
+[ext_resource type="Script" path="res://player/upgrade/upgrade.gd" id="1_og3cv"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_og3cv")
