@@ -10,5 +10,9 @@ func _ready():
 func _process(delta):
 	pass
 
-func on_player_entered_exit_door():
-	self.parent.exit_room()
+
+
+func _on_body_entered(body):
+	if body.is_in_group("player"):
+		self.parent.exit_room()
+	pass # Replace with function body.

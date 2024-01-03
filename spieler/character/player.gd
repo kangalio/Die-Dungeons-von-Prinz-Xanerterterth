@@ -1,10 +1,11 @@
 extends CharacterBody2D
 
 
-const SPEED = 10000.0
-const JUMP_VELOCITY = -400.0
+const MOVE_SPEED = 100
+const ROTATION_SPEED = 0.05
 var dash_cooldown : float = 2
 var dash_length : float = 1
+var facing_direction : float = -PI / 2
 
 var LP = 0
 
@@ -20,19 +21,14 @@ var bullet_scene = preload("res://spieler/character/bullet.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
+	position = get_viewport_rect().get_center()
 
 func do_movement_input(delta):
-	velocity.x = 0
-	velocity.y = 0
-	if Input.is_key_pressed(KEY_W):
-		velocity.y =-SPEED*delta
-	if Input.is_key_pressed(KEY_S):
-		velocity.y =SPEED*delta
-	if Input.is_key_pressed(KEY_D):
-		velocity.x =SPEED*delta
-	if Input.is_key_pressed(KEY_A):
-		velocity.x =-SPEED*delta
+	facing_direction += Input.get_axis("left", "right") * ROTATION_SPEED
+	
+	rotation = facing_direction + PI / 2
+	velocity = Vector2.from_angle(facing_direction) * Input.get_axis("backward", "forward") * MOVE_SPEED
+	
 	if Input.is_key_pressed(KEY_SHIFT) and dash_cooldown <= 0:
 		velocity *= 2
 	
@@ -43,16 +39,11 @@ func do_movement_input(delta):
 	move_and_slide()
 
 func do_bullet_input():
-	if Input.is_action_just_pressed("ui_left") \
-			or Input.is_action_just_pressed("ui_right") \
-			or Input.is_action_just_pressed("ui_up") \
-			or Input.is_action_just_pressed("ui_down"):
-		var bullet_direction = Vector2(Input.get_axis("ui_left", "ui_right"), Input.get_axis("ui_up", "ui_down"))
-		if bullet_direction != Vector2(0, 0):
-			var bullet = bullet_scene.instantiate()
-			bullet.position = self.position
-			bullet.velocity = bullet_direction.normalized() * 15
-			add_sibling(bullet)
+	if Input.is_action_just_pressed("shoot"):
+		var bullet = bullet_scene.instantiate()
+		bullet.position = self.position
+		bullet.velocity = Vector2.from_angle(facing_direction) * 15
+		add_sibling(bullet)
 
 func _process(delta):
 	do_movement_input(delta)
