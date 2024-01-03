@@ -19,10 +19,13 @@ func die ():
 	self.queue_free() 
 
 func move_towards_player (delta):
+	movement_speed = 5
 	navigation_agent.set_target_position(PLAYER_CHARACTER.global_position)
 	if navigation_agent.is_target_reachable() == true:
-		navigation_agent.set_velocity((navigation_agent.get_next_path_position()-self.position).normalized()) * movement_speed * delta
+		var direktion = (navigation_agent.get_next_path_position()-self.position).normalized()
+		self.position += direktion
 		move_and_slide()
+
 	
 func attak (damage_to_deal):
 	PLAYER_CHARACTER.take_damage(damage_to_deal)
