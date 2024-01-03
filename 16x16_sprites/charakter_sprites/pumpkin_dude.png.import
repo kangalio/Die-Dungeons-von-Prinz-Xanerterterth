@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d65aiwivlb7j"
-path="res://.godot/imported/pumpkin_dude.png-548525031eff374af6ba7917a6d40d78.ctex"
+path="res://.godot/imported/pumpkin_dude.png-62cae39770070d16efe4634025352f16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/pumpkin_dude.png"
-dest_files=["res://.godot/imported/pumpkin_dude.png-548525031eff374af6ba7917a6d40d78.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/pumpkin_dude.png"
+dest_files=["res://.godot/imported/pumpkin_dude.png-62cae39770070d16efe4634025352f16.ctex"]
 
 [params]
 

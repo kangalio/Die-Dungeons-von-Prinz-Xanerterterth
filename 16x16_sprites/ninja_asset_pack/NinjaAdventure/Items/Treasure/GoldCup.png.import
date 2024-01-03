@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pqs2kgiwk8ml"
-path="res://.godot/imported/GoldCup.png-649d445d546cebcc673b62e8a0f981bb.ctex"
+path="res://.godot/imported/GoldCup.png-45cf999adc4efece632fe9c2cb8480ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Treasure/GoldCup.png"
-dest_files=["res://.godot/imported/GoldCup.png-649d445d546cebcc673b62e8a0f981bb.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Treasure/GoldCup.png"
+dest_files=["res://.godot/imported/GoldCup.png-45cf999adc4efece632fe9c2cb8480ce.ctex"]
 
 [params]
 

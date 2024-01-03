@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbbyah63s5vk0"
-path="res://.godot/imported/Vase.png-fedb432cb871aa40b101997c4fc35375.ctex"
+path="res://.godot/imported/Vase.png-5312bee372b5cf80094196968488a41b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Vase.png"
-dest_files=["res://.godot/imported/Vase.png-fedb432cb871aa40b101997c4fc35375.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Vase.png"
+dest_files=["res://.godot/imported/Vase.png-5312bee372b5cf80094196968488a41b.ctex"]
 
 [params]
 

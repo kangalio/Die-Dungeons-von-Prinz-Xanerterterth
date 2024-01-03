@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvv4rpugngcbi"
-path="res://.godot/imported/goblin_run_anim_f1.png-5e24f63fe8fea22261ff956be7f8816f.ctex"
+path="res://.godot/imported/goblin_run_anim_f1.png-4d4f50049a0de4910dae3f75a00d137c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/goblin_run_anim_f1.png"
-dest_files=["res://.godot/imported/goblin_run_anim_f1.png-5e24f63fe8fea22261ff956be7f8816f.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/goblin_run_anim_f1.png"
+dest_files=["res://.godot/imported/goblin_run_anim_f1.png-4d4f50049a0de4910dae3f75a00d137c.ctex"]
 
 [params]
 

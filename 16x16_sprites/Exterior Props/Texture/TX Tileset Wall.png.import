@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5b16v0mw382d"
-path="res://.godot/imported/TX Tileset Wall.png-ab1ba264f4484ebc8016c60935ef45c2.ctex"
+path="res://.godot/imported/TX Tileset Wall.png-ade3999a052cf3577c69af4b7d73cda7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Exterior Props/Texture/TX Tileset Wall.png"
-dest_files=["res://.godot/imported/TX Tileset Wall.png-ab1ba264f4484ebc8016c60935ef45c2.ctex"]
+source_file="res://16x16_sprites/Exterior Props/Texture/TX Tileset Wall.png"
+dest_files=["res://.godot/imported/TX Tileset Wall.png-ade3999a052cf3577c69af4b7d73cda7.ctex"]
 
 [params]
 

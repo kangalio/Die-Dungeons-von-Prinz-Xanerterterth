@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c07udivwg65n6"
-path="res://.godot/imported/gdb-xbox-2.png-6bf648b29a007307268411678b3c86b4.ctex"
+path="res://.godot/imported/gdb-xbox-2.png-95aeae8699a21763a054d14281b40b24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/buttons/gdb-xbox-2.png"
-dest_files=["res://.godot/imported/gdb-xbox-2.png-6bf648b29a007307268411678b3c86b4.ctex"]
+source_file="res://16x16_sprites/buttons/gdb-xbox-2.png"
+dest_files=["res://.godot/imported/gdb-xbox-2.png-95aeae8699a21763a054d14281b40b24.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bth1whl55heuh"
-path="res://.godot/imported/18 - Aquatic.ogg-c683d46b01bb6b0d3d9ce89d9a5e5b52.oggvorbisstr"
+path="res://.godot/imported/18 - Aquatic.ogg-8957bf8e94cafd08b2f6fa2950225584.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/18 - Aquatic.ogg"
-dest_files=["res://.godot/imported/18 - Aquatic.ogg-c683d46b01bb6b0d3d9ce89d9a5e5b52.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/18 - Aquatic.ogg"
+dest_files=["res://.godot/imported/18 - Aquatic.ogg-8957bf8e94cafd08b2f6fa2950225584.oggvorbisstr"]
 
 [params]
 

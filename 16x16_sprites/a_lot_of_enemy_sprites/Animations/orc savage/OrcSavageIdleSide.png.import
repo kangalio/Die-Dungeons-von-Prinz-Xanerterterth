@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m4q33hn3qgdb"
-path="res://.godot/imported/OrcSavageIdleSide.png-cce1532aff89807a109db7daca215713.ctex"
+path="res://.godot/imported/OrcSavageIdleSide.png-3431ae4aa0cd313312c4bd8412436a74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/orc savage/OrcSavageIdleSide.png"
-dest_files=["res://.godot/imported/OrcSavageIdleSide.png-cce1532aff89807a109db7daca215713.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/orc savage/OrcSavageIdleSide.png"
+dest_files=["res://.godot/imported/OrcSavageIdleSide.png-3431ae4aa0cd313312c4bd8412436a74.ctex"]
 
 [params]
 

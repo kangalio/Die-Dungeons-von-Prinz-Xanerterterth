@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cikmyrak6isyy"
-path="res://.godot/imported/2 - The Cave.ogg-96994a730454266d6ccafd799bb31eb8.oggvorbisstr"
+path="res://.godot/imported/2 - The Cave.ogg-ae180a79b7c815a8e147337becb8e719.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/2 - The Cave.ogg"
-dest_files=["res://.godot/imported/2 - The Cave.ogg-96994a730454266d6ccafd799bb31eb8.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/2 - The Cave.ogg"
+dest_files=["res://.godot/imported/2 - The Cave.ogg-ae180a79b7c815a8e147337becb8e719.oggvorbisstr"]
 
 [params]
 

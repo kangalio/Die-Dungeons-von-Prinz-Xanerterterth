@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2wudhararwpf"
-path="res://.godot/imported/Faceset.png-f15c60d91b983b75622ebe4695c6309b.ctex"
+path="res://.godot/imported/Faceset.png-038c92367e8f0f70b946627a73a2bcb1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedFighter/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-f15c60d91b983b75622ebe4695c6309b.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedFighter/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-038c92367e8f0f70b946627a73a2bcb1.ctex"]
 
 [params]
 

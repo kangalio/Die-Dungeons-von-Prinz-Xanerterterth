@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c17tppwe470ek"
-path="res://.godot/imported/30_Revive_03.wav-b26c61898fc403e7fc960608472417cc.sample"
+path="res://.godot/imported/30_Revive_03.wav-d65f796c021a610c49b4e7c45b0cae08.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav"
-dest_files=["res://.godot/imported/30_Revive_03.wav-b26c61898fc403e7fc960608472417cc.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav"
+dest_files=["res://.godot/imported/30_Revive_03.wav-d65f796c021a610c49b4e7c45b0cae08.sample"]
 
 [params]
 

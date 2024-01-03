@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dr7octwe317o3"
-path="res://.godot/imported/GnomeTinkererIdleSide.png-d7c44f71186eb964aba6a5d822780f9e.ctex"
+path="res://.godot/imported/GnomeTinkererIdleSide.png-2342b364fcfbf40fd0c5db4949872034.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/gnome tinkerer/GnomeTinkererIdleSide.png"
-dest_files=["res://.godot/imported/GnomeTinkererIdleSide.png-d7c44f71186eb964aba6a5d822780f9e.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/gnome tinkerer/GnomeTinkererIdleSide.png"
+dest_files=["res://.godot/imported/GnomeTinkererIdleSide.png-2342b364fcfbf40fd0c5db4949872034.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://btsj8ljxnbvf6"
-path="res://.godot/imported/29 - Lament.ogg-39696409a04b8489acb5dce40c31167f.oggvorbisstr"
+path="res://.godot/imported/29 - Lament.ogg-d870c0dd1c9618dec74556118169b881.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/29 - Lament.ogg"
-dest_files=["res://.godot/imported/29 - Lament.ogg-39696409a04b8489acb5dce40c31167f.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/29 - Lament.ogg"
+dest_files=["res://.godot/imported/29 - Lament.ogg-d870c0dd1c9618dec74556118169b881.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8qchl4b122iu"
-path="res://.godot/imported/TilesetWallSimple.png-2a191ea3dfd30dac95fa3659de085801.ctex"
+path="res://.godot/imported/TilesetWallSimple.png-045876a9f6b08be34fbdc810700b707d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Tilesets/Interior/TilesetWallSimple.png"
-dest_files=["res://.godot/imported/TilesetWallSimple.png-2a191ea3dfd30dac95fa3659de085801.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Tilesets/Interior/TilesetWallSimple.png"
+dest_files=["res://.godot/imported/TilesetWallSimple.png-045876a9f6b08be34fbdc810700b707d.ctex"]
 
 [params]
 

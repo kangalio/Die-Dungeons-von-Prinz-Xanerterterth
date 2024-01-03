@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ckopap7a53mu6"
-path="res://.godot/imported/death_5_meghan.wav-5bcd4652b503a7ae000531d2e8689c9b.sample"
+path="res://.godot/imported/death_5_meghan.wav-34f814e23714ee47fe10bc78baa9e5ce.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Female/Meghan Christian/death_5_meghan.wav"
-dest_files=["res://.godot/imported/death_5_meghan.wav-5bcd4652b503a7ae000531d2e8689c9b.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Female/Meghan Christian/death_5_meghan.wav"
+dest_files=["res://.godot/imported/death_5_meghan.wav-34f814e23714ee47fe10bc78baa9e5ce.sample"]
 
 [params]
 

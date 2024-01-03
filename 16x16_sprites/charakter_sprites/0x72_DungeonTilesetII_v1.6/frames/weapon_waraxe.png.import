@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddhklot3p8t70"
-path="res://.godot/imported/weapon_waraxe.png-ad4cdf8dbb68e749bc5b2343dd45786a.ctex"
+path="res://.godot/imported/weapon_waraxe.png-9f1299318c58238e1d079f544dd108b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_waraxe.png"
-dest_files=["res://.godot/imported/weapon_waraxe.png-ad4cdf8dbb68e749bc5b2343dd45786a.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_waraxe.png"
+dest_files=["res://.godot/imported/weapon_waraxe.png-9f1299318c58238e1d079f544dd108b3.ctex"]
 
 [params]
 

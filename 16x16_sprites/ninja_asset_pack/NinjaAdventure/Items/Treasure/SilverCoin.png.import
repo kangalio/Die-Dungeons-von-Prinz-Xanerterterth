@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bislsms732orb"
-path="res://.godot/imported/SilverCoin.png-1137b4a55a5c6d31e8c891e88fbe5903.ctex"
+path="res://.godot/imported/SilverCoin.png-746ecf1193e7d3bab17505d7acb3398c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Treasure/SilverCoin.png"
-dest_files=["res://.godot/imported/SilverCoin.png-1137b4a55a5c6d31e8c891e88fbe5903.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Treasure/SilverCoin.png"
+dest_files=["res://.godot/imported/SilverCoin.png-746ecf1193e7d3bab17505d7acb3398c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2re80kmme1vv"
-path="res://.godot/imported/SpriteInHand.png-a6d8f47da3268f2bd44f52f11cf2613d.ctex"
+path="res://.godot/imported/SpriteInHand.png-14af40b63b3f6b862d585bbd2292e2a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/AxeTool/SpriteInHand.png"
-dest_files=["res://.godot/imported/SpriteInHand.png-a6d8f47da3268f2bd44f52f11cf2613d.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/AxeTool/SpriteInHand.png"
+dest_files=["res://.godot/imported/SpriteInHand.png-14af40b63b3f6b862d585bbd2292e2a5.ctex"]
 
 [params]
 

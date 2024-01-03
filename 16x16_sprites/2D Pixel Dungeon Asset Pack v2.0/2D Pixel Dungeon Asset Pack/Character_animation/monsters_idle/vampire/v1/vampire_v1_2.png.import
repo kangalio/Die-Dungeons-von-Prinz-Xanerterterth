@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3fhwr1rqllpf"
-path="res://.godot/imported/vampire_v1_2.png-b45593847216c2b2867c1707b74288ea.ctex"
+path="res://.godot/imported/vampire_v1_2.png-2683c23e280e54837a466acd0f1774b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_2.png"
-dest_files=["res://.godot/imported/vampire_v1_2.png-b45593847216c2b2867c1707b74288ea.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/vampire/v1/vampire_v1_2.png"
+dest_files=["res://.godot/imported/vampire_v1_2.png-2683c23e280e54837a466acd0f1774b5.ctex"]
 
 [params]
 

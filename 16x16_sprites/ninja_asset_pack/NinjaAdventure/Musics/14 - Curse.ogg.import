@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dxbq10eo44tt4"
-path="res://.godot/imported/14 - Curse.ogg-c6fcb6b8b174012a1313b7a5023cddaa.oggvorbisstr"
+path="res://.godot/imported/14 - Curse.ogg-a7e8a3e851fbb06d9072546c31d3d2e9.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/14 - Curse.ogg"
-dest_files=["res://.godot/imported/14 - Curse.ogg-c6fcb6b8b174012a1313b7a5023cddaa.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/14 - Curse.ogg"
+dest_files=["res://.godot/imported/14 - Curse.ogg-a7e8a3e851fbb06d9072546c31d3d2e9.oggvorbisstr"]
 
 [params]
 

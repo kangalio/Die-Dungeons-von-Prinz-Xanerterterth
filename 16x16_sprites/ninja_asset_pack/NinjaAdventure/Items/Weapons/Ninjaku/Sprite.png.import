@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rpqu23mq0wko"
-path="res://.godot/imported/Sprite.png-7252441155c1467074701969c3b361f0.ctex"
+path="res://.godot/imported/Sprite.png-021891a1b1e2e80a9e6d8796c99f4b32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/Ninjaku/Sprite.png"
-dest_files=["res://.godot/imported/Sprite.png-7252441155c1467074701969c3b361f0.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/Ninjaku/Sprite.png"
+dest_files=["res://.godot/imported/Sprite.png-021891a1b1e2e80a9e6d8796c99f4b32.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h8cfmhsa02fq"
-path="res://.godot/imported/Eye.png-f53b346fbd91d4d893a077fa72a1e56c.ctex"
+path="res://.godot/imported/Eye.png-697cf7a6641491a1878132a695c9afcb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Eye/Eye.png"
-dest_files=["res://.godot/imported/Eye.png-f53b346fbd91d4d893a077fa72a1e56c.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Eye/Eye.png"
+dest_files=["res://.godot/imported/Eye.png-697cf7a6641491a1878132a695c9afcb.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx7giid7psq3y"
-path="res://.godot/imported/flamethrower_1_4.png-a4bedf91f7b436ee394920dcf185cc4c.ctex"
+path="res://.godot/imported/flamethrower_1_4.png-47a51411247f53a88741939e0c777f4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_4.png"
-dest_files=["res://.godot/imported/flamethrower_1_4.png-a4bedf91f7b436ee394920dcf185cc4c.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_1_4.png"
+dest_files=["res://.godot/imported/flamethrower_1_4.png-47a51411247f53a88741939e0c777f4a.ctex"]
 
 [params]
 

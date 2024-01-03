@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlt7lljru60mh"
-path="res://.godot/imported/lizard_m_hit_anim_f0.png-6cb8969b8a983bf1ac5ddd57d6955290.ctex"
+path="res://.godot/imported/lizard_m_hit_anim_f0.png-9cd86654061d03fa2cc3b4dd326419dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/lizard_m_hit_anim_f0.png"
-dest_files=["res://.godot/imported/lizard_m_hit_anim_f0.png-6cb8969b8a983bf1ac5ddd57d6955290.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/lizard_m_hit_anim_f0.png"
+dest_files=["res://.godot/imported/lizard_m_hit_anim_f0.png-9cd86654061d03fa2cc3b4dd326419dd.ctex"]
 
 [params]
 

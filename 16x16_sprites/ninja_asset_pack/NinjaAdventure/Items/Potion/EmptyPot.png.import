@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpcsqefo6g55b"
-path="res://.godot/imported/EmptyPot.png-c09bf1a82ab558b62731a402a96deb1e.ctex"
+path="res://.godot/imported/EmptyPot.png-eebd79f075c7cd096bacbd37ba25db27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Potion/EmptyPot.png"
-dest_files=["res://.godot/imported/EmptyPot.png-c09bf1a82ab558b62731a402a96deb1e.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Potion/EmptyPot.png"
+dest_files=["res://.godot/imported/EmptyPot.png-eebd79f075c7cd096bacbd37ba25db27.ctex"]
 
 [params]
 

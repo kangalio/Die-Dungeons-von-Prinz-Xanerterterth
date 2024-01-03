@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://vdqc4y67yu6o"
-path="res://.godot/imported/7 - Sad Theme.ogg-d66fd41b1e8d1e568165387ebe96a9de.oggvorbisstr"
+path="res://.godot/imported/7 - Sad Theme.ogg-f866ed26cca7763d5b7c11bed4a5de77.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/7 - Sad Theme.ogg"
-dest_files=["res://.godot/imported/7 - Sad Theme.ogg-d66fd41b1e8d1e568165387ebe96a9de.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/7 - Sad Theme.ogg"
+dest_files=["res://.godot/imported/7 - Sad Theme.ogg-f866ed26cca7763d5b7c11bed4a5de77.oggvorbisstr"]
 
 [params]
 

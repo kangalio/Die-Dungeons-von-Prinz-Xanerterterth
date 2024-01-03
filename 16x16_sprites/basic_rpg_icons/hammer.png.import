@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2bvharermtwo"
-path="res://.godot/imported/hammer.png-7f867d5ce4888d2147e3c9832476cc76.ctex"
+path="res://.godot/imported/hammer.png-b2283330f3b77840d21790b69eb5d926.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/basic_rpg_icons/hammer.png"
-dest_files=["res://.godot/imported/hammer.png-7f867d5ce4888d2147e3c9832476cc76.ctex"]
+source_file="res://16x16_sprites/basic_rpg_icons/hammer.png"
+dest_files=["res://.godot/imported/hammer.png-b2283330f3b77840d21790b69eb5d926.ctex"]
 
 [params]
 

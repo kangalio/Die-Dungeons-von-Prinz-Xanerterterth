@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6qicsqml8hrv"
-path="res://.godot/imported/Idle.png-808a388846a99315fd419026903f4b82.ctex"
+path="res://.godot/imported/Idle.png-054a7f5a88ada97775429aae312bd571.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-808a388846a99315fd419026903f4b82.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedNinja2/SeparateAnim/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-054a7f5a88ada97775429aae312bd571.ctex"]
 
 [params]
 

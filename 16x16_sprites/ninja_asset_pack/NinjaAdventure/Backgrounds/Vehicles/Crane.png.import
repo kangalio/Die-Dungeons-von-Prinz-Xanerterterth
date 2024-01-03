@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3wqko6xa8flt"
-path="res://.godot/imported/Crane.png-2fba3b60114609b0342598b048fcaa0d.ctex"
+path="res://.godot/imported/Crane.png-56a8609fc7f8351ac0ffe8760bdd0352.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Vehicles/Crane.png"
-dest_files=["res://.godot/imported/Crane.png-2fba3b60114609b0342598b048fcaa0d.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Vehicles/Crane.png"
+dest_files=["res://.godot/imported/Crane.png-56a8609fc7f8351ac0ffe8760bdd0352.ctex"]
 
 [params]
 

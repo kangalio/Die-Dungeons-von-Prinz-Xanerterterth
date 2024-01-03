@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drpx7ifea3vc5"
-path="res://.godot/imported/pumpkin_dude_idle_anim_f1.png-3a55ed38ec74c058ccaa2a1c0b717f8c.ctex"
+path="res://.godot/imported/pumpkin_dude_idle_anim_f1.png-7db747e6ea40e19ab014339e343727fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/pumpkin_dude_idle_anim_f1.png"
-dest_files=["res://.godot/imported/pumpkin_dude_idle_anim_f1.png-3a55ed38ec74c058ccaa2a1c0b717f8c.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/pumpkin_dude_idle_anim_f1.png"
+dest_files=["res://.godot/imported/pumpkin_dude_idle_anim_f1.png-7db747e6ea40e19ab014339e343727fc.ctex"]
 
 [params]
 

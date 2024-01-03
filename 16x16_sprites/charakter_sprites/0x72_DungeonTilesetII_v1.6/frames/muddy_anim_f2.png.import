@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8ddyjb0df1hd"
-path="res://.godot/imported/muddy_anim_f2.png-7f72063a85f478df0ba78f881170c56c.ctex"
+path="res://.godot/imported/muddy_anim_f2.png-c64cfaa9acca269faa215459825d7299.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/muddy_anim_f2.png"
-dest_files=["res://.godot/imported/muddy_anim_f2.png-7f72063a85f478df0ba78f881170c56c.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/muddy_anim_f2.png"
+dest_files=["res://.godot/imported/muddy_anim_f2.png-c64cfaa9acca269faa215459825d7299.ctex"]
 
 [params]
 

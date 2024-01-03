@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c0nlfq78wwhch"
-path="res://.godot/imported/grunting_10_ian.wav-94374c41a92d60900aa8f247d636a244.sample"
+path="res://.godot/imported/grunting_10_ian.wav-2d999fa068d92082a96771303ef590c0.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Ian Lampert/grunting_10_ian.wav"
-dest_files=["res://.godot/imported/grunting_10_ian.wav-94374c41a92d60900aa8f247d636a244.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Ian Lampert/grunting_10_ian.wav"
+dest_files=["res://.godot/imported/grunting_10_ian.wav-2d999fa068d92082a96771303ef590c0.sample"]
 
 [params]
 

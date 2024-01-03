@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c1w6nxchab0tc"
-path="res://.godot/imported/19 - Ascension.ogg-ee8a7607069b92a62fcd3e6cd37f5156.oggvorbisstr"
+path="res://.godot/imported/19 - Ascension.ogg-07d7651f407a96cd442ea177ba8bd0b2.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/19 - Ascension.ogg"
-dest_files=["res://.godot/imported/19 - Ascension.ogg-ee8a7607069b92a62fcd3e6cd37f5156.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/19 - Ascension.ogg"
+dest_files=["res://.godot/imported/19 - Ascension.ogg-07d7651f407a96cd442ea177ba8bd0b2.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbq5v2w4jss4e"
-path="res://.godot/imported/Faceset.png-9c66dc4c1a39add234cd130b64192777.ctex"
+path="res://.godot/imported/Faceset.png-d7b212a8c9a866c3ea0ec3af63b711f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Boss/GiantFrog2/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-9c66dc4c1a39add234cd130b64192777.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Boss/GiantFrog2/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-d7b212a8c9a866c3ea0ec3af63b711f6.ctex"]
 
 [params]
 

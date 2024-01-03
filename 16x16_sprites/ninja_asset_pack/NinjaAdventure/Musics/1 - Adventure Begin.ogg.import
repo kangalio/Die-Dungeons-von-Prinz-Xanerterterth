@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://b1c6h1qdaxcqm"
-path="res://.godot/imported/1 - Adventure Begin.ogg-798c9427208e382dbf3aa6b9594fd94a.oggvorbisstr"
+path="res://.godot/imported/1 - Adventure Begin.ogg-4f5f83276db3aeeaa8a54ad2a2e05db3.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/1 - Adventure Begin.ogg"
-dest_files=["res://.godot/imported/1 - Adventure Begin.ogg-798c9427208e382dbf3aa6b9594fd94a.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/1 - Adventure Begin.ogg"
+dest_files=["res://.godot/imported/1 - Adventure Begin.ogg-4f5f83276db3aeeaa8a54ad2a2e05db3.oggvorbisstr"]
 
 [params]
 

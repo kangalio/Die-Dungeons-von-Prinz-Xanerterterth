@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2qlx0twaa6og"
-path="res://.godot/imported/SpriteSheet.png-3f75beb5c13166dae81e2bfe0b9c1a73.ctex"
+path="res://.godot/imported/SpriteSheet.png-dd6d6ddb10fdef1855d335a62a7d274f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/DarkNinja/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-3f75beb5c13166dae81e2bfe0b9c1a73.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/DarkNinja/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-dd6d6ddb10fdef1855d335a62a7d274f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqjbugxi5e4a3"
-path="res://.godot/imported/flasks_3_2.png-70319cb70231146fc28d549938f25c56.ctex"
+path="res://.godot/imported/flasks_3_2.png-3d5138dc8c4cd358f3c8a91d03e9410a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_2.png"
-dest_files=["res://.godot/imported/flasks_3_2.png-70319cb70231146fc28d549938f25c56.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_3_2.png"
+dest_files=["res://.godot/imported/flasks_3_2.png-3d5138dc8c4cd358f3c8a91d03e9410a.ctex"]
 
 [params]
 

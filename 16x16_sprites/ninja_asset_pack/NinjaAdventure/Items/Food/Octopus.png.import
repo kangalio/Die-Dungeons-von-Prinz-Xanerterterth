@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj8hrc4mof8qu"
-path="res://.godot/imported/Octopus.png-1e8b7a996f2de9c1282d64f8eee29134.ctex"
+path="res://.godot/imported/Octopus.png-e5f6dc8392e543f9f2b7f09c2d41ee23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Octopus.png"
-dest_files=["res://.godot/imported/Octopus.png-1e8b7a996f2de9c1282d64f8eee29134.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Octopus.png"
+dest_files=["res://.godot/imported/Octopus.png-e5f6dc8392e543f9f2b7f09c2d41ee23.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dw7hiudxb3os8"
-path="res://.godot/imported/092_Pause_04.wav-53f9cc0b8618c6e765e970eae458f356.sample"
+path="res://.godot/imported/092_Pause_04.wav-4e1b898803ab7251ba562acb02dc62ba.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav"
-dest_files=["res://.godot/imported/092_Pause_04.wav-53f9cc0b8618c6e765e970eae458f356.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav"
+dest_files=["res://.godot/imported/092_Pause_04.wav-4e1b898803ab7251ba562acb02dc62ba.sample"]
 
 [params]
 

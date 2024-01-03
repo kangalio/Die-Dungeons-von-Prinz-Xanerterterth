@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doygft2bvgpd3"
-path="res://.godot/imported/shovel.png-4ec0f309a1d0c902ab4fd02f542226d2.ctex"
+path="res://.godot/imported/shovel.png-dfb6d74a1d4f227e5386252c4e8f0005.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/basic_rpg_icons/shovel.png"
-dest_files=["res://.godot/imported/shovel.png-4ec0f309a1d0c902ab4fd02f542226d2.ctex"]
+source_file="res://16x16_sprites/basic_rpg_icons/shovel.png"
+dest_files=["res://.godot/imported/shovel.png-dfb6d74a1d4f227e5386252c4e8f0005.ctex"]
 
 [params]
 

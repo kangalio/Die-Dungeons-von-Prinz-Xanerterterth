@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmnifado3lht0"
-path="res://.godot/imported/TeaLeaf.png-90d9292495d03ec3aee5447a02939b35.ctex"
+path="res://.godot/imported/TeaLeaf.png-e41f4887e466c4b858bca8c827dc540e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/TeaLeaf.png"
-dest_files=["res://.godot/imported/TeaLeaf.png-90d9292495d03ec3aee5447a02939b35.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/TeaLeaf.png"
+dest_files=["res://.godot/imported/TeaLeaf.png-e41f4887e466c4b858bca8c827dc540e.ctex"]
 
 [params]
 

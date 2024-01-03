@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7nvekfs4rfmu"
-path="res://.godot/imported/Adam_idle_anim_16x16.png-49d5136d632b0d0d051c4fe10364d957.ctex"
+path="res://.godot/imported/Adam_idle_anim_16x16.png-af702f4ac460b703ff2882f6286abcdb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Adam_idle_anim_16x16.png"
-dest_files=["res://.godot/imported/Adam_idle_anim_16x16.png-49d5136d632b0d0d051c4fe10364d957.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Adam_idle_anim_16x16.png"
+dest_files=["res://.godot/imported/Adam_idle_anim_16x16.png-af702f4ac460b703ff2882f6286abcdb.ctex"]
 
 [params]
 

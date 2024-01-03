@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cypqw48cijegx"
-path="res://.godot/imported/weapon_baton_with_spikes.png-cfe755d567c481808e3f2d4b50681ff0.ctex"
+path="res://.godot/imported/weapon_baton_with_spikes.png-08c81c4622bba943d43f49c814ea2d21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_baton_with_spikes.png"
-dest_files=["res://.godot/imported/weapon_baton_with_spikes.png-cfe755d567c481808e3f2d4b50681ff0.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_baton_with_spikes.png"
+dest_files=["res://.godot/imported/weapon_baton_with_spikes.png-08c81c4622bba943d43f49c814ea2d21.ctex"]
 
 [params]
 

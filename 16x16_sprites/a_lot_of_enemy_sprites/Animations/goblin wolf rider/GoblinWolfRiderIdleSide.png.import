@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqkff7jafv2pr"
-path="res://.godot/imported/GoblinWolfRiderIdleSide.png-b7bbf8d32f56570f0b3137ce08762b01.ctex"
+path="res://.godot/imported/GoblinWolfRiderIdleSide.png-1492eadd3ff6ba54efb5ec588a102507.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin wolf rider/GoblinWolfRiderIdleSide.png"
-dest_files=["res://.godot/imported/GoblinWolfRiderIdleSide.png-b7bbf8d32f56570f0b3137ce08762b01.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin wolf rider/GoblinWolfRiderIdleSide.png"
+dest_files=["res://.godot/imported/GoblinWolfRiderIdleSide.png-1492eadd3ff6ba54efb5ec588a102507.ctex"]
 
 [params]
 

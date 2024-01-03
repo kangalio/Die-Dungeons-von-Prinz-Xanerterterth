@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://so2fk4j2pygs"
-path="res://.godot/imported/damage_9_karen.wav-b03903bd12c4d55e7f7749315c220688.sample"
+path="res://.godot/imported/damage_9_karen.wav-a1bc24a6542cc5fba2c4bbee46d1b84e.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Female/Karen Cenon/damage_9_karen.wav"
-dest_files=["res://.godot/imported/damage_9_karen.wav-b03903bd12c4d55e7f7749315c220688.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/7 - Damage/Female/Karen Cenon/damage_9_karen.wav"
+dest_files=["res://.godot/imported/damage_9_karen.wav-a1bc24a6542cc5fba2c4bbee46d1b84e.sample"]
 
 [params]
 

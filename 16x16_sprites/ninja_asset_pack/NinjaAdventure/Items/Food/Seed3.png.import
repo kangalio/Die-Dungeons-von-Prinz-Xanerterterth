@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yw368yaxxj7x"
-path="res://.godot/imported/Seed3.png-26f389e452070a1e06dc2d82d0942364.ctex"
+path="res://.godot/imported/Seed3.png-95b777e5abefea353bf3c4dc41a11dce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Seed3.png"
-dest_files=["res://.godot/imported/Seed3.png-26f389e452070a1e06dc2d82d0942364.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Seed3.png"
+dest_files=["res://.godot/imported/Seed3.png-95b777e5abefea353bf3c4dc41a11dce.ctex"]
 
 [params]
 

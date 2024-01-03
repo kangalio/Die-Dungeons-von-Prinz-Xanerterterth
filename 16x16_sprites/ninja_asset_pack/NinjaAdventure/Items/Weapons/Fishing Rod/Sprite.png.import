@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k06icv76xl8b"
-path="res://.godot/imported/Sprite.png-91aebdf6605ff5b0a5101a7a842b8b89.ctex"
+path="res://.godot/imported/Sprite.png-cfecb2d922191c526b244ba5d7c5c429.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/Fishing Rod/Sprite.png"
-dest_files=["res://.godot/imported/Sprite.png-91aebdf6605ff5b0a5101a7a842b8b89.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/Fishing Rod/Sprite.png"
+dest_files=["res://.godot/imported/Sprite.png-cfecb2d922191c526b244ba5d7c5c429.ctex"]
 
 [params]
 

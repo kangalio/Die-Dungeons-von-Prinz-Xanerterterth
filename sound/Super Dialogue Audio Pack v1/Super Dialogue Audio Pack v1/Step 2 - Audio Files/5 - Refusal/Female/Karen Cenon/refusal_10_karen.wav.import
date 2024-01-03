@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bsrjj5s4w3agv"
-path="res://.godot/imported/refusal_10_karen.wav-dc9f1d4e0000f06ac7b2cf8c20448584.sample"
+path="res://.godot/imported/refusal_10_karen.wav-58de313bf728d798eec37bc9da922445.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Female/Karen Cenon/refusal_10_karen.wav"
-dest_files=["res://.godot/imported/refusal_10_karen.wav-dc9f1d4e0000f06ac7b2cf8c20448584.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Female/Karen Cenon/refusal_10_karen.wav"
+dest_files=["res://.godot/imported/refusal_10_karen.wav-58de313bf728d798eec37bc9da922445.sample"]
 
 [params]
 

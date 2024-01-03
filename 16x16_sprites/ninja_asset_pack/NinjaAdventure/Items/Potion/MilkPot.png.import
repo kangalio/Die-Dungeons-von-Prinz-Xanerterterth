@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j5b54rv151p3"
-path="res://.godot/imported/MilkPot.png-7b49d46bdd43a0b2c7581a2cbab76626.ctex"
+path="res://.godot/imported/MilkPot.png-1b52c090132996636ff511be99df2758.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Potion/MilkPot.png"
-dest_files=["res://.godot/imported/MilkPot.png-7b49d46bdd43a0b2c7581a2cbab76626.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Potion/MilkPot.png"
+dest_files=["res://.godot/imported/MilkPot.png-1b52c090132996636ff511be99df2758.ctex"]
 
 [params]
 

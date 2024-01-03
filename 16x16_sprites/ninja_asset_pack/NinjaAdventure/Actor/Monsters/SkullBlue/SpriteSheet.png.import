@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3jhyi1b5kcn4"
-path="res://.godot/imported/SpriteSheet.png-0864debcb7d87e0d7efcaa6a6f1ed63e.ctex"
+path="res://.godot/imported/SpriteSheet.png-4eb82f4641fa1d8c4507fde59abd0238.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/SkullBlue/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-0864debcb7d87e0d7efcaa6a6f1ed63e.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/SkullBlue/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-4eb82f4641fa1d8c4507fde59abd0238.ctex"]
 
 [params]
 

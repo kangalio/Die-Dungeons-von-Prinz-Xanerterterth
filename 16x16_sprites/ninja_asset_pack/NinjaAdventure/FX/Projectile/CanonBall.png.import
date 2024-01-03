@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fvji0tupi23q"
-path="res://.godot/imported/CanonBall.png-2b6433614263e099fd90c67a52d6bc14.ctex"
+path="res://.godot/imported/CanonBall.png-5c995b768775ff9633a724f64b551f15.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/CanonBall.png"
-dest_files=["res://.godot/imported/CanonBall.png-2b6433614263e099fd90c67a52d6bc14.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/CanonBall.png"
+dest_files=["res://.godot/imported/CanonBall.png-5c995b768775ff9633a724f64b551f15.ctex"]
 
 [params]
 

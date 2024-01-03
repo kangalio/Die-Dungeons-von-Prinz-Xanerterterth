@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bupt0tak5uc0n"
-path="res://.godot/imported/Faceset.png-a178cd6a42d2a1efab5013d9d7fe8320.ctex"
+path="res://.godot/imported/Faceset.png-33647c973eaa844877bae932967b113f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/GoldKnight/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-a178cd6a42d2a1efab5013d9d7fe8320.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/GoldKnight/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-33647c973eaa844877bae932967b113f.ctex"]
 
 [params]
 

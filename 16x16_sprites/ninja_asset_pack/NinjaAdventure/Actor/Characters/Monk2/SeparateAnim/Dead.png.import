@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjyilu6rrbyum"
-path="res://.godot/imported/Dead.png-c04a42b9219e4d7d174a88acc4b306da.ctex"
+path="res://.godot/imported/Dead.png-2b50370d98a893e661a89e1e01c7a98b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Monk2/SeparateAnim/Dead.png"
-dest_files=["res://.godot/imported/Dead.png-c04a42b9219e4d7d174a88acc4b306da.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Monk2/SeparateAnim/Dead.png"
+dest_files=["res://.godot/imported/Dead.png-2b50370d98a893e661a89e1e01c7a98b.ctex"]
 
 [params]
 

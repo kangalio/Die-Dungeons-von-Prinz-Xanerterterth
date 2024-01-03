@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlng6aksljsie"
-path="res://.godot/imported/HobgoblinGruntIdleSide.png-ff8f7bf19a0607c90e4c2614da0a2910.ctex"
+path="res://.godot/imported/HobgoblinGruntIdleSide.png-2d4e7662d129e677c0bb47439866ff67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Hobgoblin Grunt/HobgoblinGruntIdleSide.png"
-dest_files=["res://.godot/imported/HobgoblinGruntIdleSide.png-ff8f7bf19a0607c90e4c2614da0a2910.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Hobgoblin Grunt/HobgoblinGruntIdleSide.png"
+dest_files=["res://.godot/imported/HobgoblinGruntIdleSide.png-2d4e7662d129e677c0bb47439866ff67.ctex"]
 
 [params]
 

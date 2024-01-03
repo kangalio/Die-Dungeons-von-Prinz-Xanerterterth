@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1yfkcuab4ut3"
-path="res://.godot/imported/VoraciousMouseIdleSide.png-1b299001c1caba3396b570d52272ef25.ctex"
+path="res://.godot/imported/VoraciousMouseIdleSide.png-3bce9f86d2a0c45b54b05105f42defd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Voracious Mouse/VoraciousMouseIdleSide.png"
-dest_files=["res://.godot/imported/VoraciousMouseIdleSide.png-1b299001c1caba3396b570d52272ef25.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Voracious Mouse/VoraciousMouseIdleSide.png"
+dest_files=["res://.godot/imported/VoraciousMouseIdleSide.png-3bce9f86d2a0c45b54b05105f42defd9.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6psjwe26wkyq"
-path="res://.godot/imported/coins-chests-etc-2-0-noborders.png-4addb5a6a220c361639fb6c7066bc305.ctex"
+path="res://.godot/imported/coins-chests-etc-2-0-noborders.png-15617839b9074bdc9c07ff15912a68aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/coins/coins-chests-etc-2-0-noborders.png"
-dest_files=["res://.godot/imported/coins-chests-etc-2-0-noborders.png-4addb5a6a220c361639fb6c7066bc305.ctex"]
+source_file="res://16x16_sprites/coins/coins-chests-etc-2-0-noborders.png"
+dest_files=["res://.godot/imported/coins-chests-etc-2-0-noborders.png-15617839b9074bdc9c07ff15912a68aa.ctex"]
 
 [params]
 

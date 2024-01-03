@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wxyr8yfbnlhw"
-path="res://.godot/imported/HalflingSlingerIdleSide.png-62d856e9c5c717add7ef69ba7ee7885b.ctex"
+path="res://.godot/imported/HalflingSlingerIdleSide.png-3e8bf84d80bfad63b3ed0ef719a978ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/halfling slinger/HalflingSlingerIdleSide/HalflingSlingerIdleSide.png"
-dest_files=["res://.godot/imported/HalflingSlingerIdleSide.png-62d856e9c5c717add7ef69ba7ee7885b.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/halfling slinger/HalflingSlingerIdleSide/HalflingSlingerIdleSide.png"
+dest_files=["res://.godot/imported/HalflingSlingerIdleSide.png-3e8bf84d80bfad63b3ed0ef719a978ec.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clwpnm8eny4lp"
-path="res://.godot/imported/SpriteSheet.png-21b7225807d346fec1edc0be95cd973f.ctex"
+path="res://.godot/imported/SpriteSheet.png-935dba1b6d5f577f063064d09a4c62c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Cavegirl/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-21b7225807d346fec1edc0be95cd973f.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Cavegirl/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-935dba1b6d5f577f063064d09a4c62c7.ctex"]
 
 [params]
 

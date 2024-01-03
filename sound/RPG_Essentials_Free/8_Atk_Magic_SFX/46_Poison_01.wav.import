@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://t51mssdu8ieg"
-path="res://.godot/imported/46_Poison_01.wav-6809c9759e84ec3e3a4ad5c4f76791d0.sample"
+path="res://.godot/imported/46_Poison_01.wav-9c69e8020a4dcac18dfe54f96380cf3c.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav"
-dest_files=["res://.godot/imported/46_Poison_01.wav-6809c9759e84ec3e3a4ad5c4f76791d0.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav"
+dest_files=["res://.godot/imported/46_Poison_01.wav-9c69e8020a4dcac18dfe54f96380cf3c.sample"]
 
 [params]
 

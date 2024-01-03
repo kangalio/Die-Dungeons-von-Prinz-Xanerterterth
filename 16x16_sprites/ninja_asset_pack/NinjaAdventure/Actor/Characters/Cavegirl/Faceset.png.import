@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cysk30fi6syhi"
-path="res://.godot/imported/Faceset.png-b7c72ca3de70e28052da56e014bc1b05.ctex"
+path="res://.godot/imported/Faceset.png-41a6888f323d8642fe22087854f3fd6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Cavegirl/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-b7c72ca3de70e28052da56e014bc1b05.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Cavegirl/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-41a6888f323d8642fe22087854f3fd6c.ctex"]
 
 [params]
 

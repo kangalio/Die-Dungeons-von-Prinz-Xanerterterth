@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bthfjda8y51du"
-path="res://.godot/imported/tiny_slug_anim_f0.png-a4e345f6008344682b4e4be8d9dad5d0.ctex"
+path="res://.godot/imported/tiny_slug_anim_f0.png-6867fecb1319ed87bd40ead4db6cea64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/tiny_slug_anim_f0.png"
-dest_files=["res://.godot/imported/tiny_slug_anim_f0.png-a4e345f6008344682b4e4be8d9dad5d0.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/tiny_slug_anim_f0.png"
+dest_files=["res://.godot/imported/tiny_slug_anim_f0.png-6867fecb1319ed87bd40ead4db6cea64.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dv7xfu4x5ocit"
-path="res://.godot/imported/grunting_4_alex.wav-4ff3dac49d5b8cf6f953ca592128f22d.sample"
+path="res://.godot/imported/grunting_4_alex.wav-2238791d2c299384e162c77875b86278.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Alex Brodie/grunting_4_alex.wav"
-dest_files=["res://.godot/imported/grunting_4_alex.wav-4ff3dac49d5b8cf6f953ca592128f22d.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Alex Brodie/grunting_4_alex.wav"
+dest_files=["res://.godot/imported/grunting_4_alex.wav-2238791d2c299384e162c77875b86278.sample"]
 
 [params]
 

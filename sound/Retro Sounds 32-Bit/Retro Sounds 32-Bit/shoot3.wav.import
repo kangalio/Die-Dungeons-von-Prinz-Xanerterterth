@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cjxpx8s3eclr3"
-path="res://.godot/imported/shoot3.wav-cfdc8f5038ca291c26d370c7ea9851e1.sample"
+path="res://.godot/imported/shoot3.wav-19fdf28e6d40ed10bde0a2e535d89e54.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Retro Sounds 32-Bit/Retro Sounds 32-Bit/shoot3.wav"
-dest_files=["res://.godot/imported/shoot3.wav-cfdc8f5038ca291c26d370c7ea9851e1.sample"]
+source_file="res://sound/Retro Sounds 32-Bit/Retro Sounds 32-Bit/shoot3.wav"
+dest_files=["res://.godot/imported/shoot3.wav-19fdf28e6d40ed10bde0a2e535d89e54.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://41hilxmpyhed"
-path="res://.godot/imported/6 - Story (Short).ogg-7b7537caf3e2795ddaa3054fead7b0de.oggvorbisstr"
+path="res://.godot/imported/6 - Story (Short).ogg-f54af41650a85384891b23abc8a76abe.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/6 - Story (Short).ogg"
-dest_files=["res://.godot/imported/6 - Story (Short).ogg-7b7537caf3e2795ddaa3054fead7b0de.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/6 - Story (Short).ogg"
+dest_files=["res://.godot/imported/6 - Story (Short).ogg-f54af41650a85384891b23abc8a76abe.oggvorbisstr"]
 
 [params]
 

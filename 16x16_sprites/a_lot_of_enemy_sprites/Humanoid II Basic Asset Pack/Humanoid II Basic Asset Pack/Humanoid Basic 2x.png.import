@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfac5xpxa2u01"
-path="res://.godot/imported/Humanoid Basic 2x.png-b0879553fecfcbfc115d4b9344c1378b.ctex"
+path="res://.godot/imported/Humanoid Basic 2x.png-8d0cbc27a90fd3f4c56862abed823913.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Humanoid Basic 2x.png"
-dest_files=["res://.godot/imported/Humanoid Basic 2x.png-b0879553fecfcbfc115d4b9344c1378b.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Humanoid Basic 2x.png"
+dest_files=["res://.godot/imported/Humanoid Basic 2x.png-8d0cbc27a90fd3f4c56862abed823913.ctex"]
 
 [params]
 

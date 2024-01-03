@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmb8rsgfhhc7m"
-path="res://.godot/imported/wizzard_m_run_anim_f1.png-d864d0fb024ddd0836d809362ba4cf57.ctex"
+path="res://.godot/imported/wizzard_m_run_anim_f1.png-645b179b07bd0cd1ca347cc0b660940a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/wizzard_m_run_anim_f1.png"
-dest_files=["res://.godot/imported/wizzard_m_run_anim_f1.png-d864d0fb024ddd0836d809362ba4cf57.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/wizzard_m_run_anim_f1.png"
+dest_files=["res://.godot/imported/wizzard_m_run_anim_f1.png-645b179b07bd0cd1ca347cc0b660940a.ctex"]
 
 [params]
 

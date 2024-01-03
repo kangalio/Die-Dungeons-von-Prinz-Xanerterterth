@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8o5rqx5p0jpf"
-path="res://.godot/imported/BigEnergyBall.png-2b0921e3ca02c3ddb0cfe14def07dc14.ctex"
+path="res://.godot/imported/BigEnergyBall.png-2ab36fb8526e118615eb4264c7ca0862.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/BigEnergyBall.png"
-dest_files=["res://.godot/imported/BigEnergyBall.png-2b0921e3ca02c3ddb0cfe14def07dc14.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/BigEnergyBall.png"
+dest_files=["res://.godot/imported/BigEnergyBall.png-2ab36fb8526e118615eb4264c7ca0862.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mgdamnqewb3k"
-path="res://.godot/imported/Special2.png-417a22b390f27408f5235aeb2b70039e.ctex"
+path="res://.godot/imported/Special2.png-21aa75dade8cefc2ddf7c20be92c7928.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Eskimo/SeparateAnim/Special2.png"
-dest_files=["res://.godot/imported/Special2.png-417a22b390f27408f5235aeb2b70039e.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Eskimo/SeparateAnim/Special2.png"
+dest_files=["res://.godot/imported/Special2.png-21aa75dade8cefc2ddf7c20be92c7928.ctex"]
 
 [params]
 

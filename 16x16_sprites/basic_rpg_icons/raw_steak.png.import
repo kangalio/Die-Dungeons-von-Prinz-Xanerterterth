@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co2gcg0howxjr"
-path="res://.godot/imported/raw_steak.png-f65efc11a7f660089691b5ef26600bd7.ctex"
+path="res://.godot/imported/raw_steak.png-75da47a54261152a9cdead9a864488fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/basic_rpg_icons/raw_steak.png"
-dest_files=["res://.godot/imported/raw_steak.png-f65efc11a7f660089691b5ef26600bd7.ctex"]
+source_file="res://16x16_sprites/basic_rpg_icons/raw_steak.png"
+dest_files=["res://.godot/imported/raw_steak.png-75da47a54261152a9cdead9a864488fb.ctex"]
 
 [params]
 

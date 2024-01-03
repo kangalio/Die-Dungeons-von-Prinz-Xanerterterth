@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl7auly2skw24"
-path="res://.godot/imported/TawnySpiderIdleSide.png-77f73bb4917b1166938ac1f23c6ad318.ctex"
+path="res://.godot/imported/TawnySpiderIdleSide.png-96781bb682f05c1dd761011c3886bab3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Tawny Spider/TawnySpiderIdleSide.png"
-dest_files=["res://.godot/imported/TawnySpiderIdleSide.png-77f73bb4917b1166938ac1f23c6ad318.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Tawny Spider/TawnySpiderIdleSide.png"
+dest_files=["res://.godot/imported/TawnySpiderIdleSide.png-96781bb682f05c1dd761011c3886bab3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1q0pop4orkqd"
-path="res://.godot/imported/SpriteSheet.png-a7214134c0d46a47a298420bca8b53a5.ctex"
+path="res://.godot/imported/SpriteSheet.png-d9217bdc7c1e970c4a8d04badfe92298.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/AxolotBlue/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-a7214134c0d46a47a298420bca8b53a5.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/AxolotBlue/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-d9217bdc7c1e970c4a8d04badfe92298.ctex"]
 
 [params]
 

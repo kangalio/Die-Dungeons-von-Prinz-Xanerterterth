@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmwtc67p2qrea"
-path="res://.godot/imported/FlagBlue16x16.png-2f9eeccf9f48a9a5fbe1fea71b166676.ctex"
+path="res://.godot/imported/FlagBlue16x16.png-505e4230c2a5d74111c7fbdf9b1692c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/Flag/FlagBlue16x16.png"
-dest_files=["res://.godot/imported/FlagBlue16x16.png-2f9eeccf9f48a9a5fbe1fea71b166676.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/Flag/FlagBlue16x16.png"
+dest_files=["res://.godot/imported/FlagBlue16x16.png-505e4230c2a5d74111c7fbdf9b1692c5.ctex"]
 
 [params]
 

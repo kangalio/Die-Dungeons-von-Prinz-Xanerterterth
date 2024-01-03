@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c58itnj7sqjg6"
-path="res://.godot/imported/shouting_8_ian.wav-5eb87e148f0d312256e8cc2a96e27ff4.sample"
+path="res://.godot/imported/shouting_8_ian.wav-9b4a1f9112563df2a187c932278f60ee.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/10 - Shouting/Male/Ian Lampert/shouting_8_ian.wav"
-dest_files=["res://.godot/imported/shouting_8_ian.wav-5eb87e148f0d312256e8cc2a96e27ff4.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/10 - Shouting/Male/Ian Lampert/shouting_8_ian.wav"
+dest_files=["res://.godot/imported/shouting_8_ian.wav-9b4a1f9112563df2a187c932278f60ee.sample"]
 
 [params]
 

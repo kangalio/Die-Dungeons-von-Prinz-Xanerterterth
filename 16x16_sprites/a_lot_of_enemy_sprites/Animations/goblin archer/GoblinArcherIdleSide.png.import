@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crwanl152afir"
-path="res://.godot/imported/GoblinArcherIdleSide.png-3357cb30cee4008aaf027c567db1b867.ctex"
+path="res://.godot/imported/GoblinArcherIdleSide.png-02c586b4cb906d8d9a157bc6b7a6d8b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin archer/GoblinArcherIdleSide.png"
-dest_files=["res://.godot/imported/GoblinArcherIdleSide.png-3357cb30cee4008aaf027c567db1b867.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin archer/GoblinArcherIdleSide.png"
+dest_files=["res://.godot/imported/GoblinArcherIdleSide.png-02c586b4cb906d8d9a157bc6b7a6d8b9.ctex"]
 
 [params]
 

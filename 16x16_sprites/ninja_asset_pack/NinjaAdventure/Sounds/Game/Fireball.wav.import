@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://hu1csv1qbslw"
-path="res://.godot/imported/Fireball.wav-f86eebb9e8a136577404529e1f23ba0f.sample"
+path="res://.godot/imported/Fireball.wav-949afe6b05a7e3be4f5352fe0f7cd4fb.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Fireball.wav"
-dest_files=["res://.godot/imported/Fireball.wav-f86eebb9e8a136577404529e1f23ba0f.sample"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Fireball.wav"
+dest_files=["res://.godot/imported/Fireball.wav-949afe6b05a7e3be4f5352fe0f7cd4fb.sample"]
 
 [params]
 

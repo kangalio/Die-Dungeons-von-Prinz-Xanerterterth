@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://p3u8mso56w5u"
-path="res://.godot/imported/Example 5 ( Old Version).png-b2713e437790138bf5014ebc1e78016f.ctex"
+path="res://.godot/imported/Example 5 ( Old Version).png-4d7a82ef847b094fcf4a5f906eff419c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Example 5 ( Old Version).png"
-dest_files=["res://.godot/imported/Example 5 ( Old Version).png-b2713e437790138bf5014ebc1e78016f.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Example 5 ( Old Version).png"
+dest_files=["res://.godot/imported/Example 5 ( Old Version).png-4d7a82ef847b094fcf4a5f906eff419c.ctex"]
 
 [params]
 

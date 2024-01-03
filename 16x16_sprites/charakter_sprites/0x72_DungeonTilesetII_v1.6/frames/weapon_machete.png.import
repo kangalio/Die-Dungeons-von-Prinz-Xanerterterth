@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1r8q2gd8r8ea"
-path="res://.godot/imported/weapon_machete.png-cda301ba05fc538d356f9d3096da4438.ctex"
+path="res://.godot/imported/weapon_machete.png-e290359bff4a685b0a2a1d2c78602780.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_machete.png"
-dest_files=["res://.godot/imported/weapon_machete.png-cda301ba05fc538d356f9d3096da4438.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_machete.png"
+dest_files=["res://.godot/imported/weapon_machete.png-e290359bff4a685b0a2a1d2c78602780.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnrkt8yw2xnb5"
-path="res://.godot/imported/TX Plant.png-99351da6b65686ea482012a305ee073c.ctex"
+path="res://.godot/imported/TX Plant.png-24d2fe9ecc9f323798545f89ef2608d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Exterior Props/Texture/TX Plant.png"
-dest_files=["res://.godot/imported/TX Plant.png-99351da6b65686ea482012a305ee073c.ctex"]
+source_file="res://16x16_sprites/Exterior Props/Texture/TX Plant.png"
+dest_files=["res://.godot/imported/TX Plant.png-24d2fe9ecc9f323798545f89ef2608d8.ctex"]
 
 [params]
 

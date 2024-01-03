@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkijb01mf56w5"
-path="res://.godot/imported/Jump.png-f970abb3a2e59ac63cb900f832ae866e.ctex"
+path="res://.godot/imported/Jump.png-fd27574630b9d5b9326ac110dd0256bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Boss/GiantFrog/Jump.png"
-dest_files=["res://.godot/imported/Jump.png-f970abb3a2e59ac63cb900f832ae866e.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Boss/GiantFrog/Jump.png"
+dest_files=["res://.godot/imported/Jump.png-fd27574630b9d5b9326ac110dd0256bf.ctex"]
 
 [params]
 

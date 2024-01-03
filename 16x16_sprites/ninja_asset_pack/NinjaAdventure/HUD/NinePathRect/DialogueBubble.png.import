@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pu1o8mmdfdsv"
-path="res://.godot/imported/DialogueBubble.png-f46955ec27d07437ca35dc3a559e6b0f.ctex"
+path="res://.godot/imported/DialogueBubble.png-6fa68737240bc607118429b9079bbab4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/NinePathRect/DialogueBubble.png"
-dest_files=["res://.godot/imported/DialogueBubble.png-f46955ec27d07437ca35dc3a559e6b0f.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/NinePathRect/DialogueBubble.png"
+dest_files=["res://.godot/imported/DialogueBubble.png-6fa68737240bc607118429b9079bbab4.ctex"]
 
 [params]
 

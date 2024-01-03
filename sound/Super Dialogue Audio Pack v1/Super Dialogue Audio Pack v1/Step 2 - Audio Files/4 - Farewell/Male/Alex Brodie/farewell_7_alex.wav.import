@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://48f7sdpu5p5t"
-path="res://.godot/imported/farewell_7_alex.wav-ff4a28aa36c9b2529b1879155923ab8c.sample"
+path="res://.godot/imported/farewell_7_alex.wav-c2ee541ccbd072678b3c8dafcb6b9240.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Alex Brodie/farewell_7_alex.wav"
-dest_files=["res://.godot/imported/farewell_7_alex.wav-ff4a28aa36c9b2529b1879155923ab8c.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Male/Alex Brodie/farewell_7_alex.wav"
+dest_files=["res://.godot/imported/farewell_7_alex.wav-c2ee541ccbd072678b3c8dafcb6b9240.sample"]
 
 [params]
 

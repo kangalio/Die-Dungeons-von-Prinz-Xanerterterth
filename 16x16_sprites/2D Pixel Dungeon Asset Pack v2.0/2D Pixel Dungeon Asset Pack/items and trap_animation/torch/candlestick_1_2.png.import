@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cinppii4anqlr"
-path="res://.godot/imported/candlestick_1_2.png-baf1760cdcae68b195ece604b628aac7.ctex"
+path="res://.godot/imported/candlestick_1_2.png-b5cfefc73da9710c06a09de46b5718ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_2.png"
-dest_files=["res://.godot/imported/candlestick_1_2.png-baf1760cdcae68b195ece604b628aac7.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_2.png"
+dest_files=["res://.godot/imported/candlestick_1_2.png-b5cfefc73da9710c06a09de46b5718ac.ctex"]
 
 [params]
 

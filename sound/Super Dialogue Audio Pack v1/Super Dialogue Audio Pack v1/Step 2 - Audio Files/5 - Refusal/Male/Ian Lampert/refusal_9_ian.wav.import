@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://db1te5v7jrcga"
-path="res://.godot/imported/refusal_9_ian.wav-2da6348e851ae9b8368508a2a780c015.sample"
+path="res://.godot/imported/refusal_9_ian.wav-2c00fd486d54a147981fd06781e92da3.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Ian Lampert/refusal_9_ian.wav"
-dest_files=["res://.godot/imported/refusal_9_ian.wav-2da6348e851ae9b8368508a2a780c015.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Male/Ian Lampert/refusal_9_ian.wav"
+dest_files=["res://.godot/imported/refusal_9_ian.wav-2c00fd486d54a147981fd06781e92da3.sample"]
 
 [params]
 

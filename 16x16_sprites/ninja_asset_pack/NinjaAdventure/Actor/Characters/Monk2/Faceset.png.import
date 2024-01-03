@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://etnr242ur6ck"
-path="res://.godot/imported/Faceset.png-8ca5f262ff35f6ef5dfb6f773cb54569.ctex"
+path="res://.godot/imported/Faceset.png-929acccc321559171262dcda05379d98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Monk2/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-8ca5f262ff35f6ef5dfb6f773cb54569.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Monk2/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-929acccc321559171262dcda05379d98.ctex"]
 
 [params]
 

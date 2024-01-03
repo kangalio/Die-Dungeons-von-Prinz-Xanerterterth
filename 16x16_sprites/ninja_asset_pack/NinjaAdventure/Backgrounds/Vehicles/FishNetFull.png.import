@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsmixpnmvsdb6"
-path="res://.godot/imported/FishNetFull.png-5f6c0c98a1f3995fb48cc65f43356024.ctex"
+path="res://.godot/imported/FishNetFull.png-d24ea13f4866ba930830f3cca5d108d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Vehicles/FishNetFull.png"
-dest_files=["res://.godot/imported/FishNetFull.png-5f6c0c98a1f3995fb48cc65f43356024.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Vehicles/FishNetFull.png"
+dest_files=["res://.godot/imported/FishNetFull.png-d24ea13f4866ba930830f3cca5d108d1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2fmg70bufynn"
-path="res://.godot/imported/MerfolkImpalerIdleSide.png-d4e61ec48fe7f6db43e4c22d22505306.ctex"
+path="res://.godot/imported/MerfolkImpalerIdleSide.png-27a0882f96711e2497d1143c7346d16f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Merfolk Impaler/MerfolkImpalerIdleSide.png"
-dest_files=["res://.godot/imported/MerfolkImpalerIdleSide.png-d4e61ec48fe7f6db43e4c22d22505306.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Merfolk Impaler/MerfolkImpalerIdleSide.png"
+dest_files=["res://.godot/imported/MerfolkImpalerIdleSide.png-27a0882f96711e2497d1143c7346d16f.ctex"]
 
 [params]
 

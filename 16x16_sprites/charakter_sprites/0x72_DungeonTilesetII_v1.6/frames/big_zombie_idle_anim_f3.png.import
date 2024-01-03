@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jkwp5qulmuu4"
-path="res://.godot/imported/big_zombie_idle_anim_f3.png-290724f594c237e8c48a84138137d27e.ctex"
+path="res://.godot/imported/big_zombie_idle_anim_f3.png-00383112e6638412554a86379fd6fe8b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/big_zombie_idle_anim_f3.png"
-dest_files=["res://.godot/imported/big_zombie_idle_anim_f3.png-290724f594c237e8c48a84138137d27e.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/big_zombie_idle_anim_f3.png"
+dest_files=["res://.godot/imported/big_zombie_idle_anim_f3.png-00383112e6638412554a86379fd6fe8b.ctex"]
 
 [params]
 

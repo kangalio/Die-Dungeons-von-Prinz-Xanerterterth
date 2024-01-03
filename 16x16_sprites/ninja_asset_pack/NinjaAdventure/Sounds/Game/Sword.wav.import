@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://diyyxoe6x6tts"
-path="res://.godot/imported/Sword.wav-1620b1a33adacf0d8342f393d24c626d.sample"
+path="res://.godot/imported/Sword.wav-3350d5ceea21bc8bbdb2081b162638db.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Sword.wav"
-dest_files=["res://.godot/imported/Sword.wav-1620b1a33adacf0d8342f393d24c626d.sample"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Sword.wav"
+dest_files=["res://.godot/imported/Sword.wav-3350d5ceea21bc8bbdb2081b162638db.sample"]
 
 [params]
 

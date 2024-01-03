@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bkjdp2fn246go"
-path="res://.godot/imported/20 - Good Time.ogg-9019ea26103a4a90ff43e292abfcfe90.oggvorbisstr"
+path="res://.godot/imported/20 - Good Time.ogg-aff4520be50b56b099948739dc87d24f.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/20 - Good Time.ogg"
-dest_files=["res://.godot/imported/20 - Good Time.ogg-9019ea26103a4a90ff43e292abfcfe90.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/20 - Good Time.ogg"
+dest_files=["res://.godot/imported/20 - Good Time.ogg-aff4520be50b56b099948739dc87d24f.oggvorbisstr"]
 
 [params]
 

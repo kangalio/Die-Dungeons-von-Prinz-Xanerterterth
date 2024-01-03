@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3q6ywa863pqw"
-path="res://.godot/imported/TopDownHouse_FurnitureState2.png-bb0d42d5f39fed819df46899ce04e40b.ctex"
+path="res://.godot/imported/TopDownHouse_FurnitureState2.png-321ac65daf5149a465f246e8b1a1676f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/indoor_props/TopDownHouse_FurnitureState2.png"
-dest_files=["res://.godot/imported/TopDownHouse_FurnitureState2.png-bb0d42d5f39fed819df46899ce04e40b.ctex"]
+source_file="res://16x16_sprites/indoor_props/TopDownHouse_FurnitureState2.png"
+dest_files=["res://.godot/imported/TopDownHouse_FurnitureState2.png-321ac65daf5149a465f246e8b1a1676f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyd6qeberxipf"
-path="res://.godot/imported/Alex_idle_16x16.png-dbe0ffb817b8b0018cdfea04109f25b4.ctex"
+path="res://.godot/imported/Alex_idle_16x16.png-ea750a6c61e34e5bbf951e12e2254b59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Alex_idle_16x16.png"
-dest_files=["res://.godot/imported/Alex_idle_16x16.png-dbe0ffb817b8b0018cdfea04109f25b4.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Alex_idle_16x16.png"
+dest_files=["res://.godot/imported/Alex_idle_16x16.png-ea750a6c61e34e5bbf951e12e2254b59.ctex"]
 
 [params]
 

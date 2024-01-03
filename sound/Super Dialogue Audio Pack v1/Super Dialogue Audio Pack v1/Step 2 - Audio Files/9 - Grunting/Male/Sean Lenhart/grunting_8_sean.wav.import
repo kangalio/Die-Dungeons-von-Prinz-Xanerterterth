@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cbme2n5lb46k1"
-path="res://.godot/imported/grunting_8_sean.wav-e0e648a71f798533fcf9bb88eeb7441c.sample"
+path="res://.godot/imported/grunting_8_sean.wav-656b8f4b0ef7a1b0feedc026999aefbd.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Sean Lenhart/grunting_8_sean.wav"
-dest_files=["res://.godot/imported/grunting_8_sean.wav-e0e648a71f798533fcf9bb88eeb7441c.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Male/Sean Lenhart/grunting_8_sean.wav"
+dest_files=["res://.godot/imported/grunting_8_sean.wav-656b8f4b0ef7a1b0feedc026999aefbd.sample"]
 
 [params]
 

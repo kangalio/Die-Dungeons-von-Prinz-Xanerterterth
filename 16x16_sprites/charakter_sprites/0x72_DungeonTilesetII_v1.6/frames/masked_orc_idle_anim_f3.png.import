@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u6fpxcou1nbh"
-path="res://.godot/imported/masked_orc_idle_anim_f3.png-5f622d6a36a5c61ab91552e3425f5282.ctex"
+path="res://.godot/imported/masked_orc_idle_anim_f3.png-506fcb6f5d1ad3fcaffe3b223ffd6d0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/masked_orc_idle_anim_f3.png"
-dest_files=["res://.godot/imported/masked_orc_idle_anim_f3.png-5f622d6a36a5c61ab91552e3425f5282.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/masked_orc_idle_anim_f3.png"
+dest_files=["res://.godot/imported/masked_orc_idle_anim_f3.png-506fcb6f5d1ad3fcaffe3b223ffd6d0f.ctex"]
 
 [params]
 

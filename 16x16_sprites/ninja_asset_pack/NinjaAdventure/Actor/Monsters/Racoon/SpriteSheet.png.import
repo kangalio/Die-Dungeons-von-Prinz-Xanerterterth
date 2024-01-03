@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3f4wjbfhcvx3"
-path="res://.godot/imported/SpriteSheet.png-0a36e0292c46b4e7362dc9e4e621555c.ctex"
+path="res://.godot/imported/SpriteSheet.png-24fabcf492dfc02aafe7855ae6582a33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Racoon/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-0a36e0292c46b4e7362dc9e4e621555c.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Racoon/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-24fabcf492dfc02aafe7855ae6582a33.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bykiif8oavn86"
-path="res://.godot/imported/ScrollIce.png-27a3144660c2cb9f8e4b7c48692a8a76.ctex"
+path="res://.godot/imported/ScrollIce.png-55d617bf474d43444c5f483a2c4570b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Scroll/ScrollIce.png"
-dest_files=["res://.godot/imported/ScrollIce.png-27a3144660c2cb9f8e4b7c48692a8a76.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Scroll/ScrollIce.png"
+dest_files=["res://.godot/imported/ScrollIce.png-55d617bf474d43444c5f483a2c4570b2.ctex"]
 
 [params]
 

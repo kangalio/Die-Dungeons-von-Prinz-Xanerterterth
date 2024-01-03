@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bj6hfri2b175y"
-path="res://.godot/imported/42_Cling_climb_03.wav-55a50e21a6d7f0a3ef9bedc3eb4c6241.sample"
+path="res://.godot/imported/42_Cling_climb_03.wav-afb3e220d09fe62f58a38d82173c9ea3.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav"
-dest_files=["res://.godot/imported/42_Cling_climb_03.wav-55a50e21a6d7f0a3ef9bedc3eb4c6241.sample"]
+source_file="res://sound/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav"
+dest_files=["res://.godot/imported/42_Cling_climb_03.wav-afb3e220d09fe62f58a38d82173c9ea3.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxbv37w5umu61"
-path="res://.godot/imported/Jump.png-f66b06b8a75e6dc3a5a3552bfb15d914.ctex"
+path="res://.godot/imported/Jump.png-f0a5e859ba23b9cfef2d96e7ac5a0bb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Skeleton/SeparateAnim/Jump.png"
-dest_files=["res://.godot/imported/Jump.png-f66b06b8a75e6dc3a5a3552bfb15d914.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Skeleton/SeparateAnim/Jump.png"
+dest_files=["res://.godot/imported/Jump.png-f0a5e859ba23b9cfef2d96e7ac5a0bb6.ctex"]
 
 [params]
 

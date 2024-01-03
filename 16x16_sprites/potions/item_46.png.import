@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0wekcv8jobmd"
-path="res://.godot/imported/item_46.png-6319efaafcd507f03bc2ac3b4666fd85.ctex"
+path="res://.godot/imported/item_46.png-b3b9e4e08dd68c4226661af31d6650aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/potions/item_46.png"
-dest_files=["res://.godot/imported/item_46.png-6319efaafcd507f03bc2ac3b4666fd85.ctex"]
+source_file="res://16x16_sprites/potions/item_46.png"
+dest_files=["res://.godot/imported/item_46.png-b3b9e4e08dd68c4226661af31d6650aa.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciw66f24e002b"
-path="res://.godot/imported/OrcShamanIdleSide.png-f209bff6836b78212c1e041863266341.ctex"
+path="res://.godot/imported/OrcShamanIdleSide.png-20235a488ae771e9b31d73c65be4c751.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/orc shaman/OrcShamanIdleSide.png"
-dest_files=["res://.godot/imported/OrcShamanIdleSide.png-f209bff6836b78212c1e041863266341.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/orc shaman/OrcShamanIdleSide.png"
+dest_files=["res://.godot/imported/OrcShamanIdleSide.png-20235a488ae771e9b31d73c65be4c751.ctex"]
 
 [params]
 

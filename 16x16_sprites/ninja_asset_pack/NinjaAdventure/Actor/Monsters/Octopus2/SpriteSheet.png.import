@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bajyc21d638cq"
-path="res://.godot/imported/SpriteSheet.png-8b5bb61db9f1415181eef6e5c205ca56.ctex"
+path="res://.godot/imported/SpriteSheet.png-5580868ca50d42f5319d70036d4e131c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Octopus2/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-8b5bb61db9f1415181eef6e5c205ca56.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Octopus2/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-5580868ca50d42f5319d70036d4e131c.ctex"]
 
 [params]
 

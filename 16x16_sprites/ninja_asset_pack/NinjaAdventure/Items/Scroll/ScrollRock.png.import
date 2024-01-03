@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt38jycjbkmex"
-path="res://.godot/imported/ScrollRock.png-a90f8994d4ed949aa9a7731b355d2754.ctex"
+path="res://.godot/imported/ScrollRock.png-2878ebaec89737e8ababcffc0ec39620.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Scroll/ScrollRock.png"
-dest_files=["res://.godot/imported/ScrollRock.png-a90f8994d4ed949aa9a7731b355d2754.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Scroll/ScrollRock.png"
+dest_files=["res://.godot/imported/ScrollRock.png-2878ebaec89737e8ababcffc0ec39620.ctex"]
 
 [params]
 

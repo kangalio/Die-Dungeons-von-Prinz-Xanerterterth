@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk5bdpor3ffl6"
-path="res://.godot/imported/Free 4x.png-1281407d8ef0c573c8ac105b01a846b9.ctex"
+path="res://.godot/imported/Free 4x.png-8d0dca5559bad908edb4af6834203328.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Sprites/Free 4x.png"
-dest_files=["res://.godot/imported/Free 4x.png-1281407d8ef0c573c8ac105b01a846b9.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Sprites/Free 4x.png"
+dest_files=["res://.godot/imported/Free 4x.png-8d0dca5559bad908edb4af6834203328.ctex"]
 
 [params]
 

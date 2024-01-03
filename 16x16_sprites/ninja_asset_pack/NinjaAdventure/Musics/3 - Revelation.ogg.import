@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://d1tsnfh8ge3ri"
-path="res://.godot/imported/3 - Revelation.ogg-bc2ef37019b6db4660d248d40b6815b6.oggvorbisstr"
+path="res://.godot/imported/3 - Revelation.ogg-9adc09bad04e23cba99e777aa0c86551.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/3 - Revelation.ogg"
-dest_files=["res://.godot/imported/3 - Revelation.ogg-bc2ef37019b6db4660d248d40b6815b6.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/3 - Revelation.ogg"
+dest_files=["res://.godot/imported/3 - Revelation.ogg-9adc09bad04e23cba99e777aa0c86551.oggvorbisstr"]
 
 [params]
 

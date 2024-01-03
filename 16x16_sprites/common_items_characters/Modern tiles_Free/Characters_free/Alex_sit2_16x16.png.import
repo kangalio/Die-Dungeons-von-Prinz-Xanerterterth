@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2vlo4o6g1bgw"
-path="res://.godot/imported/Alex_sit2_16x16.png-b44dc9ca881bedc1ba9f36f4f807ab11.ctex"
+path="res://.godot/imported/Alex_sit2_16x16.png-d13b5f5af73a6fc36b527711f5f04827.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Alex_sit2_16x16.png"
-dest_files=["res://.godot/imported/Alex_sit2_16x16.png-b44dc9ca881bedc1ba9f36f4f807ab11.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Alex_sit2_16x16.png"
+dest_files=["res://.godot/imported/Alex_sit2_16x16.png-d13b5f5af73a6fc36b527711f5f04827.ctex"]
 
 [params]
 

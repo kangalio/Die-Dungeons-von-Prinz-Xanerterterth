@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhio8steyuirc"
-path="res://.godot/imported/knight_f_run_anim_f1.png-ef741f59a2c68f347778d30095d0e6b9.ctex"
+path="res://.godot/imported/knight_f_run_anim_f1.png-a3b4d3ba1bea9e7db1bfefdc83e238bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/knight_f_run_anim_f1.png"
-dest_files=["res://.godot/imported/knight_f_run_anim_f1.png-ef741f59a2c68f347778d30095d0e6b9.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/knight_f_run_anim_f1.png"
+dest_files=["res://.godot/imported/knight_f_run_anim_f1.png-a3b4d3ba1bea9e7db1bfefdc83e238bc.ctex"]
 
 [params]
 

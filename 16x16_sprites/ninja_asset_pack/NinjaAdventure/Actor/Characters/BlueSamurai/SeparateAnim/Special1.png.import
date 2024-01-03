@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drakih3k8316m"
-path="res://.godot/imported/Special1.png-d26aa297ca00a2283f9d10ba63e6bfd9.ctex"
+path="res://.godot/imported/Special1.png-ac398bfe0a14a79832324313a66d3120.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/BlueSamurai/SeparateAnim/Special1.png"
-dest_files=["res://.godot/imported/Special1.png-d26aa297ca00a2283f9d10ba63e6bfd9.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/BlueSamurai/SeparateAnim/Special1.png"
+dest_files=["res://.godot/imported/Special1.png-ac398bfe0a14a79832324313a66d3120.ctex"]
 
 [params]
 

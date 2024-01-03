@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lsnmtcbrqpbm"
-path="res://.godot/imported/floor_spikes_anim_f3.png-524f071bb2f5c542f87e41ae2071b2d2.ctex"
+path="res://.godot/imported/floor_spikes_anim_f3.png-a4068d01bb7df2b2338af80397d1d405.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f3.png"
-dest_files=["res://.godot/imported/floor_spikes_anim_f3.png-524f071bb2f5c542f87e41ae2071b2d2.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/floor_spikes_anim_f3.png"
+dest_files=["res://.godot/imported/floor_spikes_anim_f3.png-a4068d01bb7df2b2338af80397d1d405.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cea3klowse4pq"
-path="res://.godot/imported/grunting_4_meghan.wav-85a5c241be336cf6e1829d3539b912f0.sample"
+path="res://.godot/imported/grunting_4_meghan.wav-e9b0c6fdd3539de241588a9b5fdaac9e.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Female/Meghan Christian/grunting_4_meghan.wav"
-dest_files=["res://.godot/imported/grunting_4_meghan.wav-85a5c241be336cf6e1829d3539b912f0.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/9 - Grunting/Female/Meghan Christian/grunting_4_meghan.wav"
+dest_files=["res://.godot/imported/grunting_4_meghan.wav-e9b0c6fdd3539de241588a9b5fdaac9e.sample"]
 
 [params]
 

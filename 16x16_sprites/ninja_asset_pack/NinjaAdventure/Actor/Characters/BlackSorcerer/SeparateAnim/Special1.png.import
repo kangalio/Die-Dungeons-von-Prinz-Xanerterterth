@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pt46g87e51e1"
-path="res://.godot/imported/Special1.png-fff7d275b3fc6ff30fbf161583aa8083.ctex"
+path="res://.godot/imported/Special1.png-42f91915f53d1e11539b0d5fcdedf1d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/BlackSorcerer/SeparateAnim/Special1.png"
-dest_files=["res://.godot/imported/Special1.png-fff7d275b3fc6ff30fbf161583aa8083.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/BlackSorcerer/SeparateAnim/Special1.png"
+dest_files=["res://.godot/imported/Special1.png-42f91915f53d1e11539b0d5fcdedf1d8.ctex"]
 
 [params]
 

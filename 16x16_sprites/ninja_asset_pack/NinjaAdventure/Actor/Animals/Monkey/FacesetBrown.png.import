@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xmisy1hk5otk"
-path="res://.godot/imported/FacesetBrown.png-054a4825b846be3b1ddbd43c866615f0.ctex"
+path="res://.godot/imported/FacesetBrown.png-cc99fb2a0c9e0ceeaa434a5fa0d5e970.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Monkey/FacesetBrown.png"
-dest_files=["res://.godot/imported/FacesetBrown.png-054a4825b846be3b1ddbd43c866615f0.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Monkey/FacesetBrown.png"
+dest_files=["res://.godot/imported/FacesetBrown.png-cc99fb2a0c9e0ceeaa434a5fa0d5e970.ctex"]
 
 [params]
 

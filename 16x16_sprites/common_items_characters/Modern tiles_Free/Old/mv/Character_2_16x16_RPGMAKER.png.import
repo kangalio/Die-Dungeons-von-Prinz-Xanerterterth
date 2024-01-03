@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dljxim01xvucd"
-path="res://.godot/imported/Character_2_16x16_RPGMAKER.png-5c22752655b27d4b3d6945af796ab6a4.ctex"
+path="res://.godot/imported/Character_2_16x16_RPGMAKER.png-8bebf95202642a71d3e9b794d8d6110d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Old/mv/Character_2_16x16_RPGMAKER.png"
-dest_files=["res://.godot/imported/Character_2_16x16_RPGMAKER.png-5c22752655b27d4b3d6945af796ab6a4.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Old/mv/Character_2_16x16_RPGMAKER.png"
+dest_files=["res://.godot/imported/Character_2_16x16_RPGMAKER.png-8bebf95202642a71d3e9b794d8d6110d.ctex"]
 
 [params]
 

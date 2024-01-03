@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp61mnkkhwwx7"
-path="res://.godot/imported/wall_edge_top_left.png-bec39d58efa3265ff5cb93d04038840a.ctex"
+path="res://.godot/imported/wall_edge_top_left.png-011073b7110bae7188ed70bfd900c863.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/wall_edge_top_left.png"
-dest_files=["res://.godot/imported/wall_edge_top_left.png-bec39d58efa3265ff5cb93d04038840a.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/wall_edge_top_left.png"
+dest_files=["res://.godot/imported/wall_edge_top_left.png-011073b7110bae7188ed70bfd900c863.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://yh1aid3eadji"
-path="res://.godot/imported/30 - Ruins.ogg-88e9320b56c4027820dbf12bdffbb72e.oggvorbisstr"
+path="res://.godot/imported/30 - Ruins.ogg-111ec66d11ce148bae46a6db71b4d0d7.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/30 - Ruins.ogg"
-dest_files=["res://.godot/imported/30 - Ruins.ogg-88e9320b56c4027820dbf12bdffbb72e.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/30 - Ruins.ogg"
+dest_files=["res://.godot/imported/30 - Ruins.ogg-111ec66d11ce148bae46a6db71b4d0d7.oggvorbisstr"]
 
 [params]
 

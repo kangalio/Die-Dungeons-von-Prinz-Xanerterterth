@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmdhwv1agi33k"
-path="res://.godot/imported/Honey.png-6513ea97f5f73ef78f4d8ab5f66bffb8.ctex"
+path="res://.godot/imported/Honey.png-d9c6788d162aa762cacc3d39f7794a42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Honey.png"
-dest_files=["res://.godot/imported/Honey.png-6513ea97f5f73ef78f4d8ab5f66bffb8.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Honey.png"
+dest_files=["res://.godot/imported/Honey.png-d9c6788d162aa762cacc3d39f7794a42.ctex"]
 
 [params]
 

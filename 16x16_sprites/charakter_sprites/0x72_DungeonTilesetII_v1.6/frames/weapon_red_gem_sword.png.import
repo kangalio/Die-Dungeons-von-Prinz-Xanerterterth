@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu6h5ct8pof87"
-path="res://.godot/imported/weapon_red_gem_sword.png-755bdd62b411b1114a7db6e6f3d5323a.ctex"
+path="res://.godot/imported/weapon_red_gem_sword.png-2a26c17bb710f735faa06fefa770b4f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_red_gem_sword.png"
-dest_files=["res://.godot/imported/weapon_red_gem_sword.png-755bdd62b411b1114a7db6e6f3d5323a.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_red_gem_sword.png"
+dest_files=["res://.godot/imported/weapon_red_gem_sword.png-2a26c17bb710f735faa06fefa770b4f1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do2vk1gmqq146"
-path="res://.godot/imported/MillPropeller_A_64x64.png-002fdb44a4f4ab4b96b6a3f0cb2ecf35.ctex"
+path="res://.godot/imported/MillPropeller_A_64x64.png-708bcdefe03560866ab3108f8ce43f32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/MillPropeller/MillPropeller_A_64x64.png"
-dest_files=["res://.godot/imported/MillPropeller_A_64x64.png-002fdb44a4f4ab4b96b6a3f0cb2ecf35.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/MillPropeller/MillPropeller_A_64x64.png"
+dest_files=["res://.godot/imported/MillPropeller_A_64x64.png-708bcdefe03560866ab3108f8ce43f32.ctex"]
 
 [params]
 

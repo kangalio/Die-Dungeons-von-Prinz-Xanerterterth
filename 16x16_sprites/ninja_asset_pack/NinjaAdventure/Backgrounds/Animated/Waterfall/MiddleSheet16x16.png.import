@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k2ybng56mcys"
-path="res://.godot/imported/MiddleSheet16x16.png-0b4937ac7db64b205c0fac788daf5570.ctex"
+path="res://.godot/imported/MiddleSheet16x16.png-990705b855f9670a4683d87813392f61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/Waterfall/MiddleSheet16x16.png"
-dest_files=["res://.godot/imported/MiddleSheet16x16.png-0b4937ac7db64b205c0fac788daf5570.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/Waterfall/MiddleSheet16x16.png"
+dest_files=["res://.godot/imported/MiddleSheet16x16.png-990705b855f9670a4683d87813392f61.ctex"]
 
 [params]
 

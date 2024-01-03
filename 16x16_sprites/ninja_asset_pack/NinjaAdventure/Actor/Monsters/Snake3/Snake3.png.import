@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nl0p4wifgskd"
-path="res://.godot/imported/Snake3.png-6f05c658d4dce222a7d63e5d2db5cc99.ctex"
+path="res://.godot/imported/Snake3.png-bc2ac87735852de3ce137b678a617235.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Snake3/Snake3.png"
-dest_files=["res://.godot/imported/Snake3.png-6f05c658d4dce222a7d63e5d2db5cc99.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Snake3/Snake3.png"
+dest_files=["res://.godot/imported/Snake3.png-bc2ac87735852de3ce137b678a617235.ctex"]
 
 [params]
 

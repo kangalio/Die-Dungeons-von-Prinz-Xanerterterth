@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djp08jalewykh"
-path="res://.godot/imported/Tuto.png-cb139c8655569884f8032ba75c946082.ctex"
+path="res://.godot/imported/Tuto.png-edfc7fb3fb948cace57dfed4c0650494.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Tuto.png"
-dest_files=["res://.godot/imported/Tuto.png-cb139c8655569884f8032ba75c946082.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Tuto.png"
+dest_files=["res://.godot/imported/Tuto.png-edfc7fb3fb948cace57dfed4c0650494.ctex"]
 
 [params]
 

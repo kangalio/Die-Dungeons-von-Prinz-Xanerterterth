@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://os4avwnqtfr1"
-path="res://.godot/imported/Free 2x.png-487f0e2847c23f73e5d1a2ef86a9afc5.ctex"
+path="res://.godot/imported/Free 2x.png-d8e5c8ab51b5ec4fabfc2920334e4bac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Sprites/Free 2x.png"
-dest_files=["res://.godot/imported/Free 2x.png-487f0e2847c23f73e5d1a2ef86a9afc5.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Sprites/Free 2x.png"
+dest_files=["res://.godot/imported/Free 2x.png-d8e5c8ab51b5ec4fabfc2920334e4bac.ctex"]
 
 [params]
 

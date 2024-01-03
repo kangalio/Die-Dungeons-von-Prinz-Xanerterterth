@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba1k8hrlkkmvt"
-path="res://.godot/imported/LizardfolkGladiatorIdleSide.png-7a7dacf1d7530443c3e127a8e2c11c0a.ctex"
+path="res://.godot/imported/LizardfolkGladiatorIdleSide.png-973c78d877ba73b1b313ee6715b2177c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/lizardfolk gladiator/LizardfolkGladiatorIdleSide.png"
-dest_files=["res://.godot/imported/LizardfolkGladiatorIdleSide.png-7a7dacf1d7530443c3e127a8e2c11c0a.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/lizardfolk gladiator/LizardfolkGladiatorIdleSide.png"
+dest_files=["res://.godot/imported/LizardfolkGladiatorIdleSide.png-973c78d877ba73b1b313ee6715b2177c.ctex"]
 
 [params]
 

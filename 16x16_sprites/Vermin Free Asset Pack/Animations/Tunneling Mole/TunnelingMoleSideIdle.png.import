@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b56nqhmpcbvcw"
-path="res://.godot/imported/TunnelingMoleSideIdle.png-14b50ecb076799dcc58e48b49135be68.ctex"
+path="res://.godot/imported/TunnelingMoleSideIdle.png-8d6dfbe619ce99cd3673b57810f9845a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Tunneling Mole/TunnelingMoleSideIdle.png"
-dest_files=["res://.godot/imported/TunnelingMoleSideIdle.png-14b50ecb076799dcc58e48b49135be68.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Tunneling Mole/TunnelingMoleSideIdle.png"
+dest_files=["res://.godot/imported/TunnelingMoleSideIdle.png-8d6dfbe619ce99cd3673b57810f9845a.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://u4poo5swdyql"
-path="res://.godot/imported/13 - Mystical.ogg-a6fe8d1c50e441de209784da105b956e.oggvorbisstr"
+path="res://.godot/imported/13 - Mystical.ogg-c43a2e5869ab08d2e248906681c5896e.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/13 - Mystical.ogg"
-dest_files=["res://.godot/imported/13 - Mystical.ogg-a6fe8d1c50e441de209784da105b956e.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/13 - Mystical.ogg"
+dest_files=["res://.godot/imported/13 - Mystical.ogg-c43a2e5869ab08d2e248906681c5896e.oggvorbisstr"]
 
 [params]
 

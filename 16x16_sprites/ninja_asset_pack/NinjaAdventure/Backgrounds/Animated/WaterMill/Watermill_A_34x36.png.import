@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dugphp3yngcfo"
-path="res://.godot/imported/Watermill_A_34x36.png-985e13730224aba65282b7465964c57c.ctex"
+path="res://.godot/imported/Watermill_A_34x36.png-eae0e7ee0b7d2a2c42a381b0315ac3ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/WaterMill/Watermill_A_34x36.png"
-dest_files=["res://.godot/imported/Watermill_A_34x36.png-985e13730224aba65282b7465964c57c.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Animated/WaterMill/Watermill_A_34x36.png"
+dest_files=["res://.godot/imported/Watermill_A_34x36.png-eae0e7ee0b7d2a2c42a381b0315ac3ca.ctex"]
 
 [params]
 

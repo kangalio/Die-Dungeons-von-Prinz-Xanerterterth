@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx5ux6fo3mnlo"
-path="res://.godot/imported/Slime3.png-c3d9766a9bf1bf6406d54fd9d73f1833.ctex"
+path="res://.godot/imported/Slime3.png-eb6c6cf7a85d7aa7ab7264f65927922b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Slime3/Slime3.png"
-dest_files=["res://.godot/imported/Slime3.png-c3d9766a9bf1bf6406d54fd9d73f1833.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Slime3/Slime3.png"
+dest_files=["res://.godot/imported/Slime3.png-eb6c6cf7a85d7aa7ab7264f65927922b.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c6w0v4xfrlffx"
-path="res://.godot/imported/Power Up 1.wav-819979acda90138c88d37b8ed8758383.sample"
+path="res://.godot/imported/Power Up 1.wav-473b82e194fccb9791f49f11337641c9.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Power Up 1.wav"
-dest_files=["res://.godot/imported/Power Up 1.wav-819979acda90138c88d37b8ed8758383.sample"]
+source_file="res://sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Power Up 1.wav"
+dest_files=["res://.godot/imported/Power Up 1.wav-473b82e194fccb9791f49f11337641c9.sample"]
 
 [params]
 

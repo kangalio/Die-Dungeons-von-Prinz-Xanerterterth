@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cta4gyhl3lg8s"
-path="res://.godot/imported/SpriteSheetSpark2.png-d4726717ca750c942556647683c6e5d7.ctex"
+path="res://.godot/imported/SpriteSheetSpark2.png-fa3c61dbc65d932f3dea2b5899843ec2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Magic/Circle/SpriteSheetSpark2.png"
-dest_files=["res://.godot/imported/SpriteSheetSpark2.png-d4726717ca750c942556647683c6e5d7.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Magic/Circle/SpriteSheetSpark2.png"
+dest_files=["res://.godot/imported/SpriteSheetSpark2.png-fa3c61dbc65d932f3dea2b5899843ec2.ctex"]
 
 [params]
 

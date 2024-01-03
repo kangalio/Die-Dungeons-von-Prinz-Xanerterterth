@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://druyjfhndg3th"
-path="res://.godot/imported/Faceset.png-eafe03c02afaa2779e3a38dfa8c9823b.ctex"
+path="res://.godot/imported/Faceset.png-e60ed1d1f18ca03f60dd1261e6d3a482.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Villager/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-eafe03c02afaa2779e3a38dfa8c9823b.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Villager/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-e60ed1d1f18ca03f60dd1261e6d3a482.ctex"]
 
 [params]
 

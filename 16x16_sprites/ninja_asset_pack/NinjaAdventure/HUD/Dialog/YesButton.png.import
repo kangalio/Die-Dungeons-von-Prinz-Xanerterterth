@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcoffxfejae3d"
-path="res://.godot/imported/YesButton.png-fbae512e4d8bd3083f58de2bca3080fe.ctex"
+path="res://.godot/imported/YesButton.png-f72543e7bcd5d5e02f8b3435ef69b1da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Dialog/YesButton.png"
-dest_files=["res://.godot/imported/YesButton.png-fbae512e4d8bd3083f58de2bca3080fe.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Dialog/YesButton.png"
+dest_files=["res://.godot/imported/YesButton.png-f72543e7bcd5d5e02f8b3435ef69b1da.ctex"]
 
 [params]
 

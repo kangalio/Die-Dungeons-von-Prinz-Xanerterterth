@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckp0tpif1e1nd"
-path="res://.godot/imported/torch_1.png-402f0b744d998a2b6ed342858af2a134.ctex"
+path="res://.godot/imported/torch_1.png-5849d075e1cc7e93532b972846a6daad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png"
-dest_files=["res://.godot/imported/torch_1.png-402f0b744d998a2b6ed342858af2a134.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png"
+dest_files=["res://.godot/imported/torch_1.png-5849d075e1cc7e93532b972846a6daad.ctex"]
 
 [params]
 

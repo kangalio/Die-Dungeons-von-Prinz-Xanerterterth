@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://by76hdq62yfv8"
-path="res://.godot/imported/45_Charge_05.wav-bb15592e5c18e123fbcffe5e44697c6d.sample"
+path="res://.godot/imported/45_Charge_05.wav-8d266f27edad8ddb3d94840d2ee57dd1.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav"
-dest_files=["res://.godot/imported/45_Charge_05.wav-bb15592e5c18e123fbcffe5e44697c6d.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav"
+dest_files=["res://.godot/imported/45_Charge_05.wav-8d266f27edad8ddb3d94840d2ee57dd1.sample"]
 
 [params]
 

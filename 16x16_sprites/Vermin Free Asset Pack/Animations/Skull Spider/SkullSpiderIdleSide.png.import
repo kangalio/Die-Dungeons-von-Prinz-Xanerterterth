@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k6sg8783k7g1"
-path="res://.godot/imported/SkullSpiderIdleSide.png-27e993b34c5f89a15d7abd1af94720ad.ctex"
+path="res://.godot/imported/SkullSpiderIdleSide.png-80c4085fc1509e278be7f51b2f5869db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Skull Spider/SkullSpiderIdleSide.png"
-dest_files=["res://.godot/imported/SkullSpiderIdleSide.png-27e993b34c5f89a15d7abd1af94720ad.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Skull Spider/SkullSpiderIdleSide.png"
+dest_files=["res://.godot/imported/SkullSpiderIdleSide.png-80c4085fc1509e278be7f51b2f5869db.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0eetfjxlisvt"
-path="res://.godot/imported/CheerfulBarmaidIdleSide.png-85f595b0d2edcd3149ed615613f46554.ctex"
+path="res://.godot/imported/CheerfulBarmaidIdleSide.png-1dfa25c068083568a3d435877f1a6706.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Cheerful Barmaid/CheerfulBarmaidIdleSide.png"
-dest_files=["res://.godot/imported/CheerfulBarmaidIdleSide.png-85f595b0d2edcd3149ed615613f46554.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Cheerful Barmaid/CheerfulBarmaidIdleSide.png"
+dest_files=["res://.godot/imported/CheerfulBarmaidIdleSide.png-1dfa25c068083568a3d435877f1a6706.ctex"]
 
 [params]
 

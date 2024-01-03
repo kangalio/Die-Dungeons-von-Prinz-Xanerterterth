@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1fpkycx2f6ph"
-path="res://.godot/imported/mini_chest_4.png-91d7b7184444c3b92874aa5a2855e12a.ctex"
+path="res://.godot/imported/mini_chest_4.png-6b56f44c5f0d8a68ffb114494d3bf7a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_4.png"
-dest_files=["res://.godot/imported/mini_chest_4.png-91d7b7184444c3b92874aa5a2855e12a.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/items and trap_animation/mini_chest/mini_chest_4.png"
+dest_files=["res://.godot/imported/mini_chest_4.png-6b56f44c5f0d8a68ffb114494d3bf7a9.ctex"]
 
 [params]
 

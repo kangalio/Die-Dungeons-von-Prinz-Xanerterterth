@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1eu5pm4vjevu"
-path="res://.godot/imported/VillageDrunkardIdleSide.png-750123a68e5b8160290bb23b06871bf5.ctex"
+path="res://.godot/imported/VillageDrunkardIdleSide.png-fe77dc97ef59ef7cb39e3d8ba6d94cd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Village Drunkard/VillageDrunkardIdleSide.png"
-dest_files=["res://.godot/imported/VillageDrunkardIdleSide.png-750123a68e5b8160290bb23b06871bf5.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Village Drunkard/VillageDrunkardIdleSide.png"
+dest_files=["res://.godot/imported/VillageDrunkardIdleSide.png-fe77dc97ef59ef7cb39e3d8ba6d94cd8.ctex"]
 
 [params]
 

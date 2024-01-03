@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cihi4fctu3hny"
-path="res://.godot/imported/SI_Cellar_A5.png-e8a3de3d5121bb65e38216b91fb9d065.ctex"
+path="res://.godot/imported/SI_Cellar_A5.png-4b6f19b1aa127a9be21397170f91a97a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Cellar 16x16 Tileset/RPG Maker VX Ace/tilesets/SI_Cellar_A5.png"
-dest_files=["res://.godot/imported/SI_Cellar_A5.png-e8a3de3d5121bb65e38216b91fb9d065.ctex"]
+source_file="res://16x16_sprites/Cellar 16x16 Tileset/RPG Maker VX Ace/tilesets/SI_Cellar_A5.png"
+dest_files=["res://.godot/imported/SI_Cellar_A5.png-4b6f19b1aa127a9be21397170f91a97a.ctex"]
 
 [params]
 

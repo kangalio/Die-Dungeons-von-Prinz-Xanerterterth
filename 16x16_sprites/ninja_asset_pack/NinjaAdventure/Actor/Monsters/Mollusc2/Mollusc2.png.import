@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jcwkva0cdnek"
-path="res://.godot/imported/Mollusc2.png-e252dbca1fd69ce198e59632a18c63f4.ctex"
+path="res://.godot/imported/Mollusc2.png-4c3701d71c24af4d53e946059e38d3f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Mollusc2/Mollusc2.png"
-dest_files=["res://.godot/imported/Mollusc2.png-e252dbca1fd69ce198e59632a18c63f4.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Mollusc2/Mollusc2.png"
+dest_files=["res://.godot/imported/Mollusc2.png-4c3701d71c24af4d53e946059e38d3f1.ctex"]
 
 [params]
 

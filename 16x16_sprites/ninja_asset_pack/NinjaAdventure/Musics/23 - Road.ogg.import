@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://b3aiouurwl7jp"
-path="res://.godot/imported/23 - Road.ogg-ee1e6112a44ecd7e2a3d3628d01268f4.oggvorbisstr"
+path="res://.godot/imported/23 - Road.ogg-d12791a3fa9f515b1b125f83a1c37c4e.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/23 - Road.ogg"
-dest_files=["res://.godot/imported/23 - Road.ogg-ee1e6112a44ecd7e2a3d3628d01268f4.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/23 - Road.ogg"
+dest_files=["res://.godot/imported/23 - Road.ogg-d12791a3fa9f515b1b125f83a1c37c4e.oggvorbisstr"]
 
 [params]
 

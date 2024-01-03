@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di82i3ml4r0im"
-path="res://.godot/imported/Lizard2.png-db3915f45361ca6bb6881ec65a627be3.ctex"
+path="res://.godot/imported/Lizard2.png-01322f8aae08cfa1c62d9f89904892e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Lizard2/Lizard2.png"
-dest_files=["res://.godot/imported/Lizard2.png-db3915f45361ca6bb6881ec65a627be3.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Lizard2/Lizard2.png"
+dest_files=["res://.godot/imported/Lizard2.png-01322f8aae08cfa1c62d9f89904892e3.ctex"]
 
 [params]
 

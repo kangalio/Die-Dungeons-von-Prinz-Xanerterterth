@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ejcoc3pm8dw"
-path="res://.godot/imported/lever_right.png-d61a2bc35d7bcf438e25568431e24c80.ctex"
+path="res://.godot/imported/lever_right.png-e8d1feccd8ae57d3644bc90b858610c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/lever_right.png"
-dest_files=["res://.godot/imported/lever_right.png-d61a2bc35d7bcf438e25568431e24c80.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/lever_right.png"
+dest_files=["res://.godot/imported/lever_right.png-e8d1feccd8ae57d3644bc90b858610c7.ctex"]
 
 [params]
 

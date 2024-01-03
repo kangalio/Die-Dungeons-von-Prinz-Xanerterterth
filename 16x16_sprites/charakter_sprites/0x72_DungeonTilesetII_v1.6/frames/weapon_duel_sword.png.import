@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3hivwp1c8wwt"
-path="res://.godot/imported/weapon_duel_sword.png-fdbfc066eeabfbe3ec13b8165c886568.ctex"
+path="res://.godot/imported/weapon_duel_sword.png-74acd084582b1561eb7c197858f51084.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_duel_sword.png"
-dest_files=["res://.godot/imported/weapon_duel_sword.png-fdbfc066eeabfbe3ec13b8165c886568.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_duel_sword.png"
+dest_files=["res://.godot/imported/weapon_duel_sword.png-74acd084582b1561eb7c197858f51084.ctex"]
 
 [params]
 

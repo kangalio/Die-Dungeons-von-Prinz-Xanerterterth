@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgprehwwyukae"
-path="res://.godot/imported/priest1_v1_2.png-18891a668a3e224e7ecba5c621d181c8.ctex"
+path="res://.godot/imported/priest1_v1_2.png-aae6b41f858fb62d4ed213b165013205.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_2.png"
-dest_files=["res://.godot/imported/priest1_v1_2.png-18891a668a3e224e7ecba5c621d181c8.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/priests_idle/priest1/v1/priest1_v1_2.png"
+dest_files=["res://.godot/imported/priest1_v1_2.png-aae6b41f858fb62d4ed213b165013205.ctex"]
 
 [params]
 

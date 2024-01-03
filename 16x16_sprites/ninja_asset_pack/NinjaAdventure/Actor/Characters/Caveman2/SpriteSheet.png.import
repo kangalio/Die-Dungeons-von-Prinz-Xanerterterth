@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sb7qln321v8o"
-path="res://.godot/imported/SpriteSheet.png-bcb64a695203763056e6e5194d5b3ce2.ctex"
+path="res://.godot/imported/SpriteSheet.png-60411e0cd13b3037d6b1ead404b9a0f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Caveman2/SpriteSheet.png"
-dest_files=["res://.godot/imported/SpriteSheet.png-bcb64a695203763056e6e5194d5b3ce2.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Caveman2/SpriteSheet.png"
+dest_files=["res://.godot/imported/SpriteSheet.png-60411e0cd13b3037d6b1ead404b9a0f6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmslm4vyuurw3"
-path="res://.godot/imported/GoblinFanaticIdleSide.png-ea3760b556afe414477646ffb8bf1ab0.ctex"
+path="res://.godot/imported/GoblinFanaticIdleSide.png-b99f8e447c15f08ea87bb4617a5b10ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin fanatic/GoblinFanaticIdleSide.png"
-dest_files=["res://.godot/imported/GoblinFanaticIdleSide.png-ea3760b556afe414477646ffb8bf1ab0.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin fanatic/GoblinFanaticIdleSide.png"
+dest_files=["res://.godot/imported/GoblinFanaticIdleSide.png-b99f8e447c15f08ea87bb4617a5b10ea.ctex"]
 
 [params]
 

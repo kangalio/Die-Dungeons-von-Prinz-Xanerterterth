@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c637tgx5a7d6f"
-path="res://.godot/imported/079_Buy_sell_01.wav-07177ebdd2b9fc93a0f3710c9378352c.sample"
+path="res://.godot/imported/079_Buy_sell_01.wav-d55d98e195e72b97ee2562d98c51e7b9.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav"
-dest_files=["res://.godot/imported/079_Buy_sell_01.wav-07177ebdd2b9fc93a0f3710c9378352c.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav"
+dest_files=["res://.godot/imported/079_Buy_sell_01.wav-d55d98e195e72b97ee2562d98c51e7b9.sample"]
 
 [params]
 

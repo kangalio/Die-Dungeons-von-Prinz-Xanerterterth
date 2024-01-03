@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdl8crtdoxscc"
-path="res://.godot/imported/Bob_run_16x16.png-a14644c0bce846f1e0cd5e5da54514ff.ctex"
+path="res://.godot/imported/Bob_run_16x16.png-f1b3a7d1cc782b5c6b78275c67036ffc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Bob_run_16x16.png"
-dest_files=["res://.godot/imported/Bob_run_16x16.png-a14644c0bce846f1e0cd5e5da54514ff.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Bob_run_16x16.png"
+dest_files=["res://.godot/imported/Bob_run_16x16.png-f1b3a7d1cc782b5c6b78275c67036ffc.ctex"]
 
 [params]
 

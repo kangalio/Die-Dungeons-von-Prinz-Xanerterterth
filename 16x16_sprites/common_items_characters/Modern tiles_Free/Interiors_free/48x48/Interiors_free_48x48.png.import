@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yxxabqcui5wa"
-path="res://.godot/imported/Interiors_free_48x48.png-b7d7c3b694c54498b975ed6ef59d0a3d.ctex"
+path="res://.godot/imported/Interiors_free_48x48.png-c8062eb5221a7aa97d737d84a660f12d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png"
-dest_files=["res://.godot/imported/Interiors_free_48x48.png-b7d7c3b694c54498b975ed6ef59d0a3d.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Interiors_free/48x48/Interiors_free_48x48.png"
+dest_files=["res://.godot/imported/Interiors_free_48x48.png-c8062eb5221a7aa97d737d84a660f12d.ctex"]
 
 [params]
 

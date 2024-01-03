@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cgnxf8qgi6g66"
-path="res://.godot/imported/farewell_3_karen.wav-94f270b4684e249ed787463416461416.sample"
+path="res://.godot/imported/farewell_3_karen.wav-ceeff5ee99a4efca5022cd00b64c346e.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Female/Karen Cenon/farewell_3_karen.wav"
-dest_files=["res://.godot/imported/farewell_3_karen.wav-94f270b4684e249ed787463416461416.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/4 - Farewell/Female/Karen Cenon/farewell_3_karen.wav"
+dest_files=["res://.godot/imported/farewell_3_karen.wav-ceeff5ee99a4efca5022cd00b64c346e.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://evjxdf3sgium"
-path="res://.godot/imported/skull_v2_3.png-2212e375e9b1242ef0937a51a165b6c4.ctex"
+path="res://.godot/imported/skull_v2_3.png-0c4be3cc3958527326279ef6f36f0214.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_3.png"
-dest_files=["res://.godot/imported/skull_v2_3.png-2212e375e9b1242ef0937a51a165b6c4.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skull/v2/skull_v2_3.png"
+dest_files=["res://.godot/imported/skull_v2_3.png-0c4be3cc3958527326279ef6f36f0214.ctex"]
 
 [params]
 

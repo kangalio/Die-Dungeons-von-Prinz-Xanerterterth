@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfb4y2hbprrfi"
-path="res://.godot/imported/HalflingAssassinIdleSide.png-33587521fdf2bdb4ab23978b5f40966b.ctex"
+path="res://.godot/imported/HalflingAssassinIdleSide.png-9b14960f2ea8d72ad50b27c9f2caeee5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/halfling assassin/HalflingAssassinIdleSide.png"
-dest_files=["res://.godot/imported/HalflingAssassinIdleSide.png-33587521fdf2bdb4ab23978b5f40966b.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/halfling assassin/HalflingAssassinIdleSide.png"
+dest_files=["res://.godot/imported/HalflingAssassinIdleSide.png-9b14960f2ea8d72ad50b27c9f2caeee5.ctex"]
 
 [params]
 

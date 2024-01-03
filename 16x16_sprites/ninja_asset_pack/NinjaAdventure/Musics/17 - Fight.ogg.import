@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://tpskfacbcgkv"
-path="res://.godot/imported/17 - Fight.ogg-d1d995a8f69bce8e22f3f537524f959f.oggvorbisstr"
+path="res://.godot/imported/17 - Fight.ogg-90c374c5dfcb95fd42d87fbfc9ecd357.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/17 - Fight.ogg"
-dest_files=["res://.godot/imported/17 - Fight.ogg-d1d995a8f69bce8e22f3f537524f959f.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/17 - Fight.ogg"
+dest_files=["res://.godot/imported/17 - Fight.ogg-90c374c5dfcb95fd42d87fbfc9ecd357.oggvorbisstr"]
 
 [params]
 

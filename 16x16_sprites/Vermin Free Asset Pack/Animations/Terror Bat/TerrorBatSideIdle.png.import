@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj7xmdcc5pxm1"
-path="res://.godot/imported/TerrorBatSideIdle.png-8cf7b57cbf6a640ef0d279425116ae6f.ctex"
+path="res://.godot/imported/TerrorBatSideIdle.png-e7bfc70b4a33669ecc80ebe2c69f7b57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Terror Bat/TerrorBatSideIdle.png"
-dest_files=["res://.godot/imported/TerrorBatSideIdle.png-8cf7b57cbf6a640ef0d279425116ae6f.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Terror Bat/TerrorBatSideIdle.png"
+dest_files=["res://.godot/imported/TerrorBatSideIdle.png-e7bfc70b4a33669ecc80ebe2c69f7b57.ctex"]
 
 [params]
 

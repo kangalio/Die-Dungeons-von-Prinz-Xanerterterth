@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v82c2a37d2fx"
-path="res://.godot/imported/Walk.png-7ee0fe22e5e243ef88500c74f9d6a5fc.ctex"
+path="res://.godot/imported/Walk.png-3ff46aec7b2cef41cf8fae16f6b7fe55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Knight/SeparateAnim/Walk.png"
-dest_files=["res://.godot/imported/Walk.png-7ee0fe22e5e243ef88500c74f9d6a5fc.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Knight/SeparateAnim/Walk.png"
+dest_files=["res://.godot/imported/Walk.png-3ff46aec7b2cef41cf8fae16f6b7fe55.ctex"]
 
 [params]
 

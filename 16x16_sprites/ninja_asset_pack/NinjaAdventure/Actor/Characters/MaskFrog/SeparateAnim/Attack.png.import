@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk5jcr5gn272o"
-path="res://.godot/imported/Attack.png-f9f01d4beb3f77877965af792bc54dd8.ctex"
+path="res://.godot/imported/Attack.png-cd5085e5622a3cc54c3e2f3bdca71476.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Attack.png"
-dest_files=["res://.godot/imported/Attack.png-f9f01d4beb3f77877965af792bc54dd8.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/MaskFrog/SeparateAnim/Attack.png"
+dest_files=["res://.godot/imported/Attack.png-cd5085e5622a3cc54c3e2f3bdca71476.ctex"]
 
 [params]
 

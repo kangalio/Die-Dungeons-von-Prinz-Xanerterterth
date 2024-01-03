@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwitmmdef1oqs"
-path="res://.godot/imported/Owl.png-e1e001c4a9d0cd3c99da153dd2fd19df.ctex"
+path="res://.godot/imported/Owl.png-5484f24d26c1da501ba6c38458863133.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Owl/Owl.png"
-dest_files=["res://.godot/imported/Owl.png-e1e001c4a9d0cd3c99da153dd2fd19df.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Owl/Owl.png"
+dest_files=["res://.godot/imported/Owl.png-5484f24d26c1da501ba6c38458863133.ctex"]
 
 [params]
 

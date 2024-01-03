@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b4lncde8hbk6o"
-path="res://.godot/imported/029_Decline_09.wav-b640a291008846a8bccfc9da77a4ddba.sample"
+path="res://.godot/imported/029_Decline_09.wav-706aec07d71f9ec1eee21aedb3b2873f.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav"
-dest_files=["res://.godot/imported/029_Decline_09.wav-b640a291008846a8bccfc9da77a4ddba.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav"
+dest_files=["res://.godot/imported/029_Decline_09.wav-706aec07d71f9ec1eee21aedb3b2873f.sample"]
 
 [params]
 

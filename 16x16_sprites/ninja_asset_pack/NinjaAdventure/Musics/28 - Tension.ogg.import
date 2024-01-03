@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://devyt0apsp8ow"
-path="res://.godot/imported/28 - Tension.ogg-9cb8e5a4c3ec99ee3d5e3b580ebf9413.oggvorbisstr"
+path="res://.godot/imported/28 - Tension.ogg-43b6c1902f1e1a5a88172e42e318451f.oggvorbisstr"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/28 - Tension.ogg"
-dest_files=["res://.godot/imported/28 - Tension.ogg-9cb8e5a4c3ec99ee3d5e3b580ebf9413.oggvorbisstr"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Musics/28 - Tension.ogg"
+dest_files=["res://.godot/imported/28 - Tension.ogg-43b6c1902f1e1a5a88172e42e318451f.oggvorbisstr"]
 
 [params]
 

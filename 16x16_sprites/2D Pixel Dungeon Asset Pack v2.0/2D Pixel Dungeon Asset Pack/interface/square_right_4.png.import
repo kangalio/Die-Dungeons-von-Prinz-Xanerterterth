@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpors37www1jh"
-path="res://.godot/imported/square_right_4.png-57825558bdfd9df3a5d9e6c512afc362.ctex"
+path="res://.godot/imported/square_right_4.png-87c1a771bf9482516c27bb50993c0438.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/interface/square_right_4.png"
-dest_files=["res://.godot/imported/square_right_4.png-57825558bdfd9df3a5d9e6c512afc362.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/interface/square_right_4.png"
+dest_files=["res://.godot/imported/square_right_4.png-87c1a771bf9482516c27bb50993c0438.ctex"]
 
 [params]
 

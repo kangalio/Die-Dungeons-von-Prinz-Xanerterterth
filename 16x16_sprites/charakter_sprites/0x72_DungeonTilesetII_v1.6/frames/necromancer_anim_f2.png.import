@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://evyo4rg7g540"
-path="res://.godot/imported/necromancer_anim_f2.png-0ad7832ad976dac50a59256b238d6b90.ctex"
+path="res://.godot/imported/necromancer_anim_f2.png-ac7f78290cc46c351b12e5a20e866ef4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/necromancer_anim_f2.png"
-dest_files=["res://.godot/imported/necromancer_anim_f2.png-0ad7832ad976dac50a59256b238d6b90.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/necromancer_anim_f2.png"
+dest_files=["res://.godot/imported/necromancer_anim_f2.png-ac7f78290cc46c351b12e5a20e866ef4.ctex"]
 
 [params]
 

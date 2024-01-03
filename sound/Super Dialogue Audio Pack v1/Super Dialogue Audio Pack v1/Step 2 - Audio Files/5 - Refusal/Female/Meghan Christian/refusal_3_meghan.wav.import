@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b3jg7agjy1vbp"
-path="res://.godot/imported/refusal_3_meghan.wav-6e5e92dcdec8dabe2551e848edef6a43.sample"
+path="res://.godot/imported/refusal_3_meghan.wav-2f9b61aaaa627148c7e5ef434ebb007a.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Female/Meghan Christian/refusal_3_meghan.wav"
-dest_files=["res://.godot/imported/refusal_3_meghan.wav-6e5e92dcdec8dabe2551e848edef6a43.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/5 - Refusal/Female/Meghan Christian/refusal_3_meghan.wav"
+dest_files=["res://.godot/imported/refusal_3_meghan.wav-2f9b61aaaa627148c7e5ef434ebb007a.sample"]
 
 [params]
 

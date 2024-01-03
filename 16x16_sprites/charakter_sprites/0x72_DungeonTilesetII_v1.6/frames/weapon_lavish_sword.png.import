@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8vksk16bhinq"
-path="res://.godot/imported/weapon_lavish_sword.png-f58227e55c372353ab89f322ea869a29.ctex"
+path="res://.godot/imported/weapon_lavish_sword.png-65a2da46b6f96a2ac10cfa656e9dac8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_lavish_sword.png"
-dest_files=["res://.godot/imported/weapon_lavish_sword.png-f58227e55c372353ab89f322ea869a29.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_lavish_sword.png"
+dest_files=["res://.godot/imported/weapon_lavish_sword.png-65a2da46b6f96a2ac10cfa656e9dac8f.ctex"]
 
 [params]
 

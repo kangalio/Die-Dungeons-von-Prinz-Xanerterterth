@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhowqpxbuoj6c"
-path="res://.godot/imported/Walk.png-40dd63c195a136f98d32f687568a5678.ctex"
+path="res://.godot/imported/Walk.png-12c885aeb776d62b8dc55f7b4280b682.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Walk.png"
-dest_files=["res://.godot/imported/Walk.png-40dd63c195a136f98d32f687568a5678.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Walk.png"
+dest_files=["res://.godot/imported/Walk.png-12c885aeb776d62b8dc55f7b4280b682.ctex"]
 
 [params]
 

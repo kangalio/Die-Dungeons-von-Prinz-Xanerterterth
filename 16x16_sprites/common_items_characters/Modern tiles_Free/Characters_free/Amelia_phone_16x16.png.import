@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3ptqni2u113m"
-path="res://.godot/imported/Amelia_phone_16x16.png-401ce78566ab891a1db38faaf5a06a37.ctex"
+path="res://.godot/imported/Amelia_phone_16x16.png-490126544789c58cd374c58db78fca74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Amelia_phone_16x16.png"
-dest_files=["res://.godot/imported/Amelia_phone_16x16.png-401ce78566ab891a1db38faaf5a06a37.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Amelia_phone_16x16.png"
+dest_files=["res://.godot/imported/Amelia_phone_16x16.png-490126544789c58cd374c58db78fca74.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dxgywrruupr4t"
-path="res://.godot/imported/Hit 1.wav-7ee7c70f7ae38dbe3d49a348779526f7.sample"
+path="res://.godot/imported/Hit 1.wav-9867616e6c3146d2c4a865956c916da9.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Hit 1.wav"
-dest_files=["res://.godot/imported/Hit 1.wav-7ee7c70f7ae38dbe3d49a348779526f7.sample"]
+source_file="res://sound/8BIT_16 BIT 15/8BIT_16 BIT 15/Hit 1.wav"
+dest_files=["res://.godot/imported/Hit 1.wav-9867616e6c3146d2c4a865956c916da9.sample"]
 
 [params]
 

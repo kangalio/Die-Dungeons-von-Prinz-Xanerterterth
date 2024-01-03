@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://gc3161fxy5oa"
-path="res://.godot/imported/69_Enemy_death_01.wav-fd824f11e32f2736746470eb8a95ab74.sample"
+path="res://.godot/imported/69_Enemy_death_01.wav-636e4110c27d4a8fbd85c1b8980d5007.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav"
-dest_files=["res://.godot/imported/69_Enemy_death_01.wav-fd824f11e32f2736746470eb8a95ab74.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav"
+dest_files=["res://.godot/imported/69_Enemy_death_01.wav-636e4110c27d4a8fbd85c1b8980d5007.sample"]
 
 [params]
 

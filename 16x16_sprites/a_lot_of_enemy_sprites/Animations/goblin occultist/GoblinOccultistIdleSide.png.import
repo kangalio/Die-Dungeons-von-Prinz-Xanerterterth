@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0ub6oeivj1hu"
-path="res://.godot/imported/GoblinOccultistIdleSide.png-284b5bb7f4616ff30111edca6ab59dd3.ctex"
+path="res://.godot/imported/GoblinOccultistIdleSide.png-5622ac4e2cd7239ceb5db9f99653c85b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin occultist/GoblinOccultistIdleSide.png"
-dest_files=["res://.godot/imported/GoblinOccultistIdleSide.png-284b5bb7f4616ff30111edca6ab59dd3.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Animations/goblin occultist/GoblinOccultistIdleSide.png"
+dest_files=["res://.godot/imported/GoblinOccultistIdleSide.png-5622ac4e2cd7239ceb5db9f99653c85b.ctex"]
 
 [params]
 

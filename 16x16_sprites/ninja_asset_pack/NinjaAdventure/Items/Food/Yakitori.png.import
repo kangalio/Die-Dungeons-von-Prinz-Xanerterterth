@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2enl0nfubrt3"
-path="res://.godot/imported/Yakitori.png-d9fe51b158e677f1d12e6df8e8a9d09c.ctex"
+path="res://.godot/imported/Yakitori.png-0a93eecb17fcd2d04796ce16fdc76f18.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Yakitori.png"
-dest_files=["res://.godot/imported/Yakitori.png-d9fe51b158e677f1d12e6df8e8a9d09c.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Yakitori.png"
+dest_files=["res://.godot/imported/Yakitori.png-0a93eecb17fcd2d04796ce16fdc76f18.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5qrl1lhoxy4a"
-path="res://.godot/imported/SpriteSheetWhiteSide.png-4f4ced73dda85d8280531549379ec662.ctex"
+path="res://.godot/imported/SpriteSheetWhiteSide.png-e6c6e5b7186d4580e32707ea0f74703d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Cow/SpriteSheetWhiteSide.png"
-dest_files=["res://.godot/imported/SpriteSheetWhiteSide.png-4f4ced73dda85d8280531549379ec662.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Cow/SpriteSheetWhiteSide.png"
+dest_files=["res://.godot/imported/SpriteSheetWhiteSide.png-e6c6e5b7186d4580e32707ea0f74703d.ctex"]
 
 [params]
 

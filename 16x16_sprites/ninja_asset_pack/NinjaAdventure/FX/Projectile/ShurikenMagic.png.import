@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmcxe3w462sb"
-path="res://.godot/imported/ShurikenMagic.png-368795fb78b95a47854de2a0e91691d5.ctex"
+path="res://.godot/imported/ShurikenMagic.png-d7e61a823a4d0896efc54075106baa18.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/ShurikenMagic.png"
-dest_files=["res://.godot/imported/ShurikenMagic.png-368795fb78b95a47854de2a0e91691d5.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/ShurikenMagic.png"
+dest_files=["res://.godot/imported/ShurikenMagic.png-d7e61a823a4d0896efc54075106baa18.ctex"]
 
 [params]
 

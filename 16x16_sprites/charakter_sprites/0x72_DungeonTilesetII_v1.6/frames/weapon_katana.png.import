@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b35knxse3lpsa"
-path="res://.godot/imported/weapon_katana.png-a1226e876f7d024556a9875f5b8b1f49.ctex"
+path="res://.godot/imported/weapon_katana.png-641111161bcd68005cb5ac961afc773b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_katana.png"
-dest_files=["res://.godot/imported/weapon_katana.png-a1226e876f7d024556a9875f5b8b1f49.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_katana.png"
+dest_files=["res://.godot/imported/weapon_katana.png-641111161bcd68005cb5ac961afc773b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl40gc3mpsej3"
-path="res://.godot/imported/OnyxWidowIdleSide.png-21a451851e9247da08a019b4b1456fad.ctex"
+path="res://.godot/imported/OnyxWidowIdleSide.png-c0992383db28c84e949a3e9cdb6eed8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Onyx Widow/OnyxWidowIdleSide.png"
-dest_files=["res://.godot/imported/OnyxWidowIdleSide.png-21a451851e9247da08a019b4b1456fad.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Onyx Widow/OnyxWidowIdleSide.png"
+dest_files=["res://.godot/imported/OnyxWidowIdleSide.png-c0992383db28c84e949a3e9cdb6eed8e.ctex"]
 
 [params]
 

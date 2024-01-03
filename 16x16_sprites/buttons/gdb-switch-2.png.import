@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bksrx07j4b1ea"
-path="res://.godot/imported/gdb-switch-2.png-9829094d19522a1fc281c94c8b075cbe.ctex"
+path="res://.godot/imported/gdb-switch-2.png-c22181ca8bdb4f9265aee72d90795668.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/buttons/gdb-switch-2.png"
-dest_files=["res://.godot/imported/gdb-switch-2.png-9829094d19522a1fc281c94c8b075cbe.ctex"]
+source_file="res://16x16_sprites/buttons/gdb-switch-2.png"
+dest_files=["res://.godot/imported/gdb-switch-2.png-c22181ca8bdb4f9265aee72d90795668.ctex"]
 
 [params]
 

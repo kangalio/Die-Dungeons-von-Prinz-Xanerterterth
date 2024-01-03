@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b5pk834ddxdk7"
-path="res://.godot/imported/confirmation_2_alex.wav-b9fa4269797d67e02cdee47983c697f9.sample"
+path="res://.godot/imported/confirmation_2_alex.wav-4d3f79ddb655c7fe02ac36d67466a3d4.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Male/Alex Brodie/confirmation_2_alex.wav"
-dest_files=["res://.godot/imported/confirmation_2_alex.wav-b9fa4269797d67e02cdee47983c697f9.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/2 - Confirmation/Male/Alex Brodie/confirmation_2_alex.wav"
+dest_files=["res://.godot/imported/confirmation_2_alex.wav-4d3f79ddb655c7fe02ac36d67466a3d4.sample"]
 
 [params]
 

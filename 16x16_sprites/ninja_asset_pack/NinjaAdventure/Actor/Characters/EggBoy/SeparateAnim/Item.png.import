@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6suy0r4m7eqo"
-path="res://.godot/imported/Item.png-a44f9cc4017b9dc224a34d31b32b61ad.ctex"
+path="res://.godot/imported/Item.png-cfce5124fe2e8c1cdb7745e8d6de4af4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/EggBoy/SeparateAnim/Item.png"
-dest_files=["res://.godot/imported/Item.png-a44f9cc4017b9dc224a34d31b32b61ad.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/EggBoy/SeparateAnim/Item.png"
+dest_files=["res://.godot/imported/Item.png-cfce5124fe2e8c1cdb7745e8d6de4af4.ctex"]
 
 [params]
 

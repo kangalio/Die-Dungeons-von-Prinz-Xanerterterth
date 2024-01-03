@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b10lq0rlnqqka"
-path="res://.godot/imported/skeleton_v2_2.png-9302968f54c3c8d1690efb1b9439a82a.ctex"
+path="res://.godot/imported/skeleton_v2_2.png-ca24091eabea95b0cb169ee92a5d5ed4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_2.png"
-dest_files=["res://.godot/imported/skeleton_v2_2.png-9302968f54c3c8d1690efb1b9439a82a.ctex"]
+source_file="res://16x16_sprites/2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton1/v2/skeleton_v2_2.png"
+dest_files=["res://.godot/imported/skeleton_v2_2.png-ca24091eabea95b0cb169ee92a5d5ed4.ctex"]
 
 [params]
 

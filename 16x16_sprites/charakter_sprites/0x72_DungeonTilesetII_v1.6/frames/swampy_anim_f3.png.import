@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cggpa7vw6efrr"
-path="res://.godot/imported/swampy_anim_f3.png-8cd0c0399bf8c9550fbd2edbefab2509.ctex"
+path="res://.godot/imported/swampy_anim_f3.png-699c89137eea97435b2b98d2fb3bb259.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/swampy_anim_f3.png"
-dest_files=["res://.godot/imported/swampy_anim_f3.png-8cd0c0399bf8c9550fbd2edbefab2509.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/swampy_anim_f3.png"
+dest_files=["res://.godot/imported/swampy_anim_f3.png-699c89137eea97435b2b98d2fb3bb259.ctex"]
 
 [params]
 

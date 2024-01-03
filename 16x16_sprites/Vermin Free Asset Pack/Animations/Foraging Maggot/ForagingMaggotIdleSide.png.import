@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0b4cnfsxqmjw"
-path="res://.godot/imported/ForagingMaggotIdleSide.png-2540ff0b411e6e6c4ad201e629f45f57.ctex"
+path="res://.godot/imported/ForagingMaggotIdleSide.png-7574d8eeab8dd70b34c1abedf0426e59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Foraging Maggot/ForagingMaggotIdleSide.png"
-dest_files=["res://.godot/imported/ForagingMaggotIdleSide.png-2540ff0b411e6e6c4ad201e629f45f57.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Foraging Maggot/ForagingMaggotIdleSide.png"
+dest_files=["res://.godot/imported/ForagingMaggotIdleSide.png-7574d8eeab8dd70b34c1abedf0426e59.ctex"]
 
 [params]
 

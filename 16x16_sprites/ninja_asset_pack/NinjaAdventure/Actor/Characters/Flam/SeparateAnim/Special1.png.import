@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsc4p4rqdw2kp"
-path="res://.godot/imported/Special1.png-e03a257fcdcc44b0722d8ad107b35110.ctex"
+path="res://.godot/imported/Special1.png-0b22dd53128f049b9ffdd91a2ebcdcaf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Flam/SeparateAnim/Special1.png"
-dest_files=["res://.godot/imported/Special1.png-e03a257fcdcc44b0722d8ad107b35110.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Flam/SeparateAnim/Special1.png"
+dest_files=["res://.godot/imported/Special1.png-0b22dd53128f049b9ffdd91a2ebcdcaf.ctex"]
 
 [params]
 

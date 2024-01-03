@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br8inkyo0odxf"
-path="res://.godot/imported/sword.png-47b5131d26d320771c24c8e1beafeee2.ctex"
+path="res://.godot/imported/sword.png-2c6cebda5ea1e061972b4f45b468aa35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/basic_rpg_icons/sword.png"
-dest_files=["res://.godot/imported/sword.png-47b5131d26d320771c24c8e1beafeee2.ctex"]
+source_file="res://16x16_sprites/basic_rpg_icons/sword.png"
+dest_files=["res://.godot/imported/sword.png-2c6cebda5ea1e061972b4f45b468aa35.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnmdfexl7hbfm"
-path="res://.godot/imported/Tainted Cockroach.png-52955178ef7f9ec3234a9e83a739d922.ctex"
+path="res://.godot/imported/Tainted Cockroach.png-85edf7c9ab2dc071e89abe3cc7b39fb2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Tainted Cockroach/Tainted Cockroach.png"
-dest_files=["res://.godot/imported/Tainted Cockroach.png-52955178ef7f9ec3234a9e83a739d922.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Tainted Cockroach/Tainted Cockroach.png"
+dest_files=["res://.godot/imported/Tainted Cockroach.png-85edf7c9ab2dc071e89abe3cc7b39fb2.ctex"]
 
 [params]
 

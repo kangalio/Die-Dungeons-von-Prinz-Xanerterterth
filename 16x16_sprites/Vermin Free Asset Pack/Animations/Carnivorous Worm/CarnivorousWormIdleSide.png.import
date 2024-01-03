@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0y4uo5x5wtn3"
-path="res://.godot/imported/CarnivorousWormIdleSide.png-2d1c60e5fbeaba684a9e3ff25874365e.ctex"
+path="res://.godot/imported/CarnivorousWormIdleSide.png-d2a13d208faa5ba26cb5648e8158ed23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Carnivorous Worm/CarnivorousWormIdleSide.png"
-dest_files=["res://.godot/imported/CarnivorousWormIdleSide.png-2d1c60e5fbeaba684a9e3ff25874365e.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Carnivorous Worm/CarnivorousWormIdleSide.png"
+dest_files=["res://.godot/imported/CarnivorousWormIdleSide.png-d2a13d208faa5ba26cb5648e8158ed23.ctex"]
 
 [params]
 

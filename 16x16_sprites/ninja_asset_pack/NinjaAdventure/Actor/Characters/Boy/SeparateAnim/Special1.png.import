@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csocgftj2cfn8"
-path="res://.godot/imported/Special1.png-b9e0f6ac3a804bd0f8c24de52715637b.ctex"
+path="res://.godot/imported/Special1.png-aa022a96e842919161e812465edd1dd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Boy/SeparateAnim/Special1.png"
-dest_files=["res://.godot/imported/Special1.png-b9e0f6ac3a804bd0f8c24de52715637b.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/Boy/SeparateAnim/Special1.png"
+dest_files=["res://.godot/imported/Special1.png-aa022a96e842919161e812465edd1dd3.ctex"]
 
 [params]
 

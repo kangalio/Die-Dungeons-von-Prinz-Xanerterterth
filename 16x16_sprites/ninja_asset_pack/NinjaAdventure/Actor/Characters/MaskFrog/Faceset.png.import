@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c52mc2j8nau1c"
-path="res://.godot/imported/Faceset.png-ba3599a835132a04ea94f30a0bab18ec.ctex"
+path="res://.godot/imported/Faceset.png-0f04c45c8e0082953e6b6717ba940c70.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/MaskFrog/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-ba3599a835132a04ea94f30a0bab18ec.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/MaskFrog/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-0f04c45c8e0082953e6b6717ba940c70.ctex"]
 
 [params]
 

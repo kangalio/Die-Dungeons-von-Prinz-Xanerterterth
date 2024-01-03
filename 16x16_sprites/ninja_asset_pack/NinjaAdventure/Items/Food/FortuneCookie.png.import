@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx7imc0v78aqc"
-path="res://.godot/imported/FortuneCookie.png-fb7a2dd55e88617e25378a74815128ac.ctex"
+path="res://.godot/imported/FortuneCookie.png-7a0e671d0cfcfee07fa926e4fd6e1969.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/FortuneCookie.png"
-dest_files=["res://.godot/imported/FortuneCookie.png-fb7a2dd55e88617e25378a74815128ac.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/FortuneCookie.png"
+dest_files=["res://.godot/imported/FortuneCookie.png-7a0e671d0cfcfee07fa926e4fd6e1969.ctex"]
 
 [params]
 

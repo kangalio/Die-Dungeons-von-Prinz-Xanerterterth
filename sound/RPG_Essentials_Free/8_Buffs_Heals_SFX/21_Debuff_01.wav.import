@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dyp1aipj44w7s"
-path="res://.godot/imported/21_Debuff_01.wav-2fb0021df80adb0e72285aefd54e8b9f.sample"
+path="res://.godot/imported/21_Debuff_01.wav-b0e3a848d3a65e995bf4d1541e5aa82e.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav"
-dest_files=["res://.godot/imported/21_Debuff_01.wav-2fb0021df80adb0e72285aefd54e8b9f.sample"]
+source_file="res://sound/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav"
+dest_files=["res://.godot/imported/21_Debuff_01.wav-b0e3a848d3a65e995bf4d1541e5aa82e.sample"]
 
 [params]
 

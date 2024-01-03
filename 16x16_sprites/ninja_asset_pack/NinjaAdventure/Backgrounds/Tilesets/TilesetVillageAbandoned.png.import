@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yh5bd4112bi7"
-path="res://.godot/imported/TilesetVillageAbandoned.png-712e2a30a35ed1b852054f2914ba5f46.ctex"
+path="res://.godot/imported/TilesetVillageAbandoned.png-5892bed91b1cd08579a88b0a5b96cc82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Tilesets/TilesetVillageAbandoned.png"
-dest_files=["res://.godot/imported/TilesetVillageAbandoned.png-712e2a30a35ed1b852054f2914ba5f46.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Backgrounds/Tilesets/TilesetVillageAbandoned.png"
+dest_files=["res://.godot/imported/TilesetVillageAbandoned.png-5892bed91b1cd08579a88b0a5b96cc82.ctex"]
 
 [params]
 

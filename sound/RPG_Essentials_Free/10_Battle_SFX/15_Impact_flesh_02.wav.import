@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b2c3iaxguxiwj"
-path="res://.godot/imported/15_Impact_flesh_02.wav-55e40e038de3ee1f8ddf76a28db6de03.sample"
+path="res://.godot/imported/15_Impact_flesh_02.wav-d6ba1a180c7759369dc371c8e9de8c09.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav"
-dest_files=["res://.godot/imported/15_Impact_flesh_02.wav-55e40e038de3ee1f8ddf76a28db6de03.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav"
+dest_files=["res://.godot/imported/15_Impact_flesh_02.wav-d6ba1a180c7759369dc371c8e9de8c09.sample"]
 
 [params]
 

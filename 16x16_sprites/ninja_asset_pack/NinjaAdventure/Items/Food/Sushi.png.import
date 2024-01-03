@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xuqeufwq4ote"
-path="res://.godot/imported/Sushi.png-dd425dcacccb7f847cd89ac56d38d9f4.ctex"
+path="res://.godot/imported/Sushi.png-e9c582e9375afb91e129530a053a44e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Sushi.png"
-dest_files=["res://.godot/imported/Sushi.png-dd425dcacccb7f847cd89ac56d38d9f4.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Food/Sushi.png"
+dest_files=["res://.godot/imported/Sushi.png-e9c582e9375afb91e129530a053a44e1.ctex"]
 
 [params]
 

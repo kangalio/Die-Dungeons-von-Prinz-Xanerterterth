@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nqyyxv5mwx3t"
-path="res://.godot/imported/Leaf.png-75c2177ffee74e1b310d5be651ed16f6.ctex"
+path="res://.godot/imported/Leaf.png-021ff0722e760f388765e57cbd57b084.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Leaf.png"
-dest_files=["res://.godot/imported/Leaf.png-75c2177ffee74e1b310d5be651ed16f6.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Leaf.png"
+dest_files=["res://.godot/imported/Leaf.png-021ff0722e760f388765e57cbd57b084.ctex"]
 
 [params]
 

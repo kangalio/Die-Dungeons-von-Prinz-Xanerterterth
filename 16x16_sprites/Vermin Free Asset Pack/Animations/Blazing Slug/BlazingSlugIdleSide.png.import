@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba0r0ryaife5m"
-path="res://.godot/imported/BlazingSlugIdleSide.png-e1ba1390f07d42a7488fb243e89cbb0b.ctex"
+path="res://.godot/imported/BlazingSlugIdleSide.png-1bb060253ab88385228ede106a27b04c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Blazing Slug/BlazingSlugIdleSide.png"
-dest_files=["res://.godot/imported/BlazingSlugIdleSide.png-e1ba1390f07d42a7488fb243e89cbb0b.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Blazing Slug/BlazingSlugIdleSide.png"
+dest_files=["res://.godot/imported/BlazingSlugIdleSide.png-1bb060253ab88385228ede106a27b04c.ctex"]
 
 [params]
 

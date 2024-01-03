@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cndsvg036w1n2"
-path="res://.godot/imported/SoldierAntIdleSide.png-a8fb229a4999fe8bbda21ea586133df8.ctex"
+path="res://.godot/imported/SoldierAntIdleSide.png-0090007d1755382e13417ba14412068b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/Vermin Free Asset Pack/Animations/Soldier Ant/SoldierAntIdleSide.png"
-dest_files=["res://.godot/imported/SoldierAntIdleSide.png-a8fb229a4999fe8bbda21ea586133df8.ctex"]
+source_file="res://16x16_sprites/Vermin Free Asset Pack/Animations/Soldier Ant/SoldierAntIdleSide.png"
+dest_files=["res://.godot/imported/SoldierAntIdleSide.png-0090007d1755382e13417ba14412068b.ctex"]
 
 [params]
 

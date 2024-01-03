@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boi6olqpg1ipm"
-path="res://.godot/imported/Fireball.png-7a091771be874e0469a63880e78609df.ctex"
+path="res://.godot/imported/Fireball.png-32dbec9eae15319ecb6ce221c10665fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png"
-dest_files=["res://.godot/imported/Fireball.png-7a091771be874e0469a63880e78609df.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png"
+dest_files=["res://.godot/imported/Fireball.png-32dbec9eae15319ecb6ce221c10665fa.ctex"]
 
 [params]
 

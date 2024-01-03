@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dtkxc3v5cw1lq"
-path="res://.godot/imported/26_Swim_Submerged_02.wav-859bd6e6ddb7e241cdfcb393cfedcb0b.sample"
+path="res://.godot/imported/26_Swim_Submerged_02.wav-d48a3d93073e32d105b57acf4e1a5f4d.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav"
-dest_files=["res://.godot/imported/26_Swim_Submerged_02.wav-859bd6e6ddb7e241cdfcb393cfedcb0b.sample"]
+source_file="res://sound/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav"
+dest_files=["res://.godot/imported/26_Swim_Submerged_02.wav-d48a3d93073e32d105b57acf4e1a5f4d.sample"]
 
 [params]
 

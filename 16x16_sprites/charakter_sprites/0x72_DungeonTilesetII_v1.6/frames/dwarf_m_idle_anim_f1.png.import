@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc1a2r55sco71"
-path="res://.godot/imported/dwarf_m_idle_anim_f1.png-cfa921dce1efaa3a9b120fb6ad469bda.ctex"
+path="res://.godot/imported/dwarf_m_idle_anim_f1.png-60e15f341e23d0a21d4e52a878517f96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f1.png"
-dest_files=["res://.godot/imported/dwarf_m_idle_anim_f1.png-cfa921dce1efaa3a9b120fb6ad469bda.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/dwarf_m_idle_anim_f1.png"
+dest_files=["res://.godot/imported/dwarf_m_idle_anim_f1.png-60e15f341e23d0a21d4e52a878517f96.ctex"]
 
 [params]
 

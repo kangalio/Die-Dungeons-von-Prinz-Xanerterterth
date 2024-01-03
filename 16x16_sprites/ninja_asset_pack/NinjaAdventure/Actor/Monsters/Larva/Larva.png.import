@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv2khewb5qylx"
-path="res://.godot/imported/Larva.png-e51de5f43e9655486ed127e7c197200a.ctex"
+path="res://.godot/imported/Larva.png-bae0335193e40ef84887054dee7aae6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Larva/Larva.png"
-dest_files=["res://.godot/imported/Larva.png-e51de5f43e9655486ed127e7c197200a.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Larva/Larva.png"
+dest_files=["res://.godot/imported/Larva.png-bae0335193e40ef84887054dee7aae6c.ctex"]
 
 [params]
 

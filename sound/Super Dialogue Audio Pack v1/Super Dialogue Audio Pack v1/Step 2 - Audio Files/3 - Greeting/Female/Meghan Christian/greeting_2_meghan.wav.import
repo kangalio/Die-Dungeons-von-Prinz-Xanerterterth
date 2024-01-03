@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bnfo0fwpr6nkd"
-path="res://.godot/imported/greeting_2_meghan.wav-5d4bc18bf7de8b148536c07d36683f6e.sample"
+path="res://.godot/imported/greeting_2_meghan.wav-47ecb50fb4473d4e77bd75fe04bc2d86.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/3 - Greeting/Female/Meghan Christian/greeting_2_meghan.wav"
-dest_files=["res://.godot/imported/greeting_2_meghan.wav-5d4bc18bf7de8b148536c07d36683f6e.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/3 - Greeting/Female/Meghan Christian/greeting_2_meghan.wav"
+dest_files=["res://.godot/imported/greeting_2_meghan.wav-47ecb50fb4473d4e77bd75fe04bc2d86.sample"]
 
 [params]
 

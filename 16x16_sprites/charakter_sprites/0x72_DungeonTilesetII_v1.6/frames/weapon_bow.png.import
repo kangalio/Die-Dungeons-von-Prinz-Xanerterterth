@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhvnrpp2taut5"
-path="res://.godot/imported/weapon_bow.png-d65ff786b61f84591c022dd5a140bb3f.ctex"
+path="res://.godot/imported/weapon_bow.png-1201c63b907d81ed58353340bdb77726.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_bow.png"
-dest_files=["res://.godot/imported/weapon_bow.png-d65ff786b61f84591c022dd5a140bb3f.ctex"]
+source_file="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/weapon_bow.png"
+dest_files=["res://.godot/imported/weapon_bow.png-1201c63b907d81ed58353340bdb77726.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b76e6q324sy8y"
-path="res://.godot/imported/Dead.png-398b550ecc2de03543642b083a67584d.ctex"
+path="res://.godot/imported/Dead.png-8e95b4b3a0e2e03efe7c587a275deaaa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Dead.png"
-dest_files=["res://.godot/imported/Dead.png-398b550ecc2de03543642b083a67584d.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Characters/RedSamurai/SeparateAnim/Dead.png"
+dest_files=["res://.godot/imported/Dead.png-8e95b4b3a0e2e03efe7c587a275deaaa.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d37oceyyb5637"
-path="res://.godot/imported/ElegantDamselIdleSide.png-048b0f8f9f66f7d655abdfe778299d58.ctex"
+path="res://.godot/imported/ElegantDamselIdleSide.png-31ebcc1c36921fdd8c6d6833c4204e71.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Elegant Damsel/ElegantDamselIdleSide.png"
-dest_files=["res://.godot/imported/ElegantDamselIdleSide.png-048b0f8f9f66f7d655abdfe778299d58.ctex"]
+source_file="res://16x16_sprites/a_lot_of_enemy_sprites/Humanoid II Basic Asset Pack/Humanoid II Basic Asset Pack/Elegant Damsel/ElegantDamselIdleSide.png"
+dest_files=["res://.godot/imported/ElegantDamselIdleSide.png-31ebcc1c36921fdd8c6d6833c4204e71.ctex"]
 
 [params]
 

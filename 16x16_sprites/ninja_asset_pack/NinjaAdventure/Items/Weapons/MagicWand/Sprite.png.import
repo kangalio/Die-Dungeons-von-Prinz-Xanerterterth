@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvfxlwideedai"
-path="res://.godot/imported/Sprite.png-a2936082d5f17d4dd0c8fea0f26bf1bd.ctex"
+path="res://.godot/imported/Sprite.png-f61bbe6ec7228f880cebeea9d99c54b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/MagicWand/Sprite.png"
-dest_files=["res://.godot/imported/Sprite.png-a2936082d5f17d4dd0c8fea0f26bf1bd.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Items/Weapons/MagicWand/Sprite.png"
+dest_files=["res://.godot/imported/Sprite.png-f61bbe6ec7228f880cebeea9d99c54b8.ctex"]
 
 [params]
 

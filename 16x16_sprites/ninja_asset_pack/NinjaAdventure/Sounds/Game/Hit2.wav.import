@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ocmn6gdf6fwh"
-path="res://.godot/imported/Hit2.wav-f8fee77fca65070e15281e241641b615.sample"
+path="res://.godot/imported/Hit2.wav-7c6aacdc8d8da48afe0c18b75a604c49.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Hit2.wav"
-dest_files=["res://.godot/imported/Hit2.wav-f8fee77fca65070e15281e241641b615.sample"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Sounds/Game/Hit2.wav"
+dest_files=["res://.godot/imported/Hit2.wav-7c6aacdc8d8da48afe0c18b75a604c49.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6nro26rt17e"
-path="res://.godot/imported/DialogBox.png-78d2c1acd56f5030a625a5348bb9c396.ctex"
+path="res://.godot/imported/DialogBox.png-a942520ab96f222b487118789915f11e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Dialog/DialogBox.png"
-dest_files=["res://.godot/imported/DialogBox.png-78d2c1acd56f5030a625a5348bb9c396.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/HUD/Dialog/DialogBox.png"
+dest_files=["res://.godot/imported/DialogBox.png-a942520ab96f222b487118789915f11e.ctex"]
 
 [params]
 

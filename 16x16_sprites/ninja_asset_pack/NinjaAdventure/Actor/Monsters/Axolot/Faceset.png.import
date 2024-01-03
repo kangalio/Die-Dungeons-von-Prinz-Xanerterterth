@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvsh5q175s87p"
-path="res://.godot/imported/Faceset.png-ace3e1bc18a9aa8f3a9da4168566ea53.ctex"
+path="res://.godot/imported/Faceset.png-432354ed1e537dc79b92301b13fcae3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Axolot/Faceset.png"
-dest_files=["res://.godot/imported/Faceset.png-ace3e1bc18a9aa8f3a9da4168566ea53.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Monsters/Axolot/Faceset.png"
+dest_files=["res://.godot/imported/Faceset.png-432354ed1e537dc79b92301b13fcae3a.ctex"]
 
 [params]
 

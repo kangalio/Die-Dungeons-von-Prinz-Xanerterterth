@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b34dsifw77wib"
-path="res://.godot/imported/Room_Builder_free_48x48.png-2586f1f16fece62cf499ead654c9baa0.ctex"
+path="res://.godot/imported/Room_Builder_free_48x48.png-e1548279c57b6b2123b0888bf4241278.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Interiors_free/48x48/Room_Builder_free_48x48.png"
-dest_files=["res://.godot/imported/Room_Builder_free_48x48.png-2586f1f16fece62cf499ead654c9baa0.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Interiors_free/48x48/Room_Builder_free_48x48.png"
+dest_files=["res://.godot/imported/Room_Builder_free_48x48.png-e1548279c57b6b2123b0888bf4241278.ctex"]
 
 [params]
 

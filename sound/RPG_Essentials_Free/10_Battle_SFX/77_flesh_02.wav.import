@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bg0dkny384q57"
-path="res://.godot/imported/77_flesh_02.wav-a3330974404dd703b2a23fb28802a5ef.sample"
+path="res://.godot/imported/77_flesh_02.wav-546ee79d65b256a24da87c0e09bd0f72.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav"
-dest_files=["res://.godot/imported/77_flesh_02.wav-a3330974404dd703b2a23fb28802a5ef.sample"]
+source_file="res://sound/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav"
+dest_files=["res://.godot/imported/77_flesh_02.wav-546ee79d65b256a24da87c0e09bd0f72.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdwqoffax2a23"
-path="res://.godot/imported/SpriteSheetYellow.png-3d417e6d7e865eb6ca46e26c9a4c954d.ctex"
+path="res://.godot/imported/SpriteSheetYellow.png-04ac167bc53e9f03f5d93ad14d348074.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Magic/Shield/SpriteSheetYellow.png"
-dest_files=["res://.godot/imported/SpriteSheetYellow.png-3d417e6d7e865eb6ca46e26c9a4c954d.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Magic/Shield/SpriteSheetYellow.png"
+dest_files=["res://.godot/imported/SpriteSheetYellow.png-04ac167bc53e9f03f5d93ad14d348074.ctex"]
 
 [params]
 

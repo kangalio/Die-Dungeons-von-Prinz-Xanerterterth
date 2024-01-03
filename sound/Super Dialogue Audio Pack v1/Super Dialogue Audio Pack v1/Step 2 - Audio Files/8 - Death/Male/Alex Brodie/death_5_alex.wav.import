@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://qqo3lnot304i"
-path="res://.godot/imported/death_5_alex.wav-cd0473834e89538bb396dd3f42fc447d.sample"
+path="res://.godot/imported/death_5_alex.wav-d21c04b425b0d8cb26ad7c4582bcf188.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Alex Brodie/death_5_alex.wav"
-dest_files=["res://.godot/imported/death_5_alex.wav-cd0473834e89538bb396dd3f42fc447d.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Alex Brodie/death_5_alex.wav"
+dest_files=["res://.godot/imported/death_5_alex.wav-d21c04b425b0d8cb26ad7c4582bcf188.sample"]
 
 [params]
 

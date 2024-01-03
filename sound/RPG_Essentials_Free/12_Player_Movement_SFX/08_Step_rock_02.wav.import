@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://d1u578s35j6st"
-path="res://.godot/imported/08_Step_rock_02.wav-8742c2993243b089112e03cb614b3a84.sample"
+path="res://.godot/imported/08_Step_rock_02.wav-ae9e56c9dea7eac33d3ee479d85eb853.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav"
-dest_files=["res://.godot/imported/08_Step_rock_02.wav-8742c2993243b089112e03cb614b3a84.sample"]
+source_file="res://sound/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav"
+dest_files=["res://.godot/imported/08_Step_rock_02.wav-ae9e56c9dea7eac33d3ee479d85eb853.sample"]
 
 [params]
 

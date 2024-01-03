@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn8ss6u27bxgk"
-path="res://.godot/imported/Amelia_sit2_16x16.png-9cb397ae756078bedf8632a516b3f2d8.ctex"
+path="res://.godot/imported/Amelia_sit2_16x16.png-d1d7441a7e7a9726c1d089b35b90d77c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Amelia_sit2_16x16.png"
-dest_files=["res://.godot/imported/Amelia_sit2_16x16.png-9cb397ae756078bedf8632a516b3f2d8.ctex"]
+source_file="res://16x16_sprites/common_items_characters/Modern tiles_Free/Characters_free/Amelia_sit2_16x16.png"
+dest_files=["res://.godot/imported/Amelia_sit2_16x16.png-d1d7441a7e7a9726c1d089b35b90d77c.ctex"]
 
 [params]
 

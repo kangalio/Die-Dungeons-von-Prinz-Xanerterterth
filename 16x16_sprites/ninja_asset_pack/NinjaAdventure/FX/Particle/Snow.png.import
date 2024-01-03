@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfugaphpemb2c"
-path="res://.godot/imported/Snow.png-325557b06df757e19e8984aa5553c416.ctex"
+path="res://.godot/imported/Snow.png-1d2950a11769f4f6d23e02addd4cf08c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Snow.png"
-dest_files=["res://.godot/imported/Snow.png-325557b06df757e19e8984aa5553c416.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Particle/Snow.png"
+dest_files=["res://.godot/imported/Snow.png-1d2950a11769f4f6d23e02addd4cf08c.ctex"]
 
 [params]
 

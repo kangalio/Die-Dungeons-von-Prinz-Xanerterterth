@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci6uof5osyk4e"
-path="res://.godot/imported/SpriteSheetCute.png-63c5df35ee6a7bdd56e2557b5bb9843d.ctex"
+path="res://.godot/imported/SpriteSheetCute.png-0bdefe86ed2d94a3a361f70ca065a306.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Chicken/SpriteSheetCute.png"
-dest_files=["res://.godot/imported/SpriteSheetCute.png-63c5df35ee6a7bdd56e2557b5bb9843d.ctex"]
+source_file="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/Actor/Animals/Chicken/SpriteSheetCute.png"
+dest_files=["res://.godot/imported/SpriteSheetCute.png-0bdefe86ed2d94a3a361f70ca065a306.ctex"]
 
 [params]
 

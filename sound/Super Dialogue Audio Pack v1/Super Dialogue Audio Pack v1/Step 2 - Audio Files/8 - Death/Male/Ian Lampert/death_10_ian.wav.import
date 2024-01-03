@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cpgtvf4wchtdm"
-path="res://.godot/imported/death_10_ian.wav-345fea87b1bd9b04fc38cc7e246af783.sample"
+path="res://.godot/imported/death_10_ian.wav-d3ec04fd87a6fd330dfd6ad4b93578a1.sample"
 
 [deps]
 
-source_file="res://Die-Dungeons-von-Prinz-Xanerterterth/sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Ian Lampert/death_10_ian.wav"
-dest_files=["res://.godot/imported/death_10_ian.wav-345fea87b1bd9b04fc38cc7e246af783.sample"]
+source_file="res://sound/Super Dialogue Audio Pack v1/Super Dialogue Audio Pack v1/Step 2 - Audio Files/8 - Death/Male/Ian Lampert/death_10_ian.wav"
+dest_files=["res://.godot/imported/death_10_ian.wav-d3ec04fd87a6fd330dfd6ad4b93578a1.sample"]
 
 [params]
 
