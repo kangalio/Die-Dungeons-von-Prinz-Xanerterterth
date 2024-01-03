@@ -1,6 +1,5 @@
-[gd_scene load_steps=6 format=3 uid="uid://clcjjj6rhwkuf"]
+[gd_scene load_steps=5 format=3 uid="uid://clcjjj6rhwkuf"]
 
-[ext_resource type="PackedScene" uid="uid://ckunf2yxv3a5e" path="res://spieler/character/player.tscn" id="1_0fpse"]
 [ext_resource type="Texture2D" uid="uid://46dm3r3vmskx" path="res://icon.svg" id="2_2ohtf"]
 [ext_resource type="Script" path="res://spieler/character/DummyEnemy.gd" id="2_fi5rr"]
 
@@ -11,9 +10,6 @@ distance = -213.959
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b8qli"]
 
 [node name="Main" type="Node2D"]
-
-[node name="Player" parent="." instance=ExtResource("1_0fpse")]
-position = Vector2(550, 380)
 
 [node name="InvisibleWall" type="StaticBody2D" parent="." groups=["wall"]]
 position = Vector2(552, 392)
