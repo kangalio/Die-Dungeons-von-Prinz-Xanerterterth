@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://clcjjj6rhwkuf"]
 
-[ext_resource type="PackedScene" uid="uid://dd2eb35shej6m" path="res://spieler/spieler/player.tscn" id="1_cenwh"]
+[ext_resource type="PackedScene" uid="uid://ckunf2yxv3a5e" path="res://spieler/character/player.tscn" id="1_0fpse"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_pp3pv"]
 normal = Vector2(-0.0570498, -0.998371)
@@ -8,11 +8,11 @@ distance = -213.959
 
 [node name="Main" type="Node2D"]
 
+[node name="Node2D" parent="." instance=ExtResource("1_0fpse")]
+position = Vector2(550, 380)
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(552, 392)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("WorldBoundaryShape2D_pp3pv")
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_cenwh")]
-position = Vector2(554, 386)

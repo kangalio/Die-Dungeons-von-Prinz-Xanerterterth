@@ -3,7 +3,7 @@ extends CharacterBody2D
 var speed = 500
 var slipperiness = 0.01
 
-var bullet_scene = preload("res://spieler/spieler/bullet.tscn")
+var bullet_scene = preload("res://spieler/character/bullet.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
