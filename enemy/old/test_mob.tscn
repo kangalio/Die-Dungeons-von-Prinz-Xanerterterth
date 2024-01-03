@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbsdfj2nh76oe"]
+
+[ext_resource type="Script" path="res://enemy/test_mob.gd" id="1_4otys"]
+[ext_resource type="Texture2D" uid="uid://cuqtnussjva5v" path="res://enemy/hunter.png" id="1_a4ltk"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_4otys")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Hunter" type="Sprite2D" parent="."]
+position = Vector2(397, 125)
+texture = ExtResource("1_a4ltk")
