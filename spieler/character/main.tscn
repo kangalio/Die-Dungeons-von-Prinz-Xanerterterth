@@ -1,18 +1,33 @@
-[gd_scene load_steps=3 format=3 uid="uid://clcjjj6rhwkuf"]
+[gd_scene load_steps=6 format=3 uid="uid://clcjjj6rhwkuf"]
 
 [ext_resource type="PackedScene" uid="uid://ckunf2yxv3a5e" path="res://spieler/character/player.tscn" id="1_0fpse"]
+[ext_resource type="Texture2D" uid="uid://46dm3r3vmskx" path="res://icon.svg" id="2_2ohtf"]
+[ext_resource type="Script" path="res://spieler/character/DummyEnemy.gd" id="2_fi5rr"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_pp3pv"]
 normal = Vector2(-0.0570498, -0.998371)
 distance = -213.959
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b8qli"]
+
 [node name="Main" type="Node2D"]
 
-[node name="Node2D" parent="." instance=ExtResource("1_0fpse")]
+[node name="Player" parent="." instance=ExtResource("1_0fpse")]
 position = Vector2(550, 380)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="InvisibleWall" type="StaticBody2D" parent="." groups=["wall"]]
 position = Vector2(552, 392)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InvisibleWall"]
 shape = SubResource("WorldBoundaryShape2D_pp3pv")
+
+[node name="DummyEnemy" type="StaticBody2D" parent="." groups=["enemy"]]
+position = Vector2(84, 81)
+script = ExtResource("2_fi5rr")
+
+[node name="Sprite2D" type="Sprite2D" parent="DummyEnemy"]
+texture = ExtResource("2_2ohtf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DummyEnemy"]
+scale = Vector2(6.21311, 6.21311)
+shape = SubResource("RectangleShape2D_b8qli")
