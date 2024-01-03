@@ -1,6 +1,6 @@
 extends Node2D
 
-var upgrade = "res://player/upgrades/upgrade.tscn"
+@export var upgrade = ""
 
 var player_is_close:bool = false
 # Called when the node enters the scene tree for the first time.
