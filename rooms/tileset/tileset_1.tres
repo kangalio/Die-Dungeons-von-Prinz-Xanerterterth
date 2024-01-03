@@ -1,6 +1,7 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://6wgl32gxffm5"]
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://6wgl32gxffm5"]
 
-[ext_resource type="Texture2D" uid="uid://dw2olyejpxawt" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
+[ext_resource type="Texture2D" uid="uid://d2t3eweckt2ay" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
+[ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="2_kaf4w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b2vnv"]
 texture = ExtResource("1_7nedd")
@@ -4886,8 +4887,13 @@ texture_region_size = Vector2i(48, 48)
 1:17/0/physics_layer_1/angular_velocity = 0.0
 1:17/0/physics_layer_1/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
 
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_xew7l"]
+resource_name = "base"
+scenes/1/scene = ExtResource("2_kaf4w")
+
 [resource]
 tile_size = Vector2i(48, 48)
 physics_layer_0/collision_layer = 3
 physics_layer_1/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_b2vnv")
+sources/1 = SubResource("TileSetScenesCollectionSource_xew7l")
