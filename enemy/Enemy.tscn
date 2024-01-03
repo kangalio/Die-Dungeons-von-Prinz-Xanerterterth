@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_m6618"]
 [ext_resource type="Texture2D" uid="uid://46dm3r3vmskx" path="res://icon.svg" id="2_so87k"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnpdv"]
-size = Vector2(128, 128)
+[sub_resource type="CircleShape2D" id="CircleShape2D_jgw5q"]
+radius = 64.0
 
 [node name="enemy" type="CharacterBody2D"]
 script = ExtResource("1_m6618")
@@ -16,5 +16,7 @@ position = Vector2(32, 32)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_so87k")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Icon"]
-shape = SubResource("RectangleShape2D_nnpdv")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(32, 32)
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_jgw5q")

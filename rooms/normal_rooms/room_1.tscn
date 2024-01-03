@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dm50yxig3oonk"]
+[gd_scene load_steps=5 format=3 uid="uid://dm50yxig3oonk"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
+[ext_resource type="PackedScene" uid="uid://cjbgl2fm7f8ov" path="res://enemy/Enemy.tscn" id="3_fco8o"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_bh733"]
 vertices = PackedVector2Array(1230, 630, 202, 630, 202, 106, 1230, 106)
@@ -21,3 +22,6 @@ layer_0/tile_data = PackedInt32Array(262164, 1441792, 8, 262165, 1507328, 8, 262
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="TileMap"]
 navigation_polygon = SubResource("NavigationPolygon_bh733")
+
+[node name="enemy" parent="." instance=ExtResource("3_fco8o")]
+position = Vector2(320, 320)
