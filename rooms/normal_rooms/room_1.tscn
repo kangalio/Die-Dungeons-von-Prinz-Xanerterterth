@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dm50yxig3oonk"]
+[gd_scene load_steps=4 format=3 uid="uid://dat0aw306sj6k"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
@@ -25,19 +25,19 @@ layer_0/tile_data = PackedInt32Array(262164, 1441792, 8, 262165, 1507328, 8, 262
 [node name="EnterPoint" type="Node2D" parent="."]
 position = Vector2(1112, 560)
 
-[node name="EnemySpawnPoint" type="Node2D" parent="."]
+[node name="EnemySpawnPoints" type="Node2D" parent="."]
 
-[node name="Point_001" type="Node2D" parent="EnemySpawnPoint"]
+[node name="Point_001" type="Node2D" parent="EnemySpawnPoints"]
 position = Vector2(280, 488)
 
-[node name="Point_002" type="Node2D" parent="EnemySpawnPoint"]
+[node name="Point_002" type="Node2D" parent="EnemySpawnPoints"]
 position = Vector2(640, 328)
 
-[node name="Point_003" type="Node2D" parent="EnemySpawnPoint"]
+[node name="Point_003" type="Node2D" parent="EnemySpawnPoints"]
 position = Vector2(288, 168)
 
-[node name="Point_004" type="Node2D" parent="EnemySpawnPoint"]
+[node name="Point_004" type="Node2D" parent="EnemySpawnPoints"]
 position = Vector2(1152, 224)
 
-[node name="Point_005" type="Node2D" parent="EnemySpawnPoint"]
+[node name="Point_005" type="Node2D" parent="EnemySpawnPoints"]
 position = Vector2(648, 576)
