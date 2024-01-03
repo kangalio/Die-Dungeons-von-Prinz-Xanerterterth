@@ -1,7 +1,20 @@
 extends CharacterBody2D
 
-var speed = 500
-var slipperiness = 0.01
+
+const SPEED = 10000.0
+const JUMP_VELOCITY = -400.0
+var dash_cooldown : float = 2
+var dash_length : float = 1
+
+var LP = 0
+
+func take_damege(ponts):
+	LP = LP - ponts
+	
+	if LP <= 0:
+		pass
+		#jetzt in den äußeren Game Loop
+
 
 var bullet_scene = preload("res://spieler/character/bullet.tscn")
 
@@ -10,16 +23,24 @@ func _ready():
 	pass
 
 func do_movement_input(delta):
-	velocity *= pow(slipperiness, delta)
-	
+	velocity.x = 0
+	velocity.y = 0
 	if Input.is_key_pressed(KEY_W):
-		velocity.y = -speed
+		velocity.y =-SPEED*delta
 	if Input.is_key_pressed(KEY_S):
-		velocity.y = speed
-	if Input.is_key_pressed(KEY_A):
-		velocity.x = -speed
+		velocity.y =SPEED*delta
 	if Input.is_key_pressed(KEY_D):
-		velocity.x = speed
+		velocity.x =SPEED*delta
+	if Input.is_key_pressed(KEY_A):
+		velocity.x =-SPEED*delta
+	if Input.is_key_pressed(KEY_SHIFT) and dash_cooldown <= 0:
+		velocity *= 2
+	
+	dash_cooldown -= delta
+	if dash_cooldown <= 0-dash_length:
+		dash_cooldown = 2
+		
+	move_and_slide()
 
 func do_bullet_input():
 	if Input.is_action_just_pressed("ui_left") \
