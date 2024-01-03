@@ -7,7 +7,7 @@ var dash_cooldown : float = 2
 var dash_length : float = 1
 var facing_direction : float = -PI / 2
 
-var LP = 0
+var LP = 10
 
 func take_damage(ponts):
 	LP = LP - ponts
@@ -19,11 +19,13 @@ func take_damage(ponts):
 
 var bullet_scene = preload("res://spieler/character/bullet.tscn")
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	position = get_viewport_rect().get_center()
 
 func do_movement_input(delta):
+	if LP <= 0:
+		return
+	
 	facing_direction += Input.get_axis("left", "right") * ROTATION_SPEED
 	
 	rotation = facing_direction + PI / 2
@@ -44,7 +46,12 @@ func do_bullet_input():
 		bullet.position = self.position
 		bullet.velocity = Vector2.from_angle(facing_direction) * 15
 		add_sibling(bullet)
+		_do_recoil(1)
 
+func _do_recoil(strength):
+	pass
+	#den Player zurücksetzen und dan wieder vor ( nicht wichtig aber schön)
+	
 func _process(delta):
 	do_movement_input(delta)
 	do_bullet_input()
