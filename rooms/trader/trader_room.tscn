@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://o761ip8t0hf8"]
+
+[ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_bibhj"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_2fpbr"]
+
+[node name="trader_room" type="Node2D"]
+
+[node name="BaseRoom" parent="." instance=ExtResource("1_bibhj")]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource("2_2fpbr")
+format = 2
+layer_0/tile_data = PackedInt32Array(65552, 131072, 10, 16, 131072, 9, 524297, 917504, 18, 524299, 786432, 18, 524300, 851968, 18, 524302, 917504, 18, 524295, 393216, 27, 524304, 393216, 27, 262151, 393216, 27, 262160, 393216, 27, 131088, 393216, 22, 131087, 327680, 22, 131075, 458752, 23, 131076, 524288, 23, 65539, 458752, 22, 65540, 524288, 22, 131081, 720896, 21, 65545, 720896, 20, 131086, 786432, 21, 65550, 786432, 20, 458770, 0, 19, 458757, 0, 19, 524293, 0, 20, 524306, 0, 20)
