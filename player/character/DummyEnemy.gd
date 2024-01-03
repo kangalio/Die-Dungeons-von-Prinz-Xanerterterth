@@ -12,3 +12,4 @@ func _process(delta):
 
 func take_damage():
 	scale *= 0.9
+	
