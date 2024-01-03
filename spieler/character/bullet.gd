@@ -1,4 +1,4 @@
-extends Node2D
+extends Area2D
 
 var velocity = Vector2(0, 0)
 
