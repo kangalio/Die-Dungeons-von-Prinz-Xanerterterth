@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://c7dbuplvvqcfp"]
 
 [ext_resource type="Script" path="res://metadata/ui.gd" id="1_7s14o"]
-[ext_resource type="Texture2D" uid="uid://dtyhpx1su2sya" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_gf4q4"]
-[ext_resource type="Texture2D" uid="uid://b1vlyyftl0mvy" path="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/ui_heart_full.png" id="3_ynp5h"]
+[ext_resource type="Texture2D" uid="uid://bnlw7u5r044lr" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_gf4q4"]
+[ext_resource type="Texture2D" uid="uid://b1pf2yvxv43lp" path="res://16x16_sprites/charakter_sprites/0x72_DungeonTilesetII_v1.6/frames/ui_heart_full.png" id="3_ynp5h"]
 
 [node name="ui" type="Control"]
 z_index = 10
@@ -25,6 +25,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Coin1" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(992, 32)
 scale = Vector2(4, 4)
 texture = ExtResource("1_gf4q4")
@@ -32,51 +33,61 @@ texture = ExtResource("1_gf4q4")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
 [node name="UiHeartEmpty" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(35.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty2" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(75.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty3" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(115.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty4" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(155.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty5" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(195.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty6" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(235.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty7" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(275.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty8" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(315.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty9" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(355.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
 
 [node name="UiHeartEmpty10" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(395.5, 34)
 scale = Vector2(3, 3)
 texture = ExtResource("3_ynp5h")
