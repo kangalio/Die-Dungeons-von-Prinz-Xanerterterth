@@ -5,7 +5,7 @@
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_41c0o"]
 
-[node name="SpeedBoostOnFloor" type="Area2D"]
+[node name="SpeedBoostOnFloor2" type="Area2D"]
 script = ExtResource("1_cocr6")
 upgrade = "res://player/upgrade/speed_boost.tscn"
 cost = 3
@@ -15,6 +15,7 @@ scale = Vector2(2, 2)
 shape = SubResource("CircleShape2D_41c0o")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
 texture = ExtResource("2_7pmun")
 
 [node name="Label" type="Label" parent="."]
