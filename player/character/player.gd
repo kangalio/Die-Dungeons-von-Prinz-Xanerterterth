@@ -39,6 +39,7 @@ func _ready():
 	position = get_viewport_rect().get_center()
 	_animated_sprite.play("walk")
 
+
 func add_upgrade(file_path):
 	var upgrade = load(file_path).instantiate()
 	if upgrade.is_weapon:
