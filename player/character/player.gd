@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var weapon = preload("res://player/character/magic_attack.tscn")
+var starting_weapon = preload("res://player/character/magic_attack.tscn")
 
 
 var weapon_reference
@@ -28,7 +28,7 @@ func take_damage(ponts):
 @onready var _animated_sprite = $AnimatedSprite2D
 
 func _ready():
-	var weapon_instance = weapon.instantiate()
+	var weapon_instance = starting_weapon.instantiate()
 	weapon_reference = weapon_instance
 	self.add_child(weapon_instance)
 	position = get_viewport_rect().get_center()
@@ -46,7 +46,6 @@ func add_upgrade(file_path):
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
-		print(player_direction)
 		weapon_reference.attack(bonus_damage) 
 
 func _process(delta):
@@ -71,3 +70,7 @@ func full_character_reset():
 	bonus_speed = 0
 	running_LP = base_LP
 	money = base_money
+	
+	weapon_reference.queue_free()
+	weapon_reference = starting_weapon.instantiate()
+	self.add_child(weapon_reference)

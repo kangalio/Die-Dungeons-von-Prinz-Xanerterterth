@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://cp6my2rtyd2il"]
 
-[ext_resource type="Texture2D" uid="uid://dtyhpx1su2sya" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_8sqbm"]
+[ext_resource type="Texture2D" uid="uid://becdvd3o61lvn" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_8sqbm"]
 [ext_resource type="Script" path="res://interactables/coin.gd" id="1_nipte"]
-[ext_resource type="Texture2D" uid="uid://vydmccnpl82m" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_2.png" id="2_cjliu"]
-[ext_resource type="Texture2D" uid="uid://5vfpw5f1rygn" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_3.png" id="3_tseqk"]
-[ext_resource type="Texture2D" uid="uid://ddgjwc8tykvar" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_4.png" id="4_urbpv"]
+[ext_resource type="Texture2D" uid="uid://ccufdseroly20" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_2.png" id="2_cjliu"]
+[ext_resource type="Texture2D" uid="uid://c2k6qlpix4g4s" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_3.png" id="3_tseqk"]
+[ext_resource type="Texture2D" uid="uid://cu202o18jjy3p" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_4.png" id="4_urbpv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fxfs"]
 radius = 35.0143
@@ -29,7 +29,7 @@ animations = [{
 "speed": 2.0
 }]
 
-[node name="Coin" type="Area2D"]
+[node name="Coin" type="Area2D" groups=["coin"]]
 script = ExtResource("1_nipte")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
