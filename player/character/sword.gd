@@ -1,8 +1,13 @@
 extends Area2D
 
+
+
 var damage : int = 2
-var cooldown : float = 2
-var cooldown_static : float = cooldown
+var cooldown : float = 0
+var cooldown_static : float = 2
+
+var sword_is_rotation : bool = false
+
 func attack(bonus_damage):
 	if cooldown <= 0:
 		cooldown = cooldown_static
@@ -10,9 +15,19 @@ func attack(bonus_damage):
 		for body in bodies:
 			if body.is_in_group("enemy"):
 				body.take_damage(damage+bonus_damage)
-				
+		sword_is_rotation = true
+
+var rotation_speed = 0.125
 
 func _process(delta):
-	self.position = PLAYER_CHARACTER.position
 	if cooldown > 0:
 		cooldown -= delta # => cooldwon von cooldown in sekunden
+
+	if sword_is_rotation:
+		if $Node2D.rotation < 2*PI:
+			print($Node2D.rotation)
+			$Node2D.rotation = $Node2D.rotation + rotation_speed
+		else:
+			print('sword stopped')
+			$Node2D.rotation = 0
+			sword_is_rotation = false
