@@ -11,7 +11,6 @@ func _process(delta):
 	explosion_time -= delta
 	if explosion_time <= 0:
 		var bodies = self.get_overlapping_bodies()
-		print (bodies)
 		for body in bodies:
 			if body.is_in_group("enemy"):
 				body.take_damage(damage+bonus_damage)
