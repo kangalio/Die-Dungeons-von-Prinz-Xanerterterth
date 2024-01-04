@@ -21,6 +21,7 @@ func take_damage (damage_taken):
 func die ():
 	#loot übergben
 	$AnimatedSprite2D.play("die")
+	await get_tree().create_tween().tween_interval(1).finished
 	GameManager.on_enemy_died(self.global_position)
 	self.queue_free() 
 

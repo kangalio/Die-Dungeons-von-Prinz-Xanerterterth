@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://chcsrqjesyi2x" path="res://enemy/melee/ghost.png" id="2_yw3yp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i531n"]
-radius = 12.0
-height = 82.2094
+radius = 1.0
+height = 3.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_crq06"]
 radius = 16.0

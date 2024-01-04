@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://buiccans3wovx"]
 
-[ext_resource type="Script" path="res://enemy/enemy.gd" id="1_jivo0"]
+[ext_resource type="Script" path="res://enemy/melee/range.gd" id="1_2ftqb"]
 [ext_resource type="Texture2D" uid="uid://1ig67t56gboc" path="res://enemy/melee/range.png" id="2_dyy28"]
 [ext_resource type="Texture2D" uid="uid://do385v6148yc5" path="res://enemy/melee/health_bar_frame.png" id="3_abwgs"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="4_v1kwf"]
@@ -86,7 +86,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f0t6t"]
-radius = 50.1834
+radius = 407.165
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_esjqa"]
 radius = 22.0
@@ -141,10 +141,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="minion" type="CharacterBody2D" groups=["enemy"]]
-script = ExtResource("1_jivo0")
-health = 20
-movement_speed = 3400
+[node name="range" type="CharacterBody2D" groups=["enemy"]]
+script = ExtResource("1_2ftqb")
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 25.0
