@@ -8,7 +8,10 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
-const ROOM_NORMAL = "res://rooms/normal_rooms/room_1.tscn"
+const ROOM_NORMAL = [
+	"res://rooms/normal_rooms/room_1.tscn",
+	"res://rooms/normal_rooms/room_2.tscn"	
+]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
 var enemy_melee_cls = load("res://enemy/melee/hunter.tscn")
@@ -86,7 +89,7 @@ func enter_new_room(room="normal"):
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 	else:
-		new_room_cls = load(ROOM_NORMAL)
+		new_room_cls = load(ROOM_NORMAL.pick_random())
 		room_counter += 1
 	new_room = new_room_cls.instantiate()
 	self.add_child(new_room)
