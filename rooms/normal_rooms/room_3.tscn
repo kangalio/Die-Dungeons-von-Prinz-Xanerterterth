@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cfu8kfayiftlt"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_tquo7"]
-[ext_resource type="TileSet" path="res://tileset_x.tres" id="2_l7w43"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_l7w43"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_cs0g8"]
 vertices = PackedVector2Array(1018, 374, 854, 374, 202, 298, 470, 298, 1094, 630, 58, 630, 298, 538, 470, 538, 134, 538, 1018, 298, 1018, 182, 1094, 106, 58, 106, 134, 374, 950, 182, 854, 538, 682, 538, 682, 374, 470, 374, 134, 298, 950, 298, 682, 298, 682, 182, 614, 182, 1018, 538, 614, 298, 538, 298, 538, 182, 470, 182, 202, 182, 298, 374, 134, 182)
