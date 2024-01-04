@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://q04yykca4bgy"]
+
+[ext_resource type="Script" path="res://player/upgrade/DEG_boost.gd" id="1_0caiq"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_0caiq")

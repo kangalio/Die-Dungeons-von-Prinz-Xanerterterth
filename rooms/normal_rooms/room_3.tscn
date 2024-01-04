@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfu8kfayiftlt"]
+
+[ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_tquo7"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_ilfte"]
+
+[node name="room_3" type="Node2D"]
+
+[node name="BaseRoom" parent="." instance=ExtResource("1_tquo7")]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+
+[node name="TileMap" type="TileMap" parent="NavigationRegion2D"]
+tile_set = ExtResource("2_ilfte")
+format = 2
+layer_0/tile_data = PackedInt32Array(524292, 1376256, 19, 589828, 1376256, 20, 655364, 1376256, 21, 524293, 1441792, 19, 589829, 1441792, 20, 655365, 1441792, 21, 655371, 1376256, 21, 524300, 1376256, 19, 589836, 1376256, 20, 655372, 1376256, 21, 524301, 1441792, 19, 589837, 1441792, 20, 655373, 1441792, 21, 524306, 1310720, 19, 589842, 1310720, 20, 655378, 1310720, 21, 524307, 1376256, 19, 589843, 1376256, 20, 655379, 1376256, 21, 524308, 1441792, 19, 589844, 1441792, 20, 655380, 1441792, 21, 524291, 1310720, 19, 589827, 1310720, 20, 655363, 1310720, 21, 524298, 1310720, 19, 589834, 1310720, 20, 655370, 1310720, 21, 524299, 1376256, 19, 589835, 1376256, 20, 196611, 1376256, 2, 262147, 1376256, 3, 327683, 1376256, 4, 196618, 1376256, 2, 262154, 1376256, 3, 327690, 1376256, 4, 196621, 1376256, 2, 262157, 1376256, 3, 327693, 1376256, 4, 196628, 1376256, 2, 262164, 1376256, 3, 327700, 1376256, 4)
+
+[node name="EnterPoint" type="Node2D" parent="."]
+position = Vector2(576, 600)
+
+[node name="EnemySpawnPoint" type="Node2D" parent="."]
+
+[node name="Point_001" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(832, 192)
+
+[node name="Point_002" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(320, 192)
+
+[node name="Point_003" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(576, 320)
+
+[node name="Point_004" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(960, 320)
+
+[node name="Point_005" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(256, 320)

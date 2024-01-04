@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://1e5wk586ssra"]
+
+[ext_resource type="Script" path="res://magic_attack.gd" id="1_lssuu"]
+
+[node name="magic_attack" type="Node2D"]
+script = ExtResource("1_lssuu")
