@@ -4,5 +4,5 @@ extends Area2D
 func _on_body_entered(body):
 	# if body == PLAYER_CHARACTER:
 	PLAYER_CHARACTER.money = PLAYER_CHARACTER.money + 1
-	print('money_money_money')
+	print('money money money')
 	self.queue_free()
