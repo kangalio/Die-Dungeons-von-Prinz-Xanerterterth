@@ -17,9 +17,14 @@ var bonus_speed : int = 0
 var base_money : int = 0
 var money : int = base_money
 
+var base_armor : int = 0
+var armor : int = 0
 
-func take_damage(ponts):
-	running_LP = running_LP - ponts
+func take_damage(points):
+	var delta = points - armor
+	if delta < 1:
+		delta = 1
+	running_LP = running_LP - delta
 	
 	if running_LP <= 0:
 		GameManager.on_player_character_died()

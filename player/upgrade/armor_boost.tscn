@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2bowfhr3jti"]
+
+[ext_resource type="Script" path="res://player/upgrade/armor_boost.gd" id="1_of6g4"]
+
+[node name="ArmorBoost" type="Node2D"]
+script = ExtResource("1_of6g4")
