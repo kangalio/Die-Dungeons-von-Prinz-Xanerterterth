@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-var base_speed = 10000
+var base_speed = 50000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
 
@@ -14,6 +14,8 @@ var weapon_damage : int = 0
 var bonus_damage : int = 0
 		
 var bonus_speed = 0
+
+var money = 5
 
 func take_damage(ponts):
 	running_LP = running_LP - ponts
@@ -38,13 +40,6 @@ func add_upgrade(file_path):
 	
 	else:
 		self.add_child(upgrade)
-
-var money = 5
-
-func purchase(cost, file_path):
-	if money >= cost:
-		money = money - cost
-		add_upgrade(file_path)
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
