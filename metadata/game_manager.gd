@@ -18,6 +18,7 @@ const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
 	#"res://rooms/normal_rooms/room_2.tscn"
 	"res://rooms/normal_rooms/room_3.tscn",	
+	"res://rooms/normal_rooms/room_4.tscn",	
 ]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
@@ -77,7 +78,8 @@ func on_player_character_died():
 	current_room.queue_free()
 	remove_all_enemies()
 	enter_new_room("tutorial")
-	PLAYER_CHARACTER.running_LP = PLAYER_CHARACTER.base_LP
+	PLAYER_CHARACTER.full_character_reset()
+	
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
