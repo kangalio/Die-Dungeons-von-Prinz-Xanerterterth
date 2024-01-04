@@ -11,7 +11,7 @@ const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
 const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
-	"res://rooms/normal_rooms/room_2.tscn"	
+	#"res://rooms/normal_rooms/room_2.tscn"	
 ]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
@@ -95,6 +95,7 @@ func enter_new_room(room="normal"):
 	else:
 		new_room_cls = load(ROOM_NORMAL.pick_random())
 		room_counter += 1
+	print("Spawning new room")
 	new_room = new_room_cls.instantiate()
 	self.add_child(new_room)
 	current_room = new_room
