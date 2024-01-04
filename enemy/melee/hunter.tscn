@@ -1,7 +1,7 @@
-[gd_scene load_steps=13 format=3 uid="uid://cmpm65c0irjuy"]
+[gd_scene load_steps=13 format=3 uid="uid://draad7hn1vk6t"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://b8ul10rgyw2y0" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
+[ext_resource type="Texture2D" uid="uid://daxkb0qas4kel" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h1brm"]
 atlas = ExtResource("2_w5eh6")
@@ -92,8 +92,8 @@ height = 137.444
 [node name="hunter" type="CharacterBody2D" groups=["enemy"]]
 position = Vector2(-45, -36)
 script = ExtResource("1_ix1mt")
-health = 25
-movement_speed = 4000
+health = 30
+movement_speed = 9500
 attack_damage = 3
 attack_speed = 1.5
 
@@ -118,6 +118,7 @@ shape = SubResource("CapsuleShape2D_i531n")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(45, 36)
 rotation = -1.5708
+scale = Vector2(0.5, 0.5)
 shape = SubResource("CapsuleShape2D_i531n")
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
