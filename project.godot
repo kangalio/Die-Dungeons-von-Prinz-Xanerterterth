@@ -24,6 +24,7 @@ Ui="*res://metadata/ui.tscn"
 [display]
 
 window/size/viewport_height=672
+window/stretch/mode="canvas_items"
 
 [gui]
 

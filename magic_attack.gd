@@ -15,9 +15,6 @@ func attack (bonus_damage):
 		PLAYER_CHARACTER.add_sibling(fireball)
 		fireball.position = PLAYER_CHARACTER.position
 		fireball.direction = PLAYER_CHARACTER.player_direction
-		print("fireball")
-		print(fireball.direction)
-		print(PLAYER_CHARACTER.player_direction)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
