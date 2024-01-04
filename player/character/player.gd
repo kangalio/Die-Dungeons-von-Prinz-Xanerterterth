@@ -2,21 +2,26 @@ extends CharacterBody2D
 
 var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-var speed = 10000
+var base_speed = 10000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
-var LP = 10
+
+var base_LP = 10
+var running_LP : int = 10
+
+var base_damage : int = 0
+var weapon_damage : int = 0
+var bonus_damage : int = 0
+		
+var bonus_speed = 0
 
 func take_damage(ponts):
-	LP = LP - ponts
+	running_LP = running_LP - ponts
 	
-	if LP <= 0:
-		die()
+	if running_LP <= 0:
+		pass
 		#jetzt in den äußeren Game Loop
 
-func die():
-	print("Player died")
-	GameManager.on_player_character_died()
 
 func _ready():
 	var weapon_instance = weapon.instantiate()
@@ -30,19 +35,28 @@ func add_upgrade(file_path):
 		weapon_reference.queue_free()
 		weapon_reference = upgrade
 		self.add_child(upgrade)
+	
+	else:
+		self.add_child(upgrade)
+
+var money = 5
+
+func purchase(cost, file_path):
+	if money >= cost:
+		money = money - cost
+		add_upgrade(file_path)
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
-		weapon_reference.attack()
+		weapon_reference.attack(base_damage + bonus_damage + weapon_damage)
 
 func _process(delta):
-	#do_movement_input(delta)
 	alternative_movement(delta)
 	alternative_direction()
 
 func alternative_movement(delta):
 	var direction = Input.get_vector("left", "right", "forward", "backward")
-	self.velocity = direction.normalized() * speed * delta
+	self.velocity = direction.normalized() * (base_speed+bonus_speed) * delta
 	move_and_slide()
 
 func alternative_direction():

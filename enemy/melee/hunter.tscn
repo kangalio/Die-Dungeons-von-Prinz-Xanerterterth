@@ -1,7 +1,7 @@
-[gd_scene load_steps=13 format=3 uid="uid://draad7hn1vk6t"]
+[gd_scene load_steps=13 format=3 uid="uid://cmpm65c0irjuy"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://daxkb0qas4kel" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
+[ext_resource type="Texture2D" uid="uid://b8ul10rgyw2y0" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h1brm"]
 atlas = ExtResource("2_w5eh6")
@@ -49,6 +49,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_uoceo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1brm")
 }],
 "loop": true,
 "name": &"attac",
@@ -83,20 +86,25 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i531n"]
-radius = 22.0
-height = 106.0
+radius = 29.0
+height = 137.444
 
 [node name="hunter" type="CharacterBody2D" groups=["enemy"]]
+position = Vector2(-45, -36)
 script = ExtResource("1_ix1mt")
+health = 25
+movement_speed = 4000
+attack_damage = 3
+attack_speed = 1.5
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(64, 31)
+position = Vector2(45, 36)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_vfgnd")
-animation = &"walk"
+animation = &"attac"
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(32, 32)
@@ -104,12 +112,14 @@ position = Vector2(32, 32)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(13, 5)
 rotation = -1.5708
+scale = Vector2(2, 1.557)
 shape = SubResource("CapsuleShape2D_i531n")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(45, 37)
+position = Vector2(45, 36)
 rotation = -1.5708
 shape = SubResource("CapsuleShape2D_i531n")
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

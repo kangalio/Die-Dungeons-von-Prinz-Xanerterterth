@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3 uid="uid://cp6my2rtyd2il"]
+
+[ext_resource type="Texture2D" uid="uid://brrc4sc7d2vn2" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_8sqbm"]
+[ext_resource type="Script" path="res://interactables/coin.gd" id="1_nipte"]
+[ext_resource type="Texture2D" uid="uid://dssa1g5s0hxh3" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_2.png" id="2_cjliu"]
+[ext_resource type="Texture2D" uid="uid://cjrpf3aybtov0" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_3.png" id="3_tseqk"]
+[ext_resource type="Texture2D" uid="uid://dmcijg3wyc44n" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_4.png" id="4_urbpv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0fxfs"]
+radius = 8.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dtdci"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8sqbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_cjliu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tseqk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_urbpv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="Coin" type="Area2D"]
+script = ExtResource("1_nipte")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0fxfs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_dtdci")
+frame_progress = 0.412827
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
