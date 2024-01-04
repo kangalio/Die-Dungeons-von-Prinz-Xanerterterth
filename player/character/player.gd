@@ -5,12 +5,14 @@ var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 var speed = 10000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
-var LP = 10
+
+var base_LP = 10
+var running_LP : int = 10
 
 func take_damage(ponts):
-	LP = LP - ponts
+	running_LP = running_LP - ponts
 	
-	if LP <= 0:
+	if running_LP <= 0:
 		pass
 		#jetzt in den äußeren Game Loop
 
@@ -28,7 +30,7 @@ func add_upgrade(file_path):
 		self.add_child(upgrade)
 
 func _input(event):
-	if Input.is_action_just_pressed("shoot"):
+	if Input.is_action_just_pressed("shoot") and running_LP >= 0:
 		weapon_reference.attack()
 
 func _process(delta):
@@ -37,9 +39,10 @@ func _process(delta):
 	alternative_direction()
 
 func alternative_movement(delta):
-	var direction = Input.get_vector("left", "right", "forward", "backward")
-	self.velocity = direction.normalized() * speed * delta
-	move_and_slide()
+	if running_LP >= 0:
+		var direction = Input.get_vector("left", "right", "forward", "backward")
+		self.velocity = direction.normalized() * speed * delta
+		move_and_slide()
 
 func alternative_direction():
 	if Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down").length() != 0:
