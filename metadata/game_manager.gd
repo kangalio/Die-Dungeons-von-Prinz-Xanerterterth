@@ -8,8 +8,9 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 
 const DEBUG = 1
-const TO_TRADER = 1
+const TO_TRADER = 0
 const INF_HEALTH = 0
+const OPEN_DOORS = 0
 
 const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
@@ -125,8 +126,9 @@ func enter_new_room(room="normal"):
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
 	spawn_all_enemies(new_room)
-			
-	if DEBUG:
+	if remaining_enemies <= 0:
 		open_exit_door()
-		if INF_HEALTH:
-			PLAYER_CHARACTER.running_LP = 100000
+	if DEBUG and OPEN_DOORS:
+		open_exit_door()
+	if DEBUG and INF_HEALTH:
+		PLAYER_CHARACTER.running_LP = 100000
