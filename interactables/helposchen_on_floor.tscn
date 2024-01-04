@@ -7,7 +7,7 @@
 
 [node name="Area2D" type="Area2D"]
 script = ExtResource("1_1llyh")
-upgrade = "res://player/upgrade/helposchen.gd"
+upgrade = "res://player/upgrade/helposchen.tscn"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_f0pr2")
