@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://o761ip8t0hf8"]
+[gd_scene load_steps=8 format=3 uid="uid://o761ip8t0hf8"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_bibhj"]
+[ext_resource type="Script" path="res://rooms/trader/trader_room.gd" id="1_tbvy8"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_2fpbr"]
 [ext_resource type="PackedScene" uid="uid://bym5hxcckqjof" path="res://interactables/speed_bost_on_floor.tscn" id="3_8aucd"]
 [ext_resource type="PackedScene" uid="uid://crvudjhwo10rs" path="res://interactables/helposchen_on_floor.tscn" id="4_urvk5"]
@@ -8,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bgnv1kdcrkheg" path="res://interactables/debuggin_tool_on_floor.tscn" id="6_gfd2f"]
 
 [node name="trader_room" type="Node2D"]
+script = ExtResource("1_tbvy8")
 
 [node name="BaseRoom" parent="." instance=ExtResource("1_bibhj")]
 

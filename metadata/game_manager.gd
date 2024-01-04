@@ -7,8 +7,8 @@ var next_room_is_trader = 0
 var room_counter:int = 0
 var remaining_enemies:int = 0
 
-const DEBUG = 0
-const TO_TRADER = 0
+const DEBUG = 1
+const TO_TRADER = 1
 const INF_HEALTH = 0
 const OPEN_DOORS = 0
 
@@ -71,27 +71,19 @@ func spawn_all_enemies(room):
 			
 func remove_all_enemies():
 	for enemy in get_tree().get_nodes_in_group("enemy"):
-		enemy.queue_free()		
+		enemy.queue_free()
 				
 func on_player_character_died():
 	current_room.queue_free()
 	remove_all_enemies()
 	enter_new_room("tutorial")
 	PLAYER_CHARACTER.full_character_reset()
-	
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
-	spawn_interactable(INTERACTABLE_COIN, at_position)
 	if remaining_enemies <= 0:
 		open_exit_door()
 
-func spawn_interactable(file_path, position):
-	var interactable = load(file_path).instantiate()
-	self.add_child(interactable)
-	interactable.set_global_position(position)
-	
-		
 func open_exit_door():
 	print("Unlocking door")
 	var doorblocker = get_tree().get_first_node_in_group("door_blocker")
@@ -120,7 +112,7 @@ func generate_new_room(room):
 	
 func enter_new_room(room="normal"):
 	remaining_enemies = 0
-	var new_room = generate_new_room(room)		
+	var new_room = generate_new_room(room)
 	self.add_child(new_room)
 	current_room = new_room
 	
