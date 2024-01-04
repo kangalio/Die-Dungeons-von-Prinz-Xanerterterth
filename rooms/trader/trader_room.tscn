@@ -22,11 +22,13 @@ position = Vector2(585, 576)
 [node name="SpeedBoostOnFloor" parent="." instance=ExtResource("3_8aucd")]
 position = Vector2(696, 448)
 
-[node name="Area2D" parent="." instance=ExtResource("4_urvk5")]
+[node name="helposchen" parent="." instance=ExtResource("4_urvk5")]
 position = Vector2(456, 448)
 
-[node name="Area2D2" parent="." instance=ExtResource("5_fq6xt")]
+[node name="DAG_Boost" parent="." instance=ExtResource("5_fq6xt")]
 position = Vector2(576, 448)
 
-[node name="SpeedBoostOnFloor2" parent="." instance=ExtResource("6_gfd2f")]
-position = Vector2(-456, -152)
+[node name="debuging_tool" parent="." instance=ExtResource("6_gfd2f")]
+position = Vector2(96, 120)
+
+[connection signal="body_exited" from="helposchen" to="BaseRoom" method="_on_helposchen_body_exited"]

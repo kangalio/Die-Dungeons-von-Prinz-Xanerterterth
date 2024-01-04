@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2x681mn1ql2c"]
 
-[ext_resource type="Texture2D" uid="uid://vg30y5kl6ud7" path="res://16x16_sprites/potions/item_50.png" id="1_niyew"]
+[ext_resource type="Texture2D" uid="uid://hof6ox3v534w" path="res://16x16_sprites/potions/item_50.png" id="1_niyew"]
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="2_xy854"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4gleg"]
@@ -8,12 +8,24 @@
 [node name="Area2D" type="Area2D"]
 script = ExtResource("2_xy854")
 upgrade = "res://player/upgrade/DEG_boost.tscn"
+cost = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(2, 2)
 shape = SubResource("CircleShape2D_4gleg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_niyew")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -24.0
+offset_top = 16.0
+offset_right = 24.0
+offset_bottom = 65.0
+text = "DMG
+4"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]
