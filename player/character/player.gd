@@ -40,7 +40,6 @@ func _input(event):
 		weapon_reference.attack()
 
 func _process(delta):
-	#do_movement_input(delta)
 	alternative_movement(delta)
 	alternative_direction()
 
