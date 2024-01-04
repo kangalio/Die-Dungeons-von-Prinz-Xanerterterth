@@ -1,14 +1,12 @@
-extends Node
+extends Node2D
+
+var is_weapon:bool = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass
-	 # Replace with function body.
+	PLAYER_CHARACTER.bonus_speed = PLAYER_CHARACTER.bonus_speed + 3000
+	print('more speeeeeeeeed')
 
-func attack():
-	pass
-	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
-

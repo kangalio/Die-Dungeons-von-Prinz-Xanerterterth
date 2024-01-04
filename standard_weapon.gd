@@ -1,7 +1,8 @@
 extends "res://player/upgrade/upgrade.gd"
 
 var is_weapon : bool = true 
-
+var bullet_scene = preload("res://player/character/bullet.tscn")
+var bullet_speed = 10
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
