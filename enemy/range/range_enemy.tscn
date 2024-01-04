@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://pe1xya7en52l"]
-
-[ext_resource type="Script" path="res://enemy/range/range_enemy.gd" id="1_mile7"]
-
-[node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_mile7")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
