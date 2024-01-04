@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 PLAYER_CHARACTER="*res://player/character/player.tscn"
 GameManager="*res://metadata/game_manager.gd"
+Ui="*res://metadata/ui.tscn"
 
 [display]
 
