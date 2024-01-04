@@ -1,7 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://dffjgmp7lqst6"]
+[gd_scene load_steps=14 format=3 uid="uid://cjbgl2fm7f8ov"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://c53xxkw7jqw0p" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
+[ext_resource type="Texture2D" uid="uid://dukh5yuu43vdd" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n4b1k"]
 atlas = ExtResource("2_tn0ty")
@@ -100,7 +100,8 @@ radius = 29.1548
 [node name="minion" type="CharacterBody2D" groups=["enemy"]]
 position = Vector2(-32, -29)
 script = ExtResource("1_ix1mt")
-health = 10
+health = 20
+movement_speed = 3400
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 

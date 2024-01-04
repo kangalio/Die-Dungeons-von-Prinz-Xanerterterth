@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://ym18dtspbg6k"]
+
+[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_t7als"]
+[ext_resource type="Texture2D" uid="uid://b2ydnlpexgk1" path="res://16x16_sprites/basic_rpg_icons/sword.png" id="2_1nin5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hejsp"]
+
+[node name="sword_on_the_ground" type="Area2D"]
+script = ExtResource("1_t7als")
+upgrade = "res://player/character/sword.gd"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_hejsp")
+
+[node name="Sword" type="Sprite2D" parent="."]
+texture = ExtResource("2_1nin5")
