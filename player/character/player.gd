@@ -46,7 +46,6 @@ func add_upgrade(file_path):
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
-		print(player_direction)
 		weapon_reference.attack(bonus_damage) 
 
 func _process(delta):
