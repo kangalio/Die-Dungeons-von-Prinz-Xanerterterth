@@ -10,6 +10,7 @@ func _ready():
 	direction.normalized()
 
 func _process(delta):
+	$AnimatedSprite2D.play("default")
 	time -= delta 
 	if time <= 0:
 		queue_free()
