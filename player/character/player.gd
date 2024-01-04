@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-var base_speed = 5000
+var base_speed = 7500
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
 
@@ -13,7 +13,7 @@ var bonus_damage : int = 0
 
 var bonus_speed = 0
 
-var money = 5
+var money = 0
 
 func take_damage(ponts):
 	running_LP = running_LP - ponts

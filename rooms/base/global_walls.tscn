@@ -12,9 +12,10 @@ shape = SubResource("WorldBoundaryShape2D_720ga")
 one_way_collision = true
 
 [node name="NorthWall" type="StaticBody2D" parent="."]
-position = Vector2(576, 80)
+position = Vector2(576, 30)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="NorthWall"]
+position = Vector2(0, -1)
 rotation = 3.14159
 shape = SubResource("WorldBoundaryShape2D_720ga")
 one_way_collision = true
