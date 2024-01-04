@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var damage : int = 1
-@export var bullet_speed : int = 10000
+@export var bullet_speed : int = 80
 var direction = Vector2(1, 0)
 
 func _ready():

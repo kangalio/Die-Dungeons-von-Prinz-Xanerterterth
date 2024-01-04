@@ -6,21 +6,21 @@
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="4_v1kwf"]
 [ext_resource type="Texture2D" uid="uid://c6vp4b45f2ufg" path="res://enemy/melee/health_bar.png" id="5_ssqc3"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_6dlhu"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_cahas"]
 atlas = ExtResource("2_dyy28")
-region = Rect2(0, 0, 16, 16)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6qe2q"]
-atlas = ExtResource("2_dyy28")
-region = Rect2(16, 0, 16, 16)
+region = Rect2(48, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0r1tc"]
 atlas = ExtResource("2_dyy28")
 region = Rect2(32, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_cahas"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_6qe2q"]
 atlas = ExtResource("2_dyy28")
-region = Rect2(48, 0, 16, 16)
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6dlhu"]
+atlas = ExtResource("2_dyy28")
+region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r0ovh"]
 atlas = ExtResource("2_dyy28")
@@ -42,20 +42,20 @@ region = Rect2(48, 16, 16, 16)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_6dlhu")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6qe2q")
+"texture": SubResource("AtlasTexture_cahas")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0r1tc")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cahas")
+"texture": SubResource("AtlasTexture_6qe2q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6dlhu")
 }],
 "loop": true,
 "name": &"attac",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [],
 "loop": true,
@@ -143,6 +143,8 @@ animations = [{
 
 [node name="range" type="CharacterBody2D" groups=["enemy"]]
 script = ExtResource("1_2ftqb")
+health = 6
+attack_speed = 5.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 25.0
