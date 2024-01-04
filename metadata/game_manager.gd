@@ -8,7 +8,7 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 
 const DEBUG = 1
-const TO_TRADER = 0
+const TO_TRADER = 1
 const INF_HEALTH = 0
 const OPEN_DOORS = 0
 
