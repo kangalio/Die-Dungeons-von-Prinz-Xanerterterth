@@ -13,7 +13,8 @@ const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
 const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
-	#"res://rooms/normal_rooms/room_2.tscn"	
+	#"res://rooms/normal_rooms/room_2.tscn"
+	"res://rooms/normal_rooms/room_3.tscn",	
 ]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
