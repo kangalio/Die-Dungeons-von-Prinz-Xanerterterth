@@ -44,6 +44,7 @@ func add_upgrade(file_path):
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
+		print(player_direction)
 		weapon_reference.attack(bonus_damage) 
 
 func _process(delta):
@@ -60,6 +61,6 @@ func alternative_movement(delta):
 	move_and_slide()
 
 func alternative_direction():
-	if Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down").length() != 0:
-		player_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	if Input.get_vector("left_shoot", "right_shoot", "forward_shoot", "backward_shoot").length() != 0:
+		player_direction = Input.get_vector("left_shoot", "right_shoot", "forward_shoot", "backward_shoot")
 	
