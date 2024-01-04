@@ -81,6 +81,9 @@ func on_player_character_died():
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
+	var new_coin = load("res://interactables/coin.tscn").instantiate()
+	new_coin.global_position = at_position
+	self.add_child(new_coin)
 	if remaining_enemies <= 0:
 		open_exit_door()
 
