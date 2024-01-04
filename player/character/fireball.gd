@@ -4,14 +4,14 @@ var explosion = load("res://player/character/explosion.tscn")
 
 func _ready():
 	direction.normalized()
-	$AnimatedSprite2D.play("default")
+	$AnimatedSprite2D.play()
 
 func _on_area_2d_body_entered(body):
-	if body.is_in_group("player") :
-		print("spawn")
-	else:
+	if body.is_in_group("enemy"):
 		var explosion_instance = explosion.instantiate()
-		explosion_instance.bonus_damage = bonus_damage
-		self.add_sibling(explosion_instance)
-		explosion_instance.position = self.position 
 		queue_free()
+		self.add_sibling(explosion_instance)
+	elif body.is_in_group("wall"):
+		queue_free()
+		var explosion_instance = explosion.instantiate()
+		self.add_sibling(explosion_instance)
