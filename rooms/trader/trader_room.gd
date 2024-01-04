@@ -11,8 +11,8 @@ func return_interactable():
 		"res://interactables/DMG_boost_on_floor.tscn", 
 		"res://interactables/helposchen_on_floor.tscn", 
 		"res://interactables/speed_bost_on_floor.tscn",
-		"res://interactables/armor_on_floor.tscn",
-		"res://player/upgrade/armor_boost.tscn"
+		"res://interactables/magic_attack_on_floor.tscn",
+		"res://interactables/sword_on_floor.tscn"
 	].pick_random()
 
 func spawn_interactable(file_path, position):

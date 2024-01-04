@@ -14,7 +14,7 @@ var bonus_damage : int = 0
 var base_speed = 7500
 var bonus_speed : int = 0
 
-var base_money : int = 0
+var base_money : int = 100
 var money : int = base_money
 
 var base_armor : int = 0
