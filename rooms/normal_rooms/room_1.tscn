@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
-[ext_resource type="PackedScene" uid="uid://draad7hn1vk6t" path="res://enemy/melee/hunter.tscn" id="3_n650e"]
-[ext_resource type="PackedScene" uid="uid://cjbgl2fm7f8ov" path="res://enemy/melee/minion.tscn" id="4_0yk2p"]
-[ext_resource type="PackedScene" uid="uid://csxigjgv4vdsn" path="res://enemy/melee/tank.tscn" id="5_6ynvx"]
+[ext_resource type="PackedScene" path="res://enemy/melee/hunter.tscn" id="3_n650e"]
+[ext_resource type="PackedScene" path="res://enemy/melee/minion.tscn" id="4_0yk2p"]
+[ext_resource type="PackedScene" path="res://enemy/melee/tank.tscn" id="5_6ynvx"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_bh733"]
 vertices = PackedVector2Array(1230, 106, 1230, 630, 1162, 442, 1162, 374, 1066, 250, 1066, 182, 1094, 374, 538, 298, 538, 182, 614, 202, 710, 230, 710, 538, 586, 374, 970, 182, 970, 134, 682, 202, 682, 134, 854, 134, 854, 202, 778, 230, 950, 202, 950, 230, 902, 230, 902, 278, 778, 278, 586, 538, 422, 374, 374, 298, 970, 538, 970, 250, 1094, 442, 202, 630, 422, 538, 202, 106, 374, 182, 614, 134)
