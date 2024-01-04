@@ -7,6 +7,7 @@ var next_room_is_trader = 0
 var room_counter:int = 0
 var remaining_enemies:int = 0
 
+const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
 const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
@@ -63,12 +64,15 @@ func on_player_character_died():
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
 	print("Enemy died, remaining = ",remaining_enemies)
-	#spawn_interactable()
+	spawn_interactable(INTERACTABLE_COIN, at_position)
 	if remaining_enemies <= 0:
 		open_exit_door()
 
 func spawn_interactable(file_path, position):
-	pass
+	var interactable = load(file_path).instantiate()
+	self.add_child(interactable)
+	interactable.set_global_position(position)
+	
 		
 func open_exit_door():
 	print("Unlocking door")
