@@ -6,7 +6,7 @@ func _ready():
 	GameManager.open_exit_door()
 	
 func return_interactable():
-	return ["res://interactables/debuggin_tool_on_floor.tscn", "res://interactables/DMG_boost_on_floor.tscn", "res://interactables/helposchen_on_floor.tscn", "res://interactables/speed_bost_on_floor.tscn", "res://interactables/weapon_01_on_floor.tscn"].pick_random()
+	return ["res://interactables/DMG_boost_on_floor.tscn", "res://interactables/helposchen_on_floor.tscn", "res://interactables/speed_bost_on_floor.tscn",].pick_random()
 
 func spawn_interactable(file_path, position):
 	var interactable = load(file_path).instantiate()
