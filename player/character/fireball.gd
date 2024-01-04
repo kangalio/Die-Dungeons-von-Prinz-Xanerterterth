@@ -3,6 +3,7 @@ extends "res://player/character/bullet.gd"
 var explosion = load("res://player/character/explosion.tscn")
 
 func _ready():
+	time = 100000
 	direction.normalized()
 	$AnimatedSprite2D.play()
 
