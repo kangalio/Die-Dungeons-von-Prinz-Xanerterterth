@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://4uefuxfqof1k"]
+
+[ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_dtg47"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_0tix1"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_c0qym"]
+vertices = PackedVector2Array(1066, 250, 1066, 134, 1094, 106, 1094, 422, 970, 106, 998, 134, 970, 298, 998, 250, 970, 422, 970, 326, 538, 346, 538, 106, 710, 106, 710, 422, 422, 422, 422, 346, 422, 470, 394, 470, 394, 134, 422, 106, 298, 106, 326, 134, 298, 442, 326, 518, 202, 518, 230, 442, 202, 182, 230, 106, 58, 106, 134, 182, 58, 630, 134, 586, 1094, 630, 826, 586, 826, 106, 854, 106, 854, 298, 854, 326, 854, 586, 1094, 586)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 2, 1, 5), PackedInt32Array(6, 4, 5, 7), PackedInt32Array(0, 3, 8, 9, 7), PackedInt32Array(6, 7, 9), PackedInt32Array(10, 11, 12, 13), PackedInt32Array(10, 13, 14, 15), PackedInt32Array(14, 16, 17, 18), PackedInt32Array(15, 14, 18), PackedInt32Array(19, 15, 18), PackedInt32Array(20, 19, 18, 21), PackedInt32Array(22, 20, 21, 23), PackedInt32Array(22, 23, 24, 25), PackedInt32Array(25, 24, 26, 27), PackedInt32Array(28, 27, 26, 29), PackedInt32Array(30, 28, 29, 31), PackedInt32Array(32, 30, 31, 33), PackedInt32Array(33, 34, 35, 36), PackedInt32Array(36, 6, 9, 37), PackedInt32Array(33, 36, 37), PackedInt32Array(33, 37, 38), PackedInt32Array(32, 33, 38), PackedInt32Array(32, 38, 39)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(48, 96, 48, 640, 1104, 640, 1104, 96)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+
+[node name="room_2" type="Node2D"]
+
+[node name="BaseRoom" parent="." instance=ExtResource("1_dtg47")]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_c0qym")
+
+[node name="TileMap" type="TileMap" parent="NavigationRegion2D"]
+tile_set = ExtResource("2_0tix1")
+format = 2
+layer_0/tile_data = PackedInt32Array(720918, 393216, 8, 655383, 458752, 7, 655382, 393216, 7, 655381, 393216, 7, 655380, 393216, 7, 720915, 393216, 8, 720916, 393216, 8, 720917, 393216, 8, 720908, 393216, 8, 720909, 393216, 8, 720910, 393216, 8, 720911, 393216, 8, 655372, 393216, 7, 655373, 393216, 7, 655374, 393216, 7, 655375, 393216, 7, 655379, 393216, 7, 655378, 65536, 9, 655376, 196608, 9, 589842, 65536, 8, 524306, 65536, 8, 524304, 196608, 8, 589840, 196608, 8, 458770, 65536, 7, 458771, 196608, 7, 524307, 196608, 8, 589844, 131072, 7, 589845, 131072, 7, 589843, 327680, 10, 589847, 458752, 10, 589846, 131072, 7, 720912, 196608, 10, 327699, 196608, 10, 327698, 65536, 10, 262163, 196608, 9, 196627, 196608, 8, 262162, 65536, 9, 196626, 65536, 8, 131090, 65536, 8, 131091, 196608, 8, 18, 458752, 7, 19, 327680, 7, 65554, 65536, 8, 65555, 196608, 8, 196629, 1638400, 3, 131093, 1638400, 2, 262165, 524288, 27, 131088, 196608, 8, 196624, 196608, 8, 262160, 196608, 8, 327696, 196608, 8, 393232, 196608, 8, 458768, 196608, 8, 16, 327680, 7, 65552, 196608, 8, 720914, 65536, 10, 65551, 65536, 8, 131087, 65536, 8, 196623, 65536, 8, 262159, 65536, 8, 327695, 65536, 8, 393231, 65536, 8, 458767, 65536, 8, 524303, 65536, 8, 589834, 131072, 7, 589835, 131072, 7, 589836, 131072, 7, 589837, 131072, 7, 589838, 131072, 7, 655370, 393216, 7, 655371, 393216, 7, 720906, 393216, 8, 720907, 393216, 8, 720905, 65536, 10, 655369, 65536, 9, 589839, 458752, 10, 589833, 65536, 7, 15, 458752, 7, 9, 458752, 7, 10, 327680, 7, 65545, 65536, 8, 131081, 65536, 8, 196617, 65536, 8, 262153, 65536, 8, 327689, 65536, 8, 393225, 65536, 9, 393226, 196608, 9, 65546, 196608, 8, 131082, 196608, 8, 196618, 196608, 8, 262154, 196608, 8, 327690, 196608, 8, 720904, 1376256, 27, 720903, 1376256, 27, 655368, 1376256, 27, 655367, 1376256, 27, 262151, 1376256, 27, 327687, 1376256, 27, 393223, 1376256, 27, 458759, 1376256, 27, 524295, 1376256, 27, 589831, 1376256, 27, 196615, 1376256, 27, 720899, 1376256, 27, 720900, 1376256, 27, 720901, 1376256, 27, 720902, 1376256, 27, 131077, 1376256, 27, 196613, 1376256, 27, 262149, 1376256, 27, 327685, 1376256, 27, 393221, 1376256, 27, 458757, 1376256, 27, 524293, 1376256, 27, 262147, 1376256, 27, 327683, 1376256, 27, 393219, 1376256, 27, 458755, 1376256, 27, 524291, 1376256, 27, 589827, 1376256, 27, 655363, 1376256, 27)
+
+[node name="EnemySpawnPoint" type="Node2D" parent="."]
+
+[node name="Point_001" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(840, 128)
+
+[node name="Point_002" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(1032, 400)
+
+[node name="Point_003" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(664, 360)
+
+[node name="Point_004" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(560, 168)
+
+[node name="Point_005" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(256, 488)
+
+[node name="Point_006" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(104, 608)
+
+[node name="Point_007" type="Node2D" parent="EnemySpawnPoint"]
+position = Vector2(128, 144)
+
+[node name="EnterPoint" type="Node2D" parent="."]
+position = Vector2(1040, 608)
