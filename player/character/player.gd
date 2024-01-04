@@ -19,6 +19,7 @@ func take_damage(ponts):
 	running_LP = running_LP - ponts
 	
 	if running_LP <= 0:
+		GameManager.on_player_character_died()
 		pass
 		#jetzt in den äußeren Game Loop
 
