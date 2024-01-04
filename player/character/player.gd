@@ -23,12 +23,14 @@ func take_damage(ponts):
 		pass
 		#jetzt in den äußeren Game Loop
 
+@onready var _animated_sprite = $AnimatedSprite2D
 
 func _ready():
 	var weapon_instance = weapon.instantiate()
 	weapon_reference = weapon_instance
 	self.add_child(weapon_instance)
 	position = get_viewport_rect().get_center()
+	_animated_sprite.play("walk")
 
 func add_upgrade(file_path):
 	var upgrade = load(file_path).instantiate()
@@ -51,6 +53,10 @@ func _process(delta):
 func alternative_movement(delta):
 	var direction = Input.get_vector("left", "right", "forward", "backward")
 	self.velocity = direction.normalized() * (base_speed+bonus_speed) * delta
+	if direction.length() > 0:
+		_animated_sprite.play()
+	else:
+		_animated_sprite.stop()
 	move_and_slide()
 
 func alternative_direction():
