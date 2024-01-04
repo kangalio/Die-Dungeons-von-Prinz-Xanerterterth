@@ -39,6 +39,13 @@ func add_upgrade(file_path):
 	else:
 		self.add_child(upgrade)
 
+var money = 5
+
+func purchase(cost, file_path):
+	if money >= cost:
+		money = money - cost
+		add_upgrade(file_path)
+
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
 		weapon_reference.attack(base_damage + bonus_damage + weapon_damage)
