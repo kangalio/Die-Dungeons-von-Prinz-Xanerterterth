@@ -1,5 +1,6 @@
 extends Node2D
 
+var room_left = 0
 # Called when the node enters the scene tree for the first time.
 
 func _ready():
@@ -11,7 +12,8 @@ func _process(delta):
 
 
 func exit_room():
-	GameManager.enter_new_room()
+	if not room_left:
+		GameManager.enter_new_room()
 	self.get_parent().queue_free()
 
 
