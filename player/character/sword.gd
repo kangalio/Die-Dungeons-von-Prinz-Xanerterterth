@@ -1,9 +1,8 @@
 extends Area2D
 
-var damage : int = 10
-var cooldown : float = 1
+var damage : int = 2
+var cooldown : float = 2
 var cooldown_static : float = cooldown
-
 func attack(bonus_damage):
 	if cooldown <= 0:
 		cooldown = cooldown_static
@@ -14,5 +13,6 @@ func attack(bonus_damage):
 				
 
 func _process(delta):
+	self.position = PLAYER_CHARACTER.position
 	if cooldown > 0:
-		cooldown -= delta
+		cooldown -= delta # => cooldwon von cooldown in sekunden
