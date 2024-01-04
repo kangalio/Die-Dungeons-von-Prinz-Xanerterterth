@@ -63,5 +63,5 @@ func enter_new_room():
 		print("Warn: no spawn points available")
 	else:
 		for point in spawn_points.get_children():
-			print("spawning enemy at ",point.gloabl_position)
+			print("spawning enemy at ",point.global_position)
 			self.spawn_enemy("random",point.global_position, new_room)
