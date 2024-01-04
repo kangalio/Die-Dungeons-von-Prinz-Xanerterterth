@@ -80,6 +80,9 @@ func on_player_character_died():
 	enter_new_room("tutorial")
 	PLAYER_CHARACTER.full_character_reset()
 	
+func remove_coins():
+	for coin in get_tree().get_nodes_in_group("coin"):
+		coin.queue_free()
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
@@ -128,6 +131,7 @@ func enter_new_room(room="normal"):
 	var new_pos = new_room.get_node("EnterPoint").global_position
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
+	remove_coins()
 	spawn_all_enemies(new_room)
 	if remaining_enemies <= 0:
 		open_exit_door()
