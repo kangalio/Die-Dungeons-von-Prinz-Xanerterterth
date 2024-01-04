@@ -18,7 +18,12 @@ func _process(delta):
 	move_and_slide()
 
 func _on_area_2d_body_entered(body):
-	if body.is_in_group("enemy"):
-		body.take_damage(damage + bonus_damage)
-		queue_free()
+	print("hfds")
+	if body.is_in_group("player") == false:
+		print("!")
+		if body.is_in_group("enemy"):
+			body.take_damage(damage + bonus_damage)
+			queue_free()
+		else:
+			queue_free()
 	

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var starting_weapon = preload("res://player/character/magic_attack.tscn")
+var starting_weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
 
 var weapon_reference
