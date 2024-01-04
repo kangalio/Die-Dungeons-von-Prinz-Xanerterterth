@@ -6,7 +6,6 @@ var bonus_damage : int
 
 func _ready():
 	$AnimatedSprite2D.play("default")
-	print("1s")
 
 func _process(delta):
 	explosion_time -= delta
@@ -15,7 +14,5 @@ func _process(delta):
 		print (bodies)
 		for body in bodies:
 			if body.is_in_group("enemy"):
-				print("yes")
 				body.take_damage(damage+bonus_damage)
-		print("2")
 		self.queue_free()

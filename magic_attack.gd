@@ -7,11 +7,13 @@ var cooldown_static : int = cooldown
 func _ready():
 	pass # Replace with function body.
 
-func attack ():
+func attack (bonus_damage ):
 	if cooldown <= 0:
 		cooldown = cooldown_static
 		var fireball = fireball_scene.instantiate()
-		PLAYER_CHARACTER.add_sibling(fireball_scene)
+		fireball.bonus_damage = bonus_damage
+		PLAYER_CHARACTER.add_sibling(fireball)
+		fireball.position = PLAYER_CHARACTER.position
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
