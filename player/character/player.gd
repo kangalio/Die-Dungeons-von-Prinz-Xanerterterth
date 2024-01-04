@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-var base_speed = 50000
+var base_speed = 5000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
 

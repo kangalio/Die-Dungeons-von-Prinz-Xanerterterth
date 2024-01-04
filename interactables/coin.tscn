@@ -1,13 +1,13 @@
 [gd_scene load_steps=8 format=3 uid="uid://cp6my2rtyd2il"]
 
-[ext_resource type="Texture2D" uid="uid://brrc4sc7d2vn2" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_8sqbm"]
+[ext_resource type="Texture2D" uid="uid://dtyhpx1su2sya" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_1.png" id="1_8sqbm"]
 [ext_resource type="Script" path="res://interactables/coin.gd" id="1_nipte"]
-[ext_resource type="Texture2D" uid="uid://dssa1g5s0hxh3" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_2.png" id="2_cjliu"]
-[ext_resource type="Texture2D" uid="uid://cjrpf3aybtov0" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_3.png" id="3_tseqk"]
-[ext_resource type="Texture2D" uid="uid://dmcijg3wyc44n" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_4.png" id="4_urbpv"]
+[ext_resource type="Texture2D" uid="uid://vydmccnpl82m" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_2.png" id="2_cjliu"]
+[ext_resource type="Texture2D" uid="uid://5vfpw5f1rygn" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_3.png" id="3_tseqk"]
+[ext_resource type="Texture2D" uid="uid://ddgjwc8tykvar" path="res://16x16_sprites/2D_Pixel_Dungeon_Asset_Pack_v2.0/2D_Pixel_Dungeon_Asset_Pack/items_and_trap_animation/coin/coin_4.png" id="4_urbpv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fxfs"]
-radius = 8.0
+radius = 35.0143
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dtdci"]
 animations = [{
@@ -36,6 +36,7 @@ script = ExtResource("1_nipte")
 shape = SubResource("CircleShape2D_0fxfs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_dtdci")
 frame_progress = 0.412827
 
