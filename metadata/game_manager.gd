@@ -77,6 +77,7 @@ func on_player_character_died():
 	current_room.queue_free()
 	remove_all_enemies()
 	enter_new_room("tutorial")
+	PLAYER_CHARACTER.running_LP = PLAYER_CHARACTER.base_LP
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
