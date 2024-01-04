@@ -1,17 +1,18 @@
 [gd_scene load_steps=4 format=3 uid="uid://2ju62ix6cenf"]
 
-[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_1sc4y"]
-[ext_resource type="Texture2D" uid="uid://botlt1qlu7sx" path="res://16x16_sprites/potions/item_42.png" id="1_6uxwu"]
+[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_0gdbp"]
+[ext_resource type="Texture2D" uid="uid://botlt1qlu7sx" path="res://16x16_sprites/potions/item_42.png" id="2_7pmun"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cxcsv"]
 radius = 16.0
 
 [node name="SpeedBost" type="Node2D"]
-script = ExtResource("1_1sc4y")
+script = ExtResource("1_0gdbp")
+upgrade = "\"res://player/upgrade/speed_boost.tscn\""
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_cxcsv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(2, 2)
-texture = ExtResource("1_6uxwu")
+texture = ExtResource("2_7pmun")

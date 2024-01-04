@@ -2,10 +2,11 @@ extends CharacterBody2D
 
 var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-var speed = 10000
+var base_speed = 10000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
 var LP = 10
+var bonus_speed = 0
 
 func take_damage(ponts):
 	LP = LP - ponts
@@ -26,6 +27,9 @@ func add_upgrade(file_path):
 		weapon_reference.queue_free()
 		weapon_reference = upgrade
 		self.add_child(upgrade)
+	
+	else:
+		self.add_child(upgrade)
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
@@ -38,7 +42,7 @@ func _process(delta):
 
 func alternative_movement(delta):
 	var direction = Input.get_vector("left", "right", "forward", "backward")
-	self.velocity = direction.normalized() * speed * delta
+	self.velocity = direction.normalized() * (base_speed+bonus_speed) * delta
 	move_and_slide()
 
 func alternative_direction():
