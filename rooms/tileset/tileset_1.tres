@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=4 format=3 uid="uid://6wgl32gxffm5"]
 
-[ext_resource type="Texture2D" uid="uid://drtnffvq3tr88" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
+[ext_resource type="Texture2D" uid="uid://bkno1dtyqvblq" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b2vnv"]
 texture = ExtResource("1_7nedd")
@@ -4885,6 +4885,16 @@ texture_region_size = Vector2i(48, 48)
 1:17/0/physics_layer_1/linear_velocity = Vector2(0, 0)
 1:17/0/physics_layer_1/angular_velocity = 0.0
 1:17/0/physics_layer_1/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
+15:2/0 = 0
+15:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+15:2/0/physics_layer_0/angular_velocity = 0.0
+15:2/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+15:2/0/physics_layer_1/angular_velocity = 0.0
+14:0/0 = 0
+14:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+14:0/0/physics_layer_0/angular_velocity = 0.0
+14:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+14:0/0/physics_layer_1/angular_velocity = 0.0
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ntfhu"]
 resource_name = "Trader"

@@ -11,8 +11,12 @@ func take_damage(ponts):
 	LP = LP - ponts
 	
 	if LP <= 0:
-		pass
+		die()
 		#jetzt in den äußeren Game Loop
+
+func die():
+	print("Player died")
+	GameManager.on_player_character_died()
 
 func _ready():
 	var weapon_instance = weapon.instantiate()

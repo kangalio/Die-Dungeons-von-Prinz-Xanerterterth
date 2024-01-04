@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_p5a13"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_stacu"]
-[ext_resource type="PackedScene" path="res://enemy/melee/hunter.tscn" id="3_n650e"]
+[ext_resource type="PackedScene" uid="uid://bc8y4eg3ihvsf" path="res://enemy/melee/hunter.tscn" id="3_n650e"]
 [ext_resource type="PackedScene" path="res://enemy/melee/minion.tscn" id="4_0yk2p"]
 [ext_resource type="PackedScene" path="res://enemy/melee/tank.tscn" id="5_6ynvx"]
 
