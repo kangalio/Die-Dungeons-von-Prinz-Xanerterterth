@@ -5685,18 +5685,7 @@ texture_region_size = Vector2i(48, 48)
 1:17/0/physics_layer_1/linear_velocity = Vector2(0, 0)
 1:17/0/physics_layer_1/angular_velocity = 0.0
 1:17/0/physics_layer_1/polygon_0/points = PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)
-<<<<<<< Updated upstream
-15:2/0 = 0
-15:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-15:2/0/physics_layer_0/angular_velocity = 0.0
-15:2/0/physics_layer_1/linear_velocity = Vector2(0, 0)
-15:2/0/physics_layer_1/angular_velocity = 0.0
-14:0/0 = 0
-14:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-14:0/0/physics_layer_0/angular_velocity = 0.0
-14:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
-14:0/0/physics_layer_1/angular_velocity = 0.0
-=======
+
 1:17/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_ks5v5")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -5705,7 +5694,6 @@ texture_region_size = Vector2i(48, 48)
 0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_1/angular_velocity = 0.0
 0:0/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_ks5v5")
->>>>>>> Stashed changes
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ntfhu"]
 resource_name = "Trader"
