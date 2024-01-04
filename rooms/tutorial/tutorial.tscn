@@ -9,7 +9,7 @@ polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Arr
 outlines = Array[PackedVector2Array]([PackedVector2Array(1104, 96, 1104, 640, 48, 640, 48, 96)])
 source_geometry_group_name = &"navigation_polygon_source_group"
 
-[node name="Node2D" type="Node2D"]
+[node name="tutorial_room" type="Node2D"]
 
 [node name="BaseRoom" parent="." instance=ExtResource("1_ab6mb")]
 

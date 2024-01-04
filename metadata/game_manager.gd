@@ -8,7 +8,8 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 
 const DEBUG = 1
-const TO_TRADER = 0
+const TO_TRADER = 1
+const INF_HEALTH = 0
 
 const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
@@ -63,13 +64,17 @@ func spawn_all_enemies(room):
 	if spawn_points == null:
 		print("Warn: no spawn points available")
 	else:
+		print("Debug: spawning", len(spawn_points.get_children()), " enemies")
 		for point in spawn_points.get_children():
 			self.spawn_enemy("random",point.global_position)
 			
+func remove_all_enemies():
+	for enemy in get_tree().get_nodes_in_group("enemy"):
+		enemy.queue_free()		
+				
 func on_player_character_died():
 	current_room.queue_free()
-	for enemy in get_tree().get_nodes_in_group("enemy"):
-		enemy.queue_free()
+	remove_all_enemies()
 	enter_new_room("tutorial")
 
 func on_enemy_died(at_position):
@@ -107,7 +112,7 @@ func generate_new_room(room):
 		
 	if DEBUG and TO_TRADER:
 		new_room_cls = load(ROOM_TRADER)
-	print("Spawning new room", new_room_cls)
+	print("Debug: Spawning new room")
 	return new_room_cls.instantiate()
 	
 func enter_new_room(room="normal"):
@@ -118,8 +123,10 @@ func enter_new_room(room="normal"):
 	
 	var new_pos = new_room.get_node("EnterPoint").global_position
 	PLAYER_CHARACTER.set_global_position(new_pos)
-	
+	remove_all_enemies()
 	spawn_all_enemies(new_room)
 			
 	if DEBUG:
 		open_exit_door()
+		if INF_HEALTH:
+			PLAYER_CHARACTER.running_LP = 100000
