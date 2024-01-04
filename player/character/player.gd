@@ -9,16 +9,15 @@ var player_direction : Vector2 = Vector2(0, -1)
 var base_LP = 10
 var running_LP : int = 10
 
-var base_damage : int = 0
-var weapon_damage : int = 0
 var bonus_damage : int = 0
-		
+
 var bonus_speed = 0
 
 func take_damage(ponts):
 	running_LP = running_LP - ponts
 	
 	if running_LP <= 0:
+		GameManager.on_player_character_died()
 		pass
 		#jetzt in den äußeren Game Loop
 
@@ -48,7 +47,7 @@ func purchase(cost, file_path):
 
 func _input(event):
 	if Input.is_action_just_pressed("shoot"):
-		weapon_reference.attack(base_damage + bonus_damage + weapon_damage)
+		weapon_reference.attack(bonus_damage)
 
 func _process(delta):
 	alternative_movement(delta)

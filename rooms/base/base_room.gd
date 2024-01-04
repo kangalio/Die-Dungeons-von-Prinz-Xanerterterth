@@ -13,8 +13,7 @@ func _process(delta):
 func exit_room():
 	GameManager.enter_new_room()
 	self.get_parent().queue_free()
-	
-	
+
 
 func enter_room():
 	#var new_room_cls = 0
