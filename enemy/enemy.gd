@@ -25,16 +25,15 @@ func move_towards_player (delta):
 		self.position += direktion
 		move_and_slide()
 
-	
+
 func attak (damage_to_deal):
 	PLAYER_CHARACTER.take_damage(damage_to_deal)
-	
+
 func heal (healing):
 	if healing > 0:
 		health += healing
 	else:
 		print ("healing ist negativ klasse enemy funktion heal")
-		
 
 func _process(delta):
 	move_towards_player(delta)

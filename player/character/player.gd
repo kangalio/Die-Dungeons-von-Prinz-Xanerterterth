@@ -1,13 +1,10 @@
 extends CharacterBody2D
 
-var weapon = preload("res://player/upgrade/weapon01.tscn")
+var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 
-const MOVE_SPEED = 100
-const ROTATION_SPEED = 0.05
-var dash_cooldown : float = 2
-var dash_length : float = 1
-var facing_direction : float = -PI / 2
+var speed = 10000
 var weapon_reference
+var player_direction : Vector2 = Vector2(0, -1)
 var LP = 10
 
 func take_damage(ponts):
@@ -17,34 +14,12 @@ func take_damage(ponts):
 		pass
 		#jetzt in den äußeren Game Loop
 
-func shoot():
-	if Input.is_action_just_pressed("shoot"):
-		weapon_reference.attack()
-
 func _ready():
 	var weapon_instance = weapon.instantiate()
 	weapon_reference = weapon_instance
 	self.add_child(weapon_instance)
 	position = get_viewport_rect().get_center()
 
-func do_movement_input(delta):
-	if LP <= 0:
-		return
-	
-	facing_direction += Input.get_axis("left", "right") * ROTATION_SPEED
-	
-	rotation = facing_direction + PI / 2
-	velocity = Vector2.from_angle(facing_direction) * Input.get_axis("backward", "forward") * MOVE_SPEED
-	
-	if Input.is_key_pressed(KEY_SHIFT) and dash_cooldown <= 0:
-		velocity *= 2
-	
-	dash_cooldown -= delta
-	if dash_cooldown <= 0-dash_length:
-		dash_cooldown = 2
-		
-	move_and_slide()
-		
 func add_upgrade(file_path):
 	var upgrade = load(file_path).instantiate()
 	if upgrade.is_weapon:
@@ -52,7 +27,21 @@ func add_upgrade(file_path):
 		weapon_reference = upgrade
 		self.add_child(upgrade)
 
+func _input(event):
+	if Input.is_action_just_pressed("shoot"):
+		weapon_reference.attack()
+
 func _process(delta):
-	do_movement_input(delta)
-	shoot()
+	#do_movement_input(delta)
+	alternative_movement(delta)
+	alternative_direction()
+
+func alternative_movement(delta):
+	var direction = Input.get_vector("left", "right", "forward", "backward")
+	self.velocity = direction.normalized() * speed * delta
+	move_and_slide()
+
+func alternative_direction():
+	if Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down").length() != 0:
+		player_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	
