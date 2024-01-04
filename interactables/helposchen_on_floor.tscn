@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://crvudjhwo10rs"]
+
+[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_1llyh"]
+[ext_resource type="Texture2D" uid="uid://h86elk7f3p8o" path="res://16x16_sprites/potions/item_19.png" id="2_xighj"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f0pr2"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_1llyh")
+upgrade = "res://player/upgrade/helposchen.tscn"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_f0pr2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_xighj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

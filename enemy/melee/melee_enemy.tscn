@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://fmwaqi26qn68"]
+
+[ext_resource type="Script" path="res://enemy/melee/melee_enemy.gd" id="1_r1qig"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_r1qig")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

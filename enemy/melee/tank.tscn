@@ -1,7 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://csxigjgv4vdsn"]
+[gd_scene load_steps=14 format=3 uid="uid://ddhruwkop0qql"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://bn4ensvswd823" path="res://enemy/melee/tank.png" id="2_oqkyp"]
+[ext_resource type="Texture2D" uid="uid://lrv3muckrdwh" path="res://enemy/melee/tank.png" id="2_oqkyp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0v0wb"]
 atlas = ExtResource("2_oqkyp")
