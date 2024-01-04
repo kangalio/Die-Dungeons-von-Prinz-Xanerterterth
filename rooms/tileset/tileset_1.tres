@@ -1,6 +1,17 @@
 [gd_resource type="TileSet" load_steps=4 format=3 uid="uid://6wgl32gxffm5"]
 
+<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://cbdcorx1w6xb8" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
+=======
+[ext_resource type="Texture2D" uid="uid://drtnffvq3tr88" path="res://16x16_sprites/Cellar_16x16_Tileset/48x48/SI_Cellar.png" id="1_7nedd"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_2qgwo"]
+vertices = PackedVector2Array(24, 24, -24, 24, -24, -24, 24, -24)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-24, -24, 24, -24, 24, 24, -24, 24)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+agent_radius = 0.0
+>>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b2vnv"]
 texture = ExtResource("1_7nedd")
