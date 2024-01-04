@@ -11,10 +11,12 @@ var is_player_in_range = false
 func take_damage (damage_taken):
 	if damage_taken > 0:
 		health -= damage_taken
+		$Node2D.update_bar()
 		if health <= 0:
 			die()
 	else: 
 		print("fehler in klasse enemy methode take_damage damage_taken ist positiv oder 0")
+	print(health)
 
 func die ():
 	#loot übergben
@@ -55,7 +57,7 @@ func _process(delta):
 		elif cooldown < 0 and is_player_in_range == true:
 			cooldown = attack_speed
 			attak(attack_damage)
-		
+
 func _ready():
 	self.add_to_group("enemy")
 	#$AnimatedSprite2D.play("spawn")
@@ -67,3 +69,6 @@ func _on_area_2d_body_entered(body):
 
 func _on_area_2d_body_exited(body):
 	is_player_in_range = false
+
+#func _on_navigation_agent_velocity_computed(safe_velocity):
+	#direktion = safe_velocity

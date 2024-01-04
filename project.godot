@@ -25,6 +25,10 @@ Ui="*res://metadata/ui.tscn"
 
 window/size/viewport_height=672
 
+[gui]
+
+theme/custom_font="res://metadata/PixelifySans-VariableFont_wght.ttf"
+
 [input]
 
 forward={

@@ -1,6 +1,6 @@
 extends Area2D
 
-var damage : int = 500000
+var damage : int = 5
 var explosion_time : int = 10
 var bonus_damage : int
 
