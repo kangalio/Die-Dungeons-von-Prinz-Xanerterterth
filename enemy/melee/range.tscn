@@ -144,7 +144,7 @@ animations = [{
 [node name="range" type="CharacterBody2D" groups=["enemy"]]
 script = ExtResource("1_2ftqb")
 health = 6
-attack_speed = 5.0
+attack_speed = 3.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 25.0

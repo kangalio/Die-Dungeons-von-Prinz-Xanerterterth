@@ -9,6 +9,7 @@ func _ready():
 
 func _process(delta):
 	self.velocity = direction * bullet_speed * delta
+	self.rotation_degrees = rad_to_deg(velocity.angle())
 	move_and_slide()
 
 func _on_area_2d_body_entered(body):
