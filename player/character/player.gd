@@ -5,15 +5,19 @@ var weapon = preload("res://player/upgrade/standart_weapon.tscn")
 var base_speed = 10000
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
-var LP = 10
+
+var base_LP = 10
+var running_LP : int = 10
+		
 var bonus_speed = 0
 
 func take_damage(ponts):
-	LP = LP - ponts
+	running_LP = running_LP - ponts
 	
-	if LP <= 0:
+	if running_LP <= 0:
 		pass
 		#jetzt in den äußeren Game Loop
+
 
 func _ready():
 	var weapon_instance = weapon.instantiate()
