@@ -1,7 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://cjbgl2fm7f8ov"]
+[gd_scene load_steps=14 format=3 uid="uid://dffjgmp7lqst6"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://dukh5yuu43vdd" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
+[ext_resource type="Texture2D" uid="uid://c53xxkw7jqw0p" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n4b1k"]
 atlas = ExtResource("2_tn0ty")
