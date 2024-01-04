@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var weapon = preload("res://player/upgrade/standart_weapon.tscn")
+var weapon = preload("res://player/character/magic_attack.tscn")
 
 var base_speed = 7500
 var weapon_reference

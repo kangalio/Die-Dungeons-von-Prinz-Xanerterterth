@@ -36,8 +36,9 @@ func move_towards_player (delta):
 func attak (damage_to_deal):
 	$AnimatedSprite2D.stop()
 	$AnimatedSprite2D.play("attac")
-	print("hit")
-	PLAYER_CHARACTER.take_damage(damage_to_deal)
+	if is_player_in_range:
+		PLAYER_CHARACTER.take_damage(damage_to_deal)
+		print("hit")
 	await get_tree().create_tween().tween_interval(1).finished
 	$AnimatedSprite2D.play("walk")
 

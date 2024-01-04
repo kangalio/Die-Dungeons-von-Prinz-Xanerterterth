@@ -7,7 +7,7 @@ var cooldown_static : int = cooldown
 func _ready():
 	pass # Replace with function body.
 
-func attack():
+func attack ():
 	if cooldown <= 0:
 		cooldown = cooldown_static
 		var fireball = fireball_scene.instantiate()
