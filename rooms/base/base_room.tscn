@@ -22,7 +22,7 @@ position = Vector2(592, 85)
 [node name="GlobalWalls" parent="." instance=ExtResource("3_1hfk0")]
 position = Vector2(3, 12)
 
-[node name="DoorBlocker" type="StaticBody2D" parent="." groups=["DoorBlocker"]]
+[node name="DoorBlocker" type="StaticBody2D" parent="." groups=["door_blocker"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorBlocker"]
 position = Vector2(572, 84)

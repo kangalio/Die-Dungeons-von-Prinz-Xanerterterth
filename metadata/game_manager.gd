@@ -25,10 +25,11 @@ var enemy_boss_paths = [
 ]
 var enemy_all_paths = enemy_melee_paths + enemy_ranged_paths
 
-var current_room = 0
+var current_room
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	enter_new_room("tutorial")
+	pass# Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -51,17 +52,24 @@ func spawn_enemy(enemy_type, position):
 
 func on_player_character_died():
 	current_room.queue_free()
+	for enemy in get_tree().get_nodes_in_group("enemy"):
+		print("removing enemy ",enemy)
+		enemy.queue_free()
 	enter_new_room("tutorial")
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
 	print("Enemy died, remaining = ",remaining_enemies)
+	#spawn_interactable()
 	if remaining_enemies <= 0:
 		open_exit_door()
+
+func spawn_interactable(file_path, position):
+	pass
 		
 func open_exit_door():
 	print("Unlocking door")
-	var doorblocker = get_tree().get_first_node_in_group("DoorBlocker")
+	var doorblocker = get_tree().get_first_node_in_group("door_blocker")
 	if doorblocker != null:
 		doorblocker.queue_free()
 	else:
@@ -70,6 +78,7 @@ func open_exit_door():
 func enter_new_room(room="normal"):
 	var new_room = 0
 	var new_room_cls = 0
+	remaining_enemies = 0
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
@@ -84,10 +93,11 @@ func enter_new_room(room="normal"):
 	current_room = new_room
 	var new_pos = new_room.get_node("EnterPoint").global_position
 	PLAYER_CHARACTER.set_global_position(new_pos)
+	
 	var spawn_points = new_room.get_node("EnemySpawnPoint")
 	if spawn_points == null:
 		print("Warn: no spawn points available")
 	else:
+		print("spawning enemies")
 		for point in spawn_points.get_children():
-			print("spawning enemy at ",point.global_position)
 			self.spawn_enemy("random",point.global_position)

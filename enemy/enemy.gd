@@ -17,7 +17,7 @@ func take_damage (damage_taken):
 func die ():
 	#loot übergben
 	$AnimatedSprite2D.play("die")
-	GameManager.on_enemy_died()
+	GameManager.on_enemy_died(self.global_position)
 	self.queue_free() 
 
 func move_towards_player (delta):
