@@ -5,11 +5,13 @@ var bullet_scene = preload("res://player/character/bullet.tscn")
 var bullet_speed = 10
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	PLAYER_CHARACTER.weapon_damage = 2
 	pass
 	 # Replace with function body.
 
-func attack():
+func attack(damage):
 		var bullet = bullet_scene.instantiate()
+		bullet.damage = damage
 		bullet.position = PLAYER_CHARACTER.position
 		bullet.direction = PLAYER_CHARACTER.player_direction
 		PLAYER_CHARACTER.add_sibling(bullet)
