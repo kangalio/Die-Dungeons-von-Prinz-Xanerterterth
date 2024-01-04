@@ -1,7 +1,8 @@
 extends Node2D
 
 func _ready():
-	for item_position in [Vector2(696, 448), Vector2(456, 448), Vector2(448, 448)]:
+	print("trade room in scene")
+	for item_position in [Vector2(696 + 96, 448), Vector2(456 +96, 448), Vector2(216+96, 448)]:
 		spawn_interactable(return_interactable(), item_position)
 	GameManager.open_exit_door()
 	
