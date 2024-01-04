@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var weapon = preload("res://player/upgrade/weapon01.tscn")
+#var weapon = preload("res://player/upgrade/weapon01.tscn")
 
 const MOVE_SPEED = 100
 const ROTATION_SPEED = 0.05
@@ -22,9 +22,9 @@ func shoot():
 		weapon_reference.attack()
 
 func _ready():
-	var weapon_instance = weapon.instantiate()
-	weapon_reference = weapon_instance
-	self.add_child(weapon_instance)
+	#var weapon_instance = weapon.instantiate()
+#	weapon_reference = weapon_instance
+#	self.add_child(weapon_instance)
 	position = get_viewport_rect().get_center()
 
 func do_movement_input(delta):

@@ -16,6 +16,7 @@ func take_damage (damage_taken):
 
 func die ():
 	#loot übergben
+	$AnimatedSprite2D.play("die")
 	self.queue_free() 
 
 func move_towards_player (delta):
@@ -23,6 +24,7 @@ func move_towards_player (delta):
 	if navigation_agent.is_target_reachable() == true:
 		var direktion = (navigation_agent.get_next_path_position()-self.position).normalized()
 		self.position += direktion
+		$AnimatedSprite2D.play("walk")
 		move_and_slide()
 
 	
@@ -38,10 +40,15 @@ func heal (healing):
 
 func _process(delta):
 	move_towards_player(delta)
+	$AnimatedSprite2D.play("walk")
 
 func _ready():
 	self.add_to_group("enemy")
+	$AnimatedSprite2D.play("spawn")
 
 func _on_area_2d_body_entered(body):
 	if body.is_in_group("player"):
 		attak(attack_damage)
+		$AnimatedSprite2D.stop()
+		$AnimatedSprite2D.play("attac")
+		print("hit")
