@@ -10,6 +10,8 @@ func _ready():
 func interact():
 	if Input.is_action_just_pressed("interact") and player_is_close:
 		PLAYER_CHARACTER.add_upgrade(upgrade)
+		print('interacted')
+		self.queue_free()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
