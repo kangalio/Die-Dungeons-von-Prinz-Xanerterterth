@@ -7,8 +7,8 @@ var next_room_is_trader = 0
 var room_counter:int = 0
 var remaining_enemies:int = 0
 
-const DEBUG = 1
-const TO_TRADER = 0
+const DEBUG = 0
+const TO_TRADER = 1
 const INF_HEALTH = 0
 const OPEN_DOORS = 0
 
@@ -64,6 +64,7 @@ func spawn_all_enemies(room):
 	var spawn_points = room.get_node("EnemySpawnPoint")
 	if spawn_points == null:
 		print("Warn: no spawn points available")
+		open_exit_door()
 	else:
 		print("Debug: spawning", len(spawn_points.get_children()), " enemies")
 		for point in spawn_points.get_children():
@@ -126,6 +127,7 @@ func enter_new_room(room="normal"):
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
 	spawn_all_enemies(new_room)
+	
 	if remaining_enemies <= 0:
 		open_exit_door()
 	if DEBUG and OPEN_DOORS:
