@@ -14,6 +14,7 @@ func _process(delta):
 func exit_room():
 	if not room_left:
 		print("Debug: Exiting room ", self.get_parent())
+		PLAYER_CHARACTER.set_global_position(self.get_parent().get_node("EnterPoint").global_position)
 		GameManager.enter_new_room()
 		room_left = 1
 	self.get_parent().queue_free()
