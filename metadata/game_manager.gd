@@ -28,7 +28,7 @@ var enemy_melee_paths = [
 	"res://enemy/melee/tank.tscn",
 ]
 var enemy_ranged_paths = [
-	#"res://enemy/range/range_enemy.tscn"
+	"res://enemy/melee/range.tscn",
 ]
 var enemy_boss_paths = [
 	"res://enemy/melee/hunter.tscn"
@@ -42,6 +42,7 @@ func _ready():
 	pass# Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta):
 	pass
 

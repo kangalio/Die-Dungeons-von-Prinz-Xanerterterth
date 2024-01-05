@@ -3,6 +3,7 @@ extends Node2D
 var fireball_scene = preload("res://player/character/fireball.tscn")
 var cooldown : int = 100
 var cooldown_static : int = cooldown 
+var is_weapon = true
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

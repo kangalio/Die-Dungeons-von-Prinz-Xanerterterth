@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://durmfha7qi8fw"]
 
 [ext_resource type="Script" path="res://player/character/fireball.gd" id="1_8j4y8"]
-[ext_resource type="Texture2D" uid="uid://bjn5fbfaimolh" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png" id="2_w41ku"]
+[ext_resource type="Texture2D" uid="uid://bpgslrrcbdn8o" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png" id="2_w41ku"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mr20q"]
 radius = 8.0
