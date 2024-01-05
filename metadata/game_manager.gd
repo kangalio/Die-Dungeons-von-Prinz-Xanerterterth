@@ -73,6 +73,8 @@ func spawn_all_enemies(room, num_enemies):
 	
 	#print("Debug: spawning ", len(spawn_points.get_children()), " enemies")
 	var points = spawn_points.get_children()
+	if num_enemies > len(points):
+		num_enemies = len(points)
 	for index in range(num_enemies):
 		self.spawn_enemy("random",points[index%len(points)].global_position)
 			
