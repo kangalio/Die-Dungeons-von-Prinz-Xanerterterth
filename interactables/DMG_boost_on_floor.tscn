@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2x681mn1ql2c"]
 
-[ext_resource type="Texture2D" uid="uid://hof6ox3v534w" path="res://16x16_sprites/potions/item_50.png" id="1_niyew"]
+[ext_resource type="Texture2D" uid="uid://rba1d223bq3m" path="res://16x16_sprites/potions/item_50.png" id="1_niyew"]
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="2_xy854"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4gleg"]

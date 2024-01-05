@@ -1,11 +1,11 @@
 [gd_scene load_steps=26 format=3 uid="uid://buiccans3wovx"]
 
 [ext_resource type="Script" path="res://enemy/melee/range.gd" id="1_2ftqb"]
-[ext_resource type="Texture2D" uid="uid://1ig67t56gboc" path="res://enemy/melee/range.png" id="2_dyy28"]
-[ext_resource type="Texture2D" uid="uid://qh2a4mcuxyt1" path="res://enemy/melee/range_death.png" id="3_813e7"]
-[ext_resource type="Texture2D" uid="uid://do385v6148yc5" path="res://enemy/melee/health_bar_frame.png" id="3_abwgs"]
+[ext_resource type="Texture2D" uid="uid://dkogu231v843r" path="res://enemy/melee/range.png" id="2_dyy28"]
+[ext_resource type="Texture2D" uid="uid://c3modkuovip4y" path="res://enemy/melee/range_death.png" id="3_813e7"]
+[ext_resource type="Texture2D" uid="uid://cgjxeipm3d1g4" path="res://enemy/melee/health_bar_frame.png" id="3_abwgs"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="4_v1kwf"]
-[ext_resource type="Texture2D" uid="uid://c6vp4b45f2ufg" path="res://enemy/melee/health_bar.png" id="5_ssqc3"]
+[ext_resource type="Texture2D" uid="uid://ha8llw210yl2" path="res://enemy/melee/health_bar.png" id="5_ssqc3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cahas"]
 atlas = ExtResource("2_dyy28")
@@ -151,7 +151,8 @@ animations = [{
 
 [node name="range" type="CharacterBody2D" groups=["enemy"]]
 script = ExtResource("1_2ftqb")
-health = 6
+health = 10
+attack_damage = 2
 attack_speed = 3.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]

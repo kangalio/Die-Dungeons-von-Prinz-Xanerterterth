@@ -2,7 +2,7 @@ extends Area2D
 
 
 
-var damage : int = 2
+var damage : int = 5
 var cooldown : float = 0
 var cooldown_static : float = 0.5
 var is_weapon = true 
@@ -17,7 +17,7 @@ func attack(bonus_damage):
 				body.take_damage(damage+bonus_damage)
 		sword_is_rotation = true
 
-var rotation_speed = 0.5
+var rotation_speed = 30
 
 func _process(delta):
 	if cooldown > 0:
@@ -26,7 +26,7 @@ func _process(delta):
 	if sword_is_rotation:
 		if $Node2D.rotation < 2*PI:
 			print($Node2D.rotation)
-			$Node2D.rotation = $Node2D.rotation + rotation_speed
+			$Node2D.rotation = $Node2D.rotation + (rotation_speed*delta)
 		else:
 			print('sword stopped')
 			$Node2D.rotation = 0
