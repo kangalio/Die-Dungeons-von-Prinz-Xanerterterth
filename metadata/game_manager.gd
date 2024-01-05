@@ -111,7 +111,7 @@ func generate_new_room(room):
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
-	elif room_counter >= randi_range(1,2):
+	elif room_counter == 3:
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 		times_trader_was_visited += 1
