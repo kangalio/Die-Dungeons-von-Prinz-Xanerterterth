@@ -2,8 +2,17 @@ extends Node2D
 
 
 var removed_door : int = 0
-var weapons_list = ["res://interactables/magic_attack_on_floor.tscn", "res://interactables/sword_on_floor.tscn"]
-var upgrades_list = ["res://interactables/armor_on_floor.tscn", "res://interactables/speed_bost_on_floor.tscn","res://interactables/hammer_on_floor.tscn"]
+var weapons_list = ["res://interactables/magic_attack_on_floor.tscn", 
+					"res://interactables/sword_on_floor.tscn",
+					]
+						
+var upgrades_list = ["res://interactables/speed_bost_on_floor.tscn",
+					"res://interactables/hammer_on_floor.tscn",
+					"res://interactables/armor_on_floor.tscn",
+					"res://interactables/dash_boost_on_floor.tscn",
+					"res://interactables/DMG_boost_on_floor.tscn",
+					"res://interactables/helposchen_on_floor.tscn"
+					]
 
 func _ready():
 	spawn_interactable(return_interactable(upgrades_list), Vector2(696 + 96, 448))

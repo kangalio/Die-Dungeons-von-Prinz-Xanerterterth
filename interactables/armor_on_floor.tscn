@@ -1,10 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://dbx6ogci30emn"]
+[gd_scene load_steps=4 format=3 uid="uid://dbx6ogci30emn"]
 
-[ext_resource type="Texture2D" uid="uid://dq47htl3wyr0c" path="res://16x16_sprites/potions/item_35.png" id="1_ymyj0"]
+[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_kbyid"]
+[ext_resource type="Texture2D" uid="uid://dx4afj0fng8c4" path="res://16x16_sprites/potions/item_35.png" id="1_ymyj0"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vjgpk"]
 
-[node name="ArmorOnFloor" type="Area2D"]
+[node name="armor_on_floor" type="Area2D"]
+script = ExtResource("1_kbyid")
+upgrade = "res://player/upgrade/armor_boost.tscn"
+cost = 3
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 scale = Vector2(2, 2)
@@ -23,3 +27,6 @@ horizontal_alignment = 1
 position = Vector2(0, -1)
 scale = Vector2(2, 2)
 texture = ExtResource("1_ymyj0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

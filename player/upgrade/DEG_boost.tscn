@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://player/upgrade/DEG_boost.gd" id="1_0caiq"]
 
-[node name="Node" type="Node"]
+[node name="Node" type="Node" groups=["ubgrade"]]
 script = ExtResource("1_0caiq")

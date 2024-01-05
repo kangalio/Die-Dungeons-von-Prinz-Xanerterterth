@@ -11,16 +11,18 @@ upgrade = "res://player/character/sword.tscn"
 cost = 10
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(1.75, 1.75)
 shape = SubResource("CircleShape2D_hejsp")
 
 [node name="Sword" type="Sprite2D" parent="."]
+scale = Vector2(1.75, 1.75)
 texture = ExtResource("2_tehta")
 
 [node name="Label" type="Label" parent="."]
 offset_left = -24.0
-offset_top = 8.0
+offset_top = 14.0
 offset_right = 25.0
-offset_bottom = 56.0
+offset_bottom = 62.0
 text = "Sword
 10"
 horizontal_alignment = 1
