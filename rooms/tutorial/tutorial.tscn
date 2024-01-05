@@ -37,6 +37,7 @@ offset_bottom = 362.0
 text = "Move:   W, A, S, D
 Shot:    Space
 Turn:    I, J, K, L
+Dash: move + shift (hold for a moment)
 Kill enemies, collect their coins &
 buy upgrades at the trader. 
 Be prepared to meet...
