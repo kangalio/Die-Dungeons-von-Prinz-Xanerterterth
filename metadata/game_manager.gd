@@ -73,6 +73,8 @@ func spawn_all_enemies(room, num_enemies):
 	
 	#print("Debug: spawning ", len(spawn_points.get_children()), " enemies")
 	var points = spawn_points.get_children()
+	if num_enemies > len(points):
+		num_enemies = len(points)
 	for index in range(num_enemies):
 		self.spawn_enemy("random",points[index%len(points)].global_position)
 			
@@ -111,7 +113,7 @@ func generate_new_room(room):
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
-	elif room_counter >= randi_range(1,2):
+	elif room_counter == 3:
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 		times_trader_was_visited += 1
