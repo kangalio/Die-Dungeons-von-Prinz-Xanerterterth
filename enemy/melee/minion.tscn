@@ -1,7 +1,8 @@
-[gd_scene load_steps=24 format=3 uid="uid://cjbgl2fm7f8ov"]
+[gd_scene load_steps=26 format=3 uid="uid://cjbgl2fm7f8ov"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
 [ext_resource type="Texture2D" uid="uid://dukh5yuu43vdd" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
+[ext_resource type="Texture2D" uid="uid://b7jbgp5gla5vc" path="res://enemy/melee/jumper_death.png" id="3_6qfvf"]
 [ext_resource type="Texture2D" uid="uid://do385v6148yc5" path="res://enemy/melee/health_bar_frame.png" id="3_yeirp"]
 [ext_resource type="Texture2D" uid="uid://c6vp4b45f2ufg" path="res://enemy/melee/health_bar.png" id="4_bnjcc"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="5_nrqhp"]
@@ -21,6 +22,10 @@ region = Rect2(32, 0, 16, 16)
 [sub_resource type="AtlasTexture" id="AtlasTexture_2kwoj"]
 atlas = ExtResource("2_tn0ty")
 region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8d2vt"]
+atlas = ExtResource("3_6qfvf")
+region = Rect2(0, 0, 15, 6)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i0qul"]
 atlas = ExtResource("2_tn0ty")
@@ -60,7 +65,10 @@ animations = [{
 "name": &"attac",
 "speed": 5.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8d2vt")
+}],
 "loop": true,
 "name": &"die",
 "speed": 5.0
@@ -165,7 +173,7 @@ debug_enabled = true
 texture_filter = 1
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_fxfy3")
-animation = &"attac"
+animation = &"die"
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(-9.53674e-07, 4.76837e-07)
@@ -175,7 +183,7 @@ scale = Vector2(0.7, 0.7)
 position = Vector2(3.8147e-06, -1.90735e-06)
 shape = SubResource("CircleShape2D_f0t6t")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_esjqa")
 
 [node name="HealthBarFrame" type="Sprite2D" parent="."]
