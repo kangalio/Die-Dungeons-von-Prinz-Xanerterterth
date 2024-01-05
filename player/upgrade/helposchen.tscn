@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://player/upgrade/helposchen.gd" id="1_w32ox"]
 
-[node name="helposchen" type="Node"]
+[node name="helposchen" type="Node" groups=["ubgrade"]]
 script = ExtResource("1_w32ox")

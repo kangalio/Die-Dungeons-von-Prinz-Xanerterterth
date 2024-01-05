@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u3l1v"]
 size = Vector2(32, 32)
 
-[node name="hammer" type="Node2D"]
+[node name="hammer" type="Node2D" groups=["ubgrade"]]
 script = ExtResource("1_i4ja0")
 
 [node name="Hammer" type="Sprite2D" parent="."]
