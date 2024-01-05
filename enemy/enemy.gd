@@ -71,5 +71,5 @@ func _on_area_2d_body_entered(body):
 func _on_area_2d_body_exited(body):
 	is_player_in_range = false
 
-#func _on_navigation_agent_velocity_computed(safe_velocity):
-	#direktion = safe_velocity
+func _on_navigation_agent_velocity_computed(safe_velocity):
+	self.set_velocity(safe_velocity)
