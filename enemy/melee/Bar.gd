@@ -9,5 +9,3 @@ func _ready():
 func update_bar():
 	if get_parent().health > 0:
 		self.scale.x =  float(get_parent().health) / float(max_health)
-	else:
-		queue_free()

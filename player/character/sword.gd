@@ -5,7 +5,7 @@ extends Area2D
 var damage : int = 2
 var cooldown : float = 0
 var cooldown_static : float = 2
-
+var is_weapon = true 
 var sword_is_rotation : bool = false
 
 func attack(bonus_damage):
