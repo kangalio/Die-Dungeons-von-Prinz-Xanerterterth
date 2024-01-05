@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://barcfdnib02lg"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_g8xel"]
-[ext_resource type="Texture2D" uid="uid://chcsrqjesyi2x" path="res://enemy/melee/ghost.png" id="2_yw3yp"]
+[ext_resource type="Texture2D" uid="uid://sueb5yynnpqa" path="res://enemy/melee/ghost.png" id="2_yw3yp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i531n"]
 radius = 1.0
@@ -12,8 +12,8 @@ radius = 16.0
 height = 32.0
 
 [node name="ghost" type="CharacterBody2D" groups=["enemy"]]
-collision_layer = 64
-collision_mask = 64
+collision_layer = 4
+collision_mask = 4
 script = ExtResource("1_g8xel")
 health = 30
 movement_speed = 9500

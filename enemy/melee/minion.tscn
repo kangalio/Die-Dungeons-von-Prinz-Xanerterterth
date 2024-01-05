@@ -1,9 +1,9 @@
 [gd_scene load_steps=24 format=3 uid="uid://cjbgl2fm7f8ov"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://dukh5yuu43vdd" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
-[ext_resource type="Texture2D" uid="uid://do385v6148yc5" path="res://enemy/melee/health_bar_frame.png" id="3_yeirp"]
-[ext_resource type="Texture2D" uid="uid://c6vp4b45f2ufg" path="res://enemy/melee/health_bar.png" id="4_bnjcc"]
+[ext_resource type="Texture2D" uid="uid://benrcu176hmrj" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
+[ext_resource type="Texture2D" uid="uid://hh4lkalpi5sh" path="res://enemy/melee/health_bar_frame.png" id="3_yeirp"]
+[ext_resource type="Texture2D" uid="uid://cr8wm6rrxp22d" path="res://enemy/melee/health_bar.png" id="4_bnjcc"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="5_nrqhp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n4b1k"]
@@ -151,6 +151,8 @@ animations = [{
 }]
 
 [node name="minion" type="CharacterBody2D" groups=["enemy"]]
+collision_layer = 5
+collision_mask = 5
 script = ExtResource("1_ix1mt")
 health = 20
 movement_speed = 3400

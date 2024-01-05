@@ -1,0 +1,73 @@
+[gd_scene load_steps=12 format=3 uid="uid://77i4225kxw3e"]
+
+[ext_resource type="Script" path="res://player/upgrade/bouncy_bullet.gd" id="1_4p6dy"]
+[ext_resource type="Texture2D" uid="uid://oxurim5vo08w" path="res://16x16_sprites/coins/coins-chests-etc-2-0-noborders.png" id="2_nt0gv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j34t2"]
+radius = 8.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xvvk"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(176, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1xiku"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(192, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0y0b"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(208, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t817c"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(224, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eo62j"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(240, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1vug"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(256, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gl3ie"]
+atlas = ExtResource("2_nt0gv")
+region = Rect2(272, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ovrip"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xvvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1xiku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0y0b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t817c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eo62j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1vug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gl3ie")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="BouncyBullet2" type="Area2D"]
+script = ExtResource("1_4p6dy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_j34t2")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ovrip")

@@ -4,7 +4,7 @@
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="1_o4qds"]
 [ext_resource type="PackedScene" uid="uid://ban7fc42wlib3" path="res://rooms/base/exit_door.tscn" id="2_rtrje"]
 [ext_resource type="PackedScene" uid="uid://c0oyxostgv7ho" path="res://rooms/base/global_walls.tscn" id="3_1hfk0"]
-[ext_resource type="TileSet" uid="uid://iud6kvobfm6s" path="res://rooms/tileset/floorset.tres" id="5_u0vmd"]
+[ext_resource type="TileSet" uid="uid://c5gk0qd7g047" path="res://rooms/tileset/floorset.tres" id="5_u0vmd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y4516"]
 size = Vector2(136, 40)

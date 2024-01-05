@@ -1,6 +1,8 @@
 extends Node2D
 
-var bullet_scene = preload("res://player/weapons/bouncy_bullet.gd")
+var is_weapon : bool = true 
+
+var bullet_scene = preload("res://player/upgrade/bouncy_bullet.tscn")
 var cooldown : int = 100
 var cooldown_static : int = cooldown 
 # Called when the node enters the scene tree for the first time.
