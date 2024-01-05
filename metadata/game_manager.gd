@@ -127,6 +127,8 @@ func generate_new_room(room):
 func enter_new_room(room="normal"):
 	remaining_enemies = 0
 	var new_room = generate_new_room(room)
+	var new_pos = new_room.get_node("EnterPoint").global_position
+	PLAYER_CHARACTER.set_global_position(new_pos)
 	self.call_deferred("add_child",new_room)
 	current_room = new_room
 	
@@ -136,8 +138,6 @@ func enter_new_room(room="normal"):
 	elif room == "tutorial":
 		num_enemies = 1
 		times_trader_was_visited = 0
-	var new_pos = new_room.get_node("EnterPoint").global_position
-	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
 	spawn_all_enemies(new_room, num_enemies)
 	remove_all_coins()
