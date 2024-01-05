@@ -110,6 +110,10 @@ func alternative_movement(delta):
 func alternative_direction():
 	if Input.get_vector("left_shoot", "right_shoot", "forward_shoot", "backward_shoot").length() != 0:
 		player_direction = Input.get_vector("left_shoot", "right_shoot", "forward_shoot", "backward_shoot")
+	if velocity.x < 0:
+		$AnimatedSprite2D.flip_h = true
+	elif velocity.x > 0:
+		$AnimatedSprite2D.flip_h = false
 	
 func full_character_reset():
 	bonus_damage = 0
