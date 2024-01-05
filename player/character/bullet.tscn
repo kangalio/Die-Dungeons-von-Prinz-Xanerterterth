@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://dmdaigytu36t6"]
 
 [ext_resource type="Script" path="res://player/character/bullet.gd" id="1_6dusy"]
-[ext_resource type="Texture2D" uid="uid://bo05iudv0a8d5" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/CanonBall.png" id="2_uxdmy"]
+[ext_resource type="Texture2D" uid="uid://ioajbfc1s43m" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/CanonBall.png" id="2_uxdmy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rs2c1"]
 

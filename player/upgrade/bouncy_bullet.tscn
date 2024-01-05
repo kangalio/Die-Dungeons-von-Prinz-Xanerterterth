@@ -63,7 +63,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="bouncy_bullet" type="CharacterBody2D"]
+[node name="bouncy_bullet" type="CharacterBody2D" groups=["coins"]]
 collision_layer = 0
 collision_mask = 4
 script = ExtResource("1_v6evv")

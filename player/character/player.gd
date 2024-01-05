@@ -132,7 +132,9 @@ func full_character_reset():
 	bonus_speed = 0
 	running_LP = base_LP
 	money = base_money
-	
+	for child in self.get_children():
+		if child.is_in_group("ubgrade"):
+			child.queue_free()
 	weapon_reference.queue_free()
 	weapon_reference = starting_weapon.instantiate()
 	self.add_child(weapon_reference)

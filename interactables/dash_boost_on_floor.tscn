@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bw0fgpfiocprc"]
 
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="1_junh0"]
-[ext_resource type="Texture2D" uid="uid://dufkxptbpqgye" path="res://16x16_sprites/potions/item_11.png" id="2_1qpk2"]
+[ext_resource type="Texture2D" uid="uid://bunp13xi6wkyq" path="res://16x16_sprites/potions/item_11.png" id="2_1qpk2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_iv62g"]
 radius = 11.0454
@@ -10,7 +10,7 @@ radius = 11.0454
 position = Vector2(2, 2)
 script = ExtResource("1_junh0")
 upgrade = "res://player/upgrade/dash_boost.tscn"
-cost = 10
+cost = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(2, 2)
@@ -27,7 +27,7 @@ offset_top = 15.0
 offset_right = 38.0
 offset_bottom = 58.0
 text = "dash
-10"
+5"
 horizontal_alignment = 1
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
