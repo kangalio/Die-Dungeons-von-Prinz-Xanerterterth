@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var damage : int = 3
+@export var damage : int = 7
 @export var bullet_speed : int = 20000
 var direction = Vector2(1, 0)
 var bonus_damage = 0
