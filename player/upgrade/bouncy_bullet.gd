@@ -15,6 +15,8 @@ func _ready():
 			#body.take_damage(damage + bonus_damage)
 			#queue_free()
 
+var collision_counter = 0
+
 func _physics_process(delta):
 	self.velocity = direction * bullet_speed * delta
 	var collision = move_and_collide(velocity*delta)
@@ -26,3 +28,7 @@ func _physics_process(delta):
 			queue_free()
 		else:
 			direction = velocity.bounce(collision.get_normal()).normalized()
+		collision_counter += 1
+		if collision_counter >= 7:
+			queue_free()
+		

@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 var starting_weapon = preload("res://player/upgrade/standart_weapon.tscn")
+# var starting_weapon = preload("res://player/upgrade/bouncy_cannon.tscn")
 
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
