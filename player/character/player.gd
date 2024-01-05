@@ -2,7 +2,6 @@ extends CharacterBody2D
 
 var starting_weapon = preload("res://player/character/magic_attack.tscn")
 
-
 var weapon_reference
 var player_direction : Vector2 = Vector2(0, -1)
 
@@ -33,7 +32,6 @@ func _ready():
 	self.add_child(weapon_instance)
 	position = get_viewport_rect().get_center()
 	_animated_sprite.play("walk")
-
 
 func add_upgrade(file_path):
 	var upgrade = load(file_path).instantiate()
