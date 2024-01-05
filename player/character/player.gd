@@ -80,6 +80,16 @@ func dash(delta):
 			print("dash started")
 			is_dashing = true
 			dash_duration = 0
+			dash_charging_timer = 0
+			dash_started = false
+	elif Input.is_action_just_released("dash") and dash_charging_timer < dash_charging_threshold_timer and dash_started == true:
+		print("canceled chaneling")
+		dash_charging_timer = 0
+		dash_started = false 
+		dash_cooldown = 0
+		
+		
+		
 	if is_dashing == true and dash_duration <= dash_duration_threshold: 
 		dash_duration += delta
 		#print(str(dash_duration_threshold - dash_duration) + " remaining dash duration")

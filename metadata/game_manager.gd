@@ -8,10 +8,10 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 var times_trader_was_visited:int = 0
 
-const DEBUG = 0
+const DEBUG = 1
 const TO_TRADER = 0
 const INF_HEALTH = 0
-const OPEN_DOORS = 0
+const OPEN_DOORS = 1
 
 const NUM_START_ENEMIES:int = 3
 
@@ -73,6 +73,8 @@ func spawn_all_enemies(room, num_enemies):
 	
 	#print("Debug: spawning ", len(spawn_points.get_children()), " enemies")
 	var points = spawn_points.get_children()
+	if num_enemies > len(points):
+		num_enemies = len(points)
 	for index in range(num_enemies):
 		self.spawn_enemy("random",points[index%len(points)].global_position)
 			
@@ -107,21 +109,22 @@ func open_exit_door():
 
 func generate_new_room(room):
 	var new_room_cls = 0
-		
+	var type = room
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
-	elif room_counter >= randi_range(1.2,4):
+	elif room_counter == 3:
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 		times_trader_was_visited += 1
+		type = "trader"
 	else:
 		new_room_cls = load(ROOM_NORMAL.pick_random())
 		room_counter += 1
 		
 	if DEBUG and TO_TRADER:
 		new_room_cls = load(ROOM_TRADER)
-	print("Debug: Spawning new room ", room)
+	print("Debug: Spawning new room name=", room, ", type=",type)
 	return new_room_cls.instantiate()
 	
 func enter_new_room(room="normal"):
