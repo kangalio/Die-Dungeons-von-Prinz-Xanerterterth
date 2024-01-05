@@ -157,7 +157,6 @@ attack_speed = 3.0
 target_desired_distance = 25.0
 radius = 25.0
 max_neighbors = 1
-debug_enabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1

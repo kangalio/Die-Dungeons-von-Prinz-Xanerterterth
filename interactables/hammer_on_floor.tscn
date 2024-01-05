@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://qkrx2k7df2uw"]
 
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="1_1n2yc"]
-[ext_resource type="Texture2D" uid="uid://b3k6abkxbwe5k" path="res://16x16_sprites/basic_rpg_icons/hammer.png" id="1_vwnqf"]
+[ext_resource type="Texture2D" uid="uid://ov60el1haedb" path="res://16x16_sprites/basic_rpg_icons/hammer.png" id="1_vwnqf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_wmpes"]
 
 [node name="hammer_on_the_floor" type="Area2D"]
 script = ExtResource("1_1n2yc")
 upgrade = "res://player/upgrade/hammer.tscn"
-cost = 20
+cost = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(2, 2)
@@ -24,7 +24,7 @@ offset_top = 16.0
 offset_right = 40.0
 offset_bottom = 64.0
 text = "Hammer
-20"
+10"
 horizontal_alignment = 1
 vertical_alignment = 1
 

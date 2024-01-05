@@ -159,7 +159,6 @@ attack_speed = 5.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 30.0
-avoidance_enabled = true
 radius = 40.0
 debug_enabled = true
 

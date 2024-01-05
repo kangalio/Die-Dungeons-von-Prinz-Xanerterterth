@@ -87,6 +87,7 @@ func remove_all_coins():
 		coin.queue_free()
 				
 func on_player_character_died():
+	Ui.load_game()
 	freeze_game()
 	current_room.queue_free()
 	remove_all_enemies()
@@ -142,6 +143,7 @@ func enter_new_room(room="normal"):
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	self.call_deferred("add_child",new_room)
 	current_room = new_room
+	Ui.number_of_rooms += 1
 	
 	var num_enemies = 0
 	if room == "normal":

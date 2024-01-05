@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://o761ip8t0hf8"]
+[gd_scene load_steps=5 format=3 uid="uid://o761ip8t0hf8"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_bibhj"]
 [ext_resource type="Script" path="res://rooms/trader/trader_room.gd" id="1_tbvy8"]
 [ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_2fpbr"]
+[ext_resource type="PackedScene" uid="uid://crvudjhwo10rs" path="res://interactables/helposchen_on_floor.tscn" id="4_6v7j8"]
 
 [node name="trader_room" type="Node2D"]
 script = ExtResource("1_tbvy8")
@@ -16,3 +17,6 @@ layer_0/tile_data = PackedInt32Array(65552, 131072, 10, 16, 131072, 9, 524297, 9
 
 [node name="EnterPoint" type="Node2D" parent="."]
 position = Vector2(585, 576)
+
+[node name="Area2D" parent="." instance=ExtResource("4_6v7j8")]
+position = Vector2(576, 312)

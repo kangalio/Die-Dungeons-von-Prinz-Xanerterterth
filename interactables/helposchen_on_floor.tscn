@@ -1,14 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://crvudjhwo10rs"]
 
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="1_1llyh"]
-[ext_resource type="Texture2D" uid="uid://h86elk7f3p8o" path="res://16x16_sprites/potions/item_19.png" id="2_xighj"]
+[ext_resource type="Texture2D" uid="uid://cirexcah4bh0h" path="res://16x16_sprites/potions/item_19.png" id="2_xighj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f0pr2"]
 
 [node name="Area2D" type="Area2D"]
 script = ExtResource("1_1llyh")
 upgrade = "res://player/upgrade/helposchen.tscn"
-cost = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(2, 2)
@@ -23,8 +22,8 @@ offset_left = -24.0
 offset_top = 16.0
 offset_right = 26.0
 offset_bottom = 65.0
-text = "hp
-2"
+text = "HP
+0"
 horizontal_alignment = 1
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

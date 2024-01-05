@@ -128,12 +128,17 @@ expand_to_text_length = true
 
 [node name="names_label" type="Label" parent="ColorRect/Control"]
 layout_mode = 0
-offset_left = 280.0
+offset_left = 456.0
 offset_top = 344.0
 offset_right = 580.0
 offset_bottom = 601.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 40
+text = "name
+name
+name
+neame
+nemae"
 horizontal_alignment = 1
 
 [node name="scores_label" type="Label" parent="ColorRect/Control"]
@@ -143,6 +148,11 @@ offset_top = 344.0
 offset_right = 796.0
 offset_bottom = 601.0
 theme_override_font_sizes/font_size = 40
+text = "XXX
+XXX
+XXX
+XXX
+XXX"
 horizontal_alignment = 1
 
 [node name="Label" type="Label" parent="ColorRect/Control"]
