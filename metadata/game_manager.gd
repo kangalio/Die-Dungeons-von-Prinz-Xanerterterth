@@ -107,21 +107,22 @@ func open_exit_door():
 
 func generate_new_room(room):
 	var new_room_cls = 0
-		
+	var type = room
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
-	elif room_counter >= randi_range(2,4):
+	elif room_counter >= randi_range(1,2):
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 		times_trader_was_visited += 1
+		type = "trader"
 	else:
 		new_room_cls = load(ROOM_NORMAL.pick_random())
 		room_counter += 1
 		
 	if DEBUG and TO_TRADER:
 		new_room_cls = load(ROOM_TRADER)
-	print("Debug: Spawning new room ", room)
+	print("Debug: Spawning new room name=", room, ", type=",type)
 	return new_room_cls.instantiate()
 	
 func enter_new_room(room="normal"):
