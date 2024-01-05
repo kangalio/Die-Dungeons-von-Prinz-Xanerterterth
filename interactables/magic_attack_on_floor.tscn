@@ -15,14 +15,13 @@ shape = SubResource("CircleShape2D_6ocab")
 
 [node name="WeaponGreenMagicStaff" type="Sprite2D" parent="."]
 rotation = 0.658522
-scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_gy5n4")
 
 [node name="Label" type="Label" parent="."]
 offset_left = -40.0
-offset_top = 8.0
+offset_top = 16.0
 offset_right = 40.0
-offset_bottom = 51.0
+offset_bottom = 59.0
 text = "Magic
 20"
 horizontal_alignment = 1
