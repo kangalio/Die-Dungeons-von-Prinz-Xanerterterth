@@ -17,7 +17,8 @@ const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
 const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
 	#"res://rooms/normal_rooms/room_2.tscn"
-	"res://rooms/normal_rooms/room_3.tscn",	
+	"res://rooms/normal_rooms/room_3.tscn",
+	"res://rooms/normal_rooms/room_4.tscn",
 ]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
@@ -73,6 +74,10 @@ func spawn_all_enemies(room):
 func remove_all_enemies():
 	for enemy in get_tree().get_nodes_in_group("enemy"):
 		enemy.queue_free()
+		
+func remove_all_coins():
+	for coin in get_tree().get_nodes_in_group("coin"):
+		coin.queue_free()
 				
 func on_player_character_died():
 	current_room.queue_free()
@@ -124,6 +129,7 @@ func enter_new_room(room="normal"):
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
 	spawn_all_enemies(new_room)
+	remove_all_coins()
 	if remaining_enemies <= 0:
 		open_exit_door()
 	if DEBUG and OPEN_DOORS:

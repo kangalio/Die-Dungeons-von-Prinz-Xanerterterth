@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3 uid="uid://blht5v7rmkbac"]
 
 [ext_resource type="Script" path="res://player/character/explosion.gd" id="1_3jogs"]
-[ext_resource type="Texture2D" uid="uid://bpgslrrcbdn8o" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png" id="1_4sckp"]
+[ext_resource type="Texture2D" uid="uid://bjn5fbfaimolh" path="res://16x16_sprites/ninja_asset_pack/NinjaAdventure/FX/Projectile/Fireball.png" id="1_4sckp"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_y7ahv"]
-radius = 24.0
+radius = 56.5685
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o7f0p"]
 atlas = ExtResource("1_4sckp")
@@ -49,8 +49,8 @@ script = ExtResource("1_3jogs")
 shape = SubResource("CircleShape2D_y7ahv")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-2.38419e-07, -1.5)
-scale = Vector2(3, 3.1875)
+position = Vector2(-2.38419e-07, -8)
+scale = Vector2(7.5, 7.5)
 sprite_frames = SubResource("SpriteFrames_hq75n")
 frame = 3
 frame_progress = 0.34677
