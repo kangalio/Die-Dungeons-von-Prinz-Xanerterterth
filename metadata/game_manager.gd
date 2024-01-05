@@ -10,7 +10,7 @@ var remaining_enemies:int = 0
 const DEBUG = 1
 const TO_TRADER = 1
 const INF_HEALTH = 0
-const OPEN_DOORS = 1
+const OPEN_DOORS = 0
 
 const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
