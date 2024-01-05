@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://bw0fgpfiocprc"]
+
+[ext_resource type="Script" path="res://interactables/interactable.gd" id="1_junh0"]
+[ext_resource type="Texture2D" uid="uid://be385rnetk3xj" path="res://16x16_sprites/potions/item_11.png" id="2_1qpk2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iv62g"]
+radius = 30.1496
+
+[node name="Area2D" type="Area2D"]
+position = Vector2(2, 2)
+script = ExtResource("1_junh0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_iv62g")
+
+[node name="Item11" type="Sprite2D" parent="."]
+position = Vector2(0.999992, -1)
+scale = Vector2(2.96875, 2.9375)
+texture = ExtResource("2_1qpk2")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -24.415
+offset_top = 31.1444
+offset_right = 15.585
+offset_bottom = 54.1444
+text = "dash
+2"
+horizontal_alignment = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbx6ogci30emn"]
+
+[ext_resource type="Texture2D" uid="uid://dq47htl3wyr0c" path="res://16x16_sprites/potions/item_35.png" id="1_ymyj0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vjgpk"]
+
+[node name="ArmorOnFloor" type="Area2D"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+scale = Vector2(2, 2)
+shape = SubResource("CircleShape2D_vjgpk")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -24.0
+offset_top = 16.0
+offset_right = 24.0
+offset_bottom = 65.0
+text = "Armor
+3"
+horizontal_alignment = 1
+
+[node name="Item35" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ymyj0")

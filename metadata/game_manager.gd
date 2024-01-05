@@ -8,6 +8,9 @@ var room_counter:int = 0
 var remaining_enemies:int = 0
 
 const DEBUG = 1
+const TO_TRADER = 0
+const INF_HEALTH = 0
+const OPEN_DOORS = 0
 
 const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
@@ -25,7 +28,7 @@ var enemy_melee_paths = [
 	"res://enemy/melee/tank.tscn",
 ]
 var enemy_ranged_paths = [
-	#"res://enemy/range/range_enemy.tscn"
+	"res://enemy/melee/range.tscn",
 ]
 var enemy_boss_paths = [
 	"res://enemy/melee/hunter.tscn"
@@ -39,6 +42,7 @@ func _ready():
 	pass# Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta):
 	pass
 
@@ -57,26 +61,33 @@ func spawn_enemy(enemy_type, position):
 	enemy.set_global_position(position)
 	remaining_enemies += 1
 
+func spawn_all_enemies(room):
+	var spawn_points = room.get_node("EnemySpawnPoint")
+	if spawn_points == null:
+		print("Warn: no spawn points available")
+	else:
+		print("Debug: spawning", len(spawn_points.get_children()), " enemies")
+		for point in spawn_points.get_children():
+			self.spawn_enemy("random",point.global_position)
+			
+func remove_all_enemies():
+	for enemy in get_tree().get_nodes_in_group("enemy"):
+		enemy.queue_free()
+				
 func on_player_character_died():
 	current_room.queue_free()
-	for enemy in get_tree().get_nodes_in_group("enemy"):
-		print("removing enemy ",enemy)
-		enemy.queue_free()
+	remove_all_enemies()
 	enter_new_room("tutorial")
+	PLAYER_CHARACTER.full_character_reset()
 
 func on_enemy_died(at_position):
 	remaining_enemies -= 1
-	print("Enemy died, remaining = ",remaining_enemies)
-	spawn_interactable(INTERACTABLE_COIN, at_position)
+	var new_coin = load("res://interactables/coin.tscn").instantiate()
+	new_coin.global_position = at_position
+	self.add_child(new_coin)
 	if remaining_enemies <= 0:
 		open_exit_door()
 
-func spawn_interactable(file_path, position):
-	var interactable = load(file_path).instantiate()
-	self.add_child(interactable)
-	interactable.set_global_position(position)
-	
-		
 func open_exit_door():
 	print("Unlocking door")
 	var doorblocker = get_tree().get_first_node_in_group("door_blocker")
@@ -84,14 +95,9 @@ func open_exit_door():
 		doorblocker.queue_free()
 	else:
 		print("Warn: doorblocker does not exist")
-		
-func enter_new_room(room="normal"):
-	var new_room = 0
+
+func generate_new_room(room):
 	var new_room_cls = 0
-	remaining_enemies = 0
-	
-	for enemy in get_tree().get_nodes_in_group("enemy"):
-		enemy.queue_free()
 		
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
@@ -102,19 +108,25 @@ func enter_new_room(room="normal"):
 	else:
 		new_room_cls = load(ROOM_NORMAL.pick_random())
 		room_counter += 1
-	print("Spawning new room", new_room_cls)
-	new_room = new_room_cls.instantiate()
+		
+	if DEBUG and TO_TRADER:
+		new_room_cls = load(ROOM_TRADER)
+	print("Debug: Spawning new room")
+	return new_room_cls.instantiate()
+	
+func enter_new_room(room="normal"):
+	remaining_enemies = 0
+	var new_room = generate_new_room(room)
 	self.add_child(new_room)
 	current_room = new_room
+	
 	var new_pos = new_room.get_node("EnterPoint").global_position
 	PLAYER_CHARACTER.set_global_position(new_pos)
-	
-	var spawn_points = new_room.get_node("EnemySpawnPoint")
-	if spawn_points == null:
-		print("Warn: no spawn points available")
-	else:
-		for point in spawn_points.get_children():
-			self.spawn_enemy("random",point.global_position)
-			
-	if DEBUG:
+	remove_all_enemies()
+	spawn_all_enemies(new_room)
+	if remaining_enemies <= 0:
 		open_exit_door()
+	if DEBUG and OPEN_DOORS:
+		open_exit_door()
+	if DEBUG and INF_HEALTH:
+		PLAYER_CHARACTER.running_LP = 100000

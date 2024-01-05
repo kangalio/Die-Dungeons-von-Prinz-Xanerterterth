@@ -1,7 +1,10 @@
-[gd_scene load_steps=14 format=3 uid="uid://cjbgl2fm7f8ov"]
+[gd_scene load_steps=24 format=3 uid="uid://cjbgl2fm7f8ov"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
 [ext_resource type="Texture2D" uid="uid://dukh5yuu43vdd" path="res://enemy/melee/jumper.png" id="2_tn0ty"]
+[ext_resource type="Texture2D" uid="uid://do385v6148yc5" path="res://enemy/melee/health_bar_frame.png" id="3_yeirp"]
+[ext_resource type="Texture2D" uid="uid://c6vp4b45f2ufg" path="res://enemy/melee/health_bar.png" id="4_bnjcc"]
+[ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="5_nrqhp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n4b1k"]
 atlas = ExtResource("2_tn0ty")
@@ -92,38 +95,106 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f0t6t"]
-radius = 84.5991
+radius = 50.1834
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_esjqa"]
-radius = 29.1548
+radius = 22.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6olfa"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(1, 0, 2, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_st6al"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(4, 0, 2, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t6l04"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(7, 0, 2, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vmsy"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(10, 0, 2, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4y3v"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(13, 0, 2, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esw8p"]
+atlas = ExtResource("4_bnjcc")
+region = Rect2(16, 0, 2, 4)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_82xr2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6olfa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_st6al")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t6l04")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vmsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4y3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esw8p")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="minion" type="CharacterBody2D" groups=["enemy"]]
-position = Vector2(-32, -29)
 script = ExtResource("1_ix1mt")
 health = 20
 movement_speed = 3400
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
+target_desired_distance = 25.0
+radius = 25.0
+max_neighbors = 1
+debug_enabled = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(32, 29)
-scale = Vector2(4, 4)
+scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_fxfy3")
 animation = &"attac"
 
 [node name="Area2D" type="Area2D" parent="."]
-position = Vector2(16, 35)
+position = Vector2(-9.53674e-07, 4.76837e-07)
 scale = Vector2(0.7, 0.7)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(22.8571, -8.57143)
+position = Vector2(3.8147e-06, -1.90735e-06)
 shape = SubResource("CircleShape2D_f0t6t")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2(31, 29)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_esjqa")
 
+[node name="HealthBarFrame" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -40)
+scale = Vector2(1.8, 2)
+texture = ExtResource("3_yeirp")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(-25, -40)
+script = ExtResource("5_nrqhp")
+
+[node name="Bar" type="AnimatedSprite2D" parent="Node2D"]
+texture_filter = 1
+position = Vector2(25, 0)
+scale = Vector2(25.3, -2.02)
+sprite_frames = SubResource("SpriteFrames_82xr2")
+
+[connection signal="velocity_computed" from="navigation_agent" to="." method="_on_navigation_agent_velocity_computed"]
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

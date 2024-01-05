@@ -1,16 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://cfu8kfayiftlt"]
+[gd_scene load_steps=4 format=3 uid="uid://cfu8kfayiftlt"]
 
 [ext_resource type="PackedScene" uid="uid://c6mffkse3bi2p" path="res://rooms/base/base_room.tscn" id="1_tquo7"]
-[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_ilfte"]
+[ext_resource type="TileSet" uid="uid://6wgl32gxffm5" path="res://rooms/tileset/tileset_1.tres" id="2_l7w43"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_cs0g8"]
+vertices = PackedVector2Array(1018, 374, 854, 374, 202, 298, 470, 298, 1094, 630, 58, 630, 298, 538, 470, 538, 134, 538, 1018, 298, 1018, 182, 1094, 106, 58, 106, 134, 374, 950, 182, 854, 538, 682, 538, 682, 374, 470, 374, 134, 298, 950, 298, 682, 298, 682, 182, 614, 182, 1018, 538, 614, 298, 538, 298, 538, 182, 470, 182, 202, 182, 298, 374, 134, 182)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 5, 6, 7), PackedInt32Array(8, 6, 5), PackedInt32Array(9, 10, 11, 4), PackedInt32Array(8, 5, 12, 13), PackedInt32Array(12, 11, 10, 14), PackedInt32Array(1, 15, 16, 17), PackedInt32Array(2, 1, 17), PackedInt32Array(2, 17, 18, 19), PackedInt32Array(14, 20, 21, 22), PackedInt32Array(12, 14, 22), PackedInt32Array(12, 22, 23), PackedInt32Array(15, 24, 4), PackedInt32Array(4, 24, 0), PackedInt32Array(9, 4, 0), PackedInt32Array(20, 9, 0), PackedInt32Array(21, 20, 0), PackedInt32Array(16, 15, 4), PackedInt32Array(25, 21, 0), PackedInt32Array(25, 0, 26), PackedInt32Array(25, 26, 27, 23), PackedInt32Array(12, 23, 27), PackedInt32Array(12, 27, 28), PackedInt32Array(12, 28, 3, 29), PackedInt32Array(7, 16, 4), PackedInt32Array(18, 7, 6, 30), PackedInt32Array(19, 18, 30), PackedInt32Array(19, 30, 13), PackedInt32Array(19, 13, 12), PackedInt32Array(31, 19, 12), PackedInt32Array(29, 31, 12), PackedInt32Array(2, 29, 3), PackedInt32Array(0, 3, 26)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(48, 96, 48, 96, 48, 640, 1104, 640, 1104, 96)])
+source_geometry_group_name = &"navigation_polygon_source_group"
 
 [node name="room_3" type="Node2D"]
 
 [node name="BaseRoom" parent="." instance=ExtResource("1_tquo7")]
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_cs0g8")
 
 [node name="TileMap" type="TileMap" parent="NavigationRegion2D"]
-tile_set = ExtResource("2_ilfte")
+tile_set = ExtResource("2_l7w43")
 format = 2
 layer_0/tile_data = PackedInt32Array(524292, 1376256, 19, 589828, 1376256, 20, 655364, 1376256, 21, 524293, 1441792, 19, 589829, 1441792, 20, 655365, 1441792, 21, 655371, 1376256, 21, 524300, 1376256, 19, 589836, 1376256, 20, 655372, 1376256, 21, 524301, 1441792, 19, 589837, 1441792, 20, 655373, 1441792, 21, 524306, 1310720, 19, 589842, 1310720, 20, 655378, 1310720, 21, 524307, 1376256, 19, 589843, 1376256, 20, 655379, 1376256, 21, 524308, 1441792, 19, 589844, 1441792, 20, 655380, 1441792, 21, 524291, 1310720, 19, 589827, 1310720, 20, 655363, 1310720, 21, 524298, 1310720, 19, 589834, 1310720, 20, 655370, 1310720, 21, 524299, 1376256, 19, 589835, 1376256, 20, 196611, 1376256, 2, 262147, 1376256, 3, 327683, 1376256, 4, 196618, 1376256, 2, 262154, 1376256, 3, 327690, 1376256, 4, 196621, 1376256, 2, 262157, 1376256, 3, 327693, 1376256, 4, 196628, 1376256, 2, 262164, 1376256, 3, 327700, 1376256, 4)
 

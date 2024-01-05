@@ -8,13 +8,25 @@
 [node name="Area2D" type="Area2D"]
 script = ExtResource("2_xy854")
 upgrade = "res://player/upgrade/DEG_boost.tscn"
+cost = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(2, 2)
 shape = SubResource("CircleShape2D_4gleg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
 texture = ExtResource("1_niyew")
-script = ExtResource("2_xy854")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -24.0
+offset_top = 16.0
+offset_right = 24.0
+offset_bottom = 65.0
+text = "DMG
+4"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]
