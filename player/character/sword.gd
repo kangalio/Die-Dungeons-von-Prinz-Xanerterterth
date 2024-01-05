@@ -4,7 +4,7 @@ extends Area2D
 
 var damage : int = 2
 var cooldown : float = 0
-var cooldown_static : float = 2
+var cooldown_static : float = 0.5
 var is_weapon = true 
 var sword_is_rotation : bool = false
 
@@ -17,7 +17,7 @@ func attack(bonus_damage):
 				body.take_damage(damage+bonus_damage)
 		sword_is_rotation = true
 
-var rotation_speed = 0.125
+var rotation_speed = 0.5
 
 func _process(delta):
 	if cooldown > 0:

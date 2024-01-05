@@ -10,14 +10,15 @@ var remaining_enemies:int = 0
 const DEBUG = 1
 const TO_TRADER = 0
 const INF_HEALTH = 0
-const OPEN_DOORS = 0
+const OPEN_DOORS = 1
 
 const INTERACTABLE_COIN = "res://interactables/coin.tscn"
 const ROOM_TRADER = "res://rooms/trader/trader_room.tscn"
 const ROOM_NORMAL = [
 	"res://rooms/normal_rooms/room_1.tscn",
 	#"res://rooms/normal_rooms/room_2.tscn"
-	"res://rooms/normal_rooms/room_3.tscn",	
+	"res://rooms/normal_rooms/room_3.tscn",
+	"res://rooms/normal_rooms/room_4.tscn",
 ]
 const ROOM_TUTORIAL = "res://rooms/tutorial/tutorial.tscn"
 
@@ -57,7 +58,7 @@ func spawn_enemy(enemy_type, position):
 		"boss":
 			enemy_location = enemy_boss_paths.pick_random()
 	enemy = load(enemy_location).instantiate()
-	self.add_child(enemy)
+	self.call_deferred("add_child",enemy)
 	enemy.set_global_position(position)
 	remaining_enemies += 1
 
@@ -73,6 +74,10 @@ func spawn_all_enemies(room):
 func remove_all_enemies():
 	for enemy in get_tree().get_nodes_in_group("enemy"):
 		enemy.queue_free()
+		
+func remove_all_coins():
+	for coin in get_tree().get_nodes_in_group("coin"):
+		coin.queue_free()
 				
 func on_player_character_died():
 	current_room.queue_free()
@@ -102,7 +107,7 @@ func generate_new_room(room):
 	if room == "tutorial":
 		new_room_cls = load(ROOM_TUTORIAL)
 		room_counter = 0
-	elif room_counter >= randi_range(3,5):
+	elif room_counter >= randi_range(2,4):
 		new_room_cls = load(ROOM_TRADER)
 		room_counter = 0
 	else:
@@ -117,13 +122,14 @@ func generate_new_room(room):
 func enter_new_room(room="normal"):
 	remaining_enemies = 0
 	var new_room = generate_new_room(room)
-	self.add_child(new_room)
+	self.call_deferred("add_child",new_room)
 	current_room = new_room
 	
 	var new_pos = new_room.get_node("EnterPoint").global_position
 	PLAYER_CHARACTER.set_global_position(new_pos)
 	remove_all_enemies()
 	spawn_all_enemies(new_room)
+	remove_all_coins()
 	if remaining_enemies <= 0:
 		open_exit_door()
 	if DEBUG and OPEN_DOORS:
