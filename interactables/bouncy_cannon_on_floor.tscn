@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dpx12t02u4m4v"]
 
 [ext_resource type="Script" path="res://interactables/interactable.gd" id="1_mv46o"]
-[ext_resource type="Texture2D" uid="uid://b0j55xmltap22" path="res://16x16_sprites/basic_rpg_icons/staff.png" id="2_ih3sr"]
+[ext_resource type="Texture2D" uid="uid://b53twulpgq11c" path="res://16x16_sprites/basic_rpg_icons/staff.png" id="2_ih3sr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hejsp"]
 
@@ -13,7 +13,8 @@ cost = 19
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_hejsp")
 
-[node name="Sword" type="Sprite2D" parent="."]
+[node name="Bouncy_cannon" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
 texture = ExtResource("2_ih3sr")
 
 [node name="Label" type="Label" parent="."]
