@@ -20,6 +20,7 @@ func take_damage (damage_taken):
 
 func die ():
 	#loot übergben
+	$CollisionShape2D2.disabled = true
 	$AnimatedSprite2D.play("die")
 	await get_tree().create_tween().tween_interval(1).finished
 	GameManager.on_enemy_died(self.global_position)
