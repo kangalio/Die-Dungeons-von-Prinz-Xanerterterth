@@ -11,7 +11,7 @@ var times_trader_was_visited:int = 0
 const DEBUG = 1
 const TO_TRADER = 0
 const INF_HEALTH = 0
-const OPEN_DOORS = 1
+const OPEN_DOORS = 0
 
 const NUM_START_ENEMIES:int = 3
 
@@ -87,6 +87,7 @@ func remove_all_coins():
 		coin.queue_free()
 				
 func on_player_character_died():
+	freeze_game()
 	current_room.queue_free()
 	remove_all_enemies()
 	enter_new_room("tutorial")
@@ -99,6 +100,13 @@ func on_enemy_died(at_position):
 	self.add_child(new_coin)
 	if remaining_enemies <= 0:
 		open_exit_door()
+
+func freeze_game():
+	Ui.screen_blackening_phase = "fade_to_black"
+	self.process_mode = Node.PROCESS_MODE_DISABLED
+
+func de_freeze_game():
+	self.process_mode = Node.PROCESS_MODE_INHERIT
 
 func open_exit_door():
 	var doorblocker = get_tree().get_first_node_in_group("door_blocker")

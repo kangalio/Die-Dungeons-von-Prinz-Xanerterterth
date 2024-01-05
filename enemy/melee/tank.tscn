@@ -1,9 +1,9 @@
 [gd_scene load_steps=24 format=3 uid="uid://csxigjgv4vdsn"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://tj3x0xd50wnp" path="res://enemy/melee/tank.png" id="2_oqkyp"]
-[ext_resource type="Texture2D" uid="uid://hh4lkalpi5sh" path="res://enemy/melee/health_bar_frame.png" id="3_qyfuo"]
-[ext_resource type="Texture2D" uid="uid://cr8wm6rrxp22d" path="res://enemy/melee/health_bar.png" id="4_joyiu"]
+[ext_resource type="Texture2D" uid="uid://vwsiruabkb1y" path="res://enemy/melee/tank.png" id="2_oqkyp"]
+[ext_resource type="Texture2D" uid="uid://y8kw248f7c8i" path="res://enemy/melee/health_bar_frame.png" id="3_qyfuo"]
+[ext_resource type="Texture2D" uid="uid://d6iakliwuc1w" path="res://enemy/melee/health_bar.png" id="4_joyiu"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="5_ujlqr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0v0wb"]
@@ -152,10 +152,10 @@ animations = [{
 collision_layer = 5
 collision_mask = 5
 script = ExtResource("1_ix1mt")
-health = 45
-movement_speed = 1500
+health = 40
+movement_speed = 1750
 attack_damage = 4
-attack_speed = 3.0
+attack_speed = 5.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 30.0
@@ -168,7 +168,7 @@ texture_filter = 1
 position = Vector2(-1, 2)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_k765j")
-animation = &"attac"
+animation = &"die"
 
 [node name="Area2D" type="Area2D" parent="."]
 

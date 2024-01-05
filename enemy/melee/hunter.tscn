@@ -1,9 +1,10 @@
-[gd_scene load_steps=24 format=3 uid="uid://draad7hn1vk6t"]
+[gd_scene load_steps=25 format=3 uid="uid://draad7hn1vk6t"]
 
 [ext_resource type="Script" path="res://enemy/enemy.gd" id="1_ix1mt"]
-[ext_resource type="Texture2D" uid="uid://dt6pa7h7dm4d2" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
-[ext_resource type="Texture2D" uid="uid://hh4lkalpi5sh" path="res://enemy/melee/health_bar_frame.png" id="3_cjbnx"]
-[ext_resource type="Texture2D" uid="uid://cr8wm6rrxp22d" path="res://enemy/melee/health_bar.png" id="4_u50u5"]
+[ext_resource type="Texture2D" uid="uid://5lykn8qegh5g" path="res://enemy/melee/hunter.png" id="2_w5eh6"]
+[ext_resource type="Texture2D" uid="uid://y8kw248f7c8i" path="res://enemy/melee/health_bar_frame.png" id="3_cjbnx"]
+[ext_resource type="Texture2D" uid="uid://c2qmhqfrf3ak" path="res://enemy/melee/hunter_death.png" id="3_girqq"]
+[ext_resource type="Texture2D" uid="uid://d6iakliwuc1w" path="res://enemy/melee/health_bar.png" id="4_u50u5"]
 [ext_resource type="Script" path="res://enemy/melee/Bar.gd" id="5_c7ed7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h1brm"]
@@ -60,7 +61,10 @@ animations = [{
 "name": &"attac",
 "speed": 4.0
 }, {
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_girqq")
+}],
 "loop": true,
 "name": &"die",
 "speed": 5.0
@@ -142,22 +146,20 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_crq06"]
-radius = 16.0
-height = 64.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_m1bu1"]
+radius = 22.0907
 
 [node name="hunter" type="CharacterBody2D" groups=["enemy"]]
 collision_layer = 5
 collision_mask = 5
 script = ExtResource("1_ix1mt")
 health = 20
-movement_speed = 4500
-attack_damage = 2
-attack_speed = 4.0
+movement_speed = 7000
+attack_damage = 3
+attack_speed = 5.0
 
 [node name="navigation_agent" type="NavigationAgent2D" parent="."]
 target_desired_distance = 17.0
-avoidance_enabled = true
 radius = 40.0
 debug_enabled = true
 
@@ -165,7 +167,7 @@ debug_enabled = true
 texture_filter = 1
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_vfgnd")
-animation = &"attac"
+animation = &"die"
 
 [node name="Area2D" type="Area2D" parent="."]
 
@@ -193,7 +195,7 @@ sprite_frames = SubResource("SpriteFrames_qivhs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
-shape = SubResource("CapsuleShape2D_crq06")
+shape = SubResource("CircleShape2D_m1bu1")
 
 [connection signal="velocity_computed" from="navigation_agent" to="." method="_on_navigation_agent_velocity_computed"]
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

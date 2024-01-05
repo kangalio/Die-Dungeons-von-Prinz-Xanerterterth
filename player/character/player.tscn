@@ -1,10 +1,10 @@
 [gd_scene load_steps=23 format=3 uid="uid://ckunf2yxv3a5e"]
 
 [ext_resource type="Script" path="res://player/character/player.gd" id="1_5g5q1"]
-[ext_resource type="Texture2D" uid="uid://dqc2kift8xty6" path="res://16x16_sprites/charakter_sprites/doc.png" id="2_rihgf"]
+[ext_resource type="Texture2D" uid="uid://dd4kbnqdjyf3v" path="res://16x16_sprites/charakter_sprites/doc.png" id="2_rihgf"]
 [ext_resource type="Script" path="res://player/character/Node2D.gd" id="3_r2ld8"]
-[ext_resource type="Texture2D" uid="uid://t418l14styag" path="res://enemy/melee/health_bar.png" id="4_qkixv"]
-[ext_resource type="Texture2D" uid="uid://cp44sss6esf7c" path="res://enemy/melee/health_bar_frame.png" id="5_qpmw2"]
+[ext_resource type="Texture2D" uid="uid://d6iakliwuc1w" path="res://enemy/melee/health_bar.png" id="4_qkixv"]
+[ext_resource type="Texture2D" uid="uid://y8kw248f7c8i" path="res://enemy/melee/health_bar_frame.png" id="5_qpmw2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ikipq"]
 radius = 16.0

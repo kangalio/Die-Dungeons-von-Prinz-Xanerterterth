@@ -13,7 +13,7 @@ var bonus_damage : int = 0
 var base_speed = 7500
 var bonus_speed : int = 0
 
-var base_money : int = 100
+var base_money : int = 0
 var money : int = base_money
 
 var dash_duration_threshold : float = 0.1 #how long the dash lasts
@@ -126,13 +126,15 @@ func alternative_direction():
 		$AnimatedSprite2D.flip_h = true
 	elif velocity.x > 0:
 		$AnimatedSprite2D.flip_h = false
-	
+
 func full_character_reset():
 	bonus_damage = 0
 	bonus_speed = 0
 	running_LP = base_LP
 	money = base_money
-	
+	for child in self.get_children():
+		if child.is_in_group("ubgrade"):
+			child.queue_free()
 	weapon_reference.queue_free()
 	weapon_reference = starting_weapon.instantiate()
 	self.add_child(weapon_reference)

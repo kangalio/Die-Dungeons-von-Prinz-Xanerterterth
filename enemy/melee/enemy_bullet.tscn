@@ -1,13 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://bij0bib1uf5fn"]
 
 [ext_resource type="Script" path="res://enemy/melee/enemy_bullet.gd" id="1_mfrd0"]
-[ext_resource type="Texture2D" uid="uid://bxaxn7tc33rgr" path="res://enemy/melee/venom.png" id="2_bnu60"]
+[ext_resource type="Texture2D" uid="uid://dqb1iyma6xnxh" path="res://enemy/melee/venom.png" id="2_bnu60"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rs2c1"]
 
-[node name="CharacterBody2D2" type="CharacterBody2D"]
+[node name="CharacterBody2D" type="CharacterBody2D"]
 collision_layer = 0
 script = ExtResource("1_mfrd0")
+damage = 2
 
 [node name="Area2D" type="Area2D" parent="."]
 
