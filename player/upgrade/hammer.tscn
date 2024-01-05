@@ -1,18 +1,18 @@
 [gd_scene load_steps=4 format=3 uid="uid://bsmlgjcgdcolv"]
 
-[ext_resource type="Script" path="res://interactables/hammer.gd" id="1_nxt34"]
-[ext_resource type="Texture2D" uid="uid://s2o4mbktno6h" path="res://16x16_sprites/basic_rpg_icons/hammer.png" id="1_vbyjy"]
+[ext_resource type="Script" path="res://player/upgrade/hammer.gd" id="1_i4ja0"]
+[ext_resource type="Texture2D" uid="uid://b3k6abkxbwe5k" path="res://16x16_sprites/basic_rpg_icons/hammer.png" id="2_r5gq1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u3l1v"]
 size = Vector2(32, 32)
 
-[node name="hammer" type="Node2D"]
-script = ExtResource("1_nxt34")
+[node name="hammer" type="Node2D" groups=["ubgrade"]]
+script = ExtResource("1_i4ja0")
 
 [node name="Hammer" type="Sprite2D" parent="."]
 position = Vector2(40, -40)
 scale = Vector2(2, 2)
-texture = ExtResource("1_vbyjy")
+texture = ExtResource("2_r5gq1")
 
 [node name="Area2D" type="Area2D" parent="."]
 

@@ -17,8 +17,8 @@ var base_money : int = 0
 var money : int = base_money
 
 var dash_duration_threshold : float = 0.1 #how long the dash lasts
-var dash_charging_threshold_timer : float = 1# how long the dash charges
-var dash_speed : int = 70000 # extra speed when dahing
+var dash_charging_threshold_timer : float = 1.5# how long the dash charges
+var dash_speed : int = 100000 # extra speed when dahing
 var dash_cooldown_threshold : float = 5 #cooldown between two dash charge
 
 var dash_cooldown : float = 0
@@ -61,14 +61,13 @@ func add_upgrade(file_path):
 		self.add_child(upgrade)
 
 func dash(delta):
-	$Node2D.update_bar()
 	#testing if dashing
 	if dash_cooldown >= 0: 
 		dash_cooldown -= delta
 	elif Input.is_action_just_pressed("dash") and dash_cooldown <= 0 :
 		print("started charging dash")
 		dash_started = true
-		
+		dash_cooldown = dash_cooldown_threshold
 		
 		
 	if Input.is_action_pressed("dash") and dash_started == true and dash_charging_timer <= dash_charging_threshold_timer:
@@ -83,7 +82,6 @@ func dash(delta):
 			dash_duration = 0
 			dash_charging_timer = 0
 			dash_started = false
-			dash_cooldown = dash_cooldown_threshold
 	elif Input.is_action_just_released("dash") and dash_charging_timer < dash_charging_threshold_timer and dash_started == true:
 		print("canceled chaneling")
 		dash_charging_timer = 0

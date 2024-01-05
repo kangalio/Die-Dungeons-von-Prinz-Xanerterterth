@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" path="res://player/upgrade/speed_boost.gd" id="1_kt34n"]
 
-[node name="SpeedBoost" type="Node2D"]
+[node name="SpeedBoost" type="Node2D" groups=["ubgrade"]]
 script = ExtResource("1_kt34n")
