@@ -13,7 +13,7 @@ var bonus_damage : int = 0
 var base_speed = 7500
 var bonus_speed : int = 0
 
-var base_money : int = 100
+var base_money : int = 0
 var money : int = base_money
 
 var dash_duration_threshold : float = 0.1 #how long the dash lasts
